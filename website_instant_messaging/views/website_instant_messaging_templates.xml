@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="assets_frontend" inherit_id="website.assets_frontend" name="Instant Messaging Front-end assets">
+     <xpath expr="//link[last()]" position="after">
+        <link rel="stylesheet" type="text/scss" href="/website_instant_messaging/static/src/css/st.action-panel.css"/>
+	 </xpath>
+	 <xpath expr="." position="inside">
+        <script type="text/javascript" src="/website_instant_messaging/static/src/js/website_instant_messaging.js"/>
+    </xpath>
+</template>
+
+<template id="im_floating_buttons" name="IM Foating Buttons" inherit_id="website.layout">
+	 <xpath expr="//main" position="inside">
+		<div t-att-class="'st-messaging-actionContainer {}'.format(website.button_side)" id="im_floating_buttons">
+	<div class="st-messaging-panel">
+		<ul class="list-unstyled">
+			<li t-if="website.phone_enable" t-att-class="'st-messaging-button shadow {}'.format(website.phone_color())"><a t-if="website.phone" t-att-href="'tel:{}'.format(website.phone)"><i class="fa fa-2x fa-phone"/></a></li>			
+			<li t-if="website.whatsapp_enable" t-att-class="'st-messaging-button shadow {}'.format(website.whatsapp_color())"><a t-if="website.whatsapp_number" t-att-href="'https://wa.me/{}?text={}'.format(website.whatsapp_number,website.whatsapp_text)" target="_blank"><i class="fa fa-2x fa-whatsapp"/></a></li>			
+			<li t-if="website.telegram_enable" t-att-class="'st-messaging-button shadow {}'.format(website.telegram_color())"><a t-if="website.telegram_user" t-att-href="'https://t.me/{}'.format(website.telegram_user)" target="_blank"><i class="fa fa-2x fa-telegram"/></a></li>
+			<li t-if="website.mesenger_enable" t-att-class="'st-messaging-button shadow {}'.format(website.mesenger_color())"><a t-if="website.messenger_user"  t-att-href="'https://m.me/{}'.format(website.messenger_user)" target="_blank"><i class="fa fa-2x fa-facebook-square"/></a></li>
+		</ul>	
+	</div>
+	<div t-att-class="'st-messaging-btn-container bg-primary {}'.format(website.button_side)">
+		<div class="st-messaging-button-main">
+			<i class="fa fa-1x fa-wechat"></i>
+		</div>
+	</div>
+</div>
+	</xpath>
+</template>
+
+</odoo>
