@@ -14,7 +14,7 @@
 	 <xpath expr="//nav[hasclass('navbar', 'navbar-light', 'border-top', 'shadow-sm', 'navbar-expand-md')]" position="replace">
 		<div class="st-event-actionContainer right-event-bottom">
 			<div class="st-event-panel navbar navbar-expand-md navbar-light bg-light">
-				<ul class="av navbar-nav ml-auto text-right flex-column">
+				<ul class="nav navbar-nav ml-auto text-right flex-column">
                 	<t t-foreach="event.menu_id.child_id" t-as="submenu">
                     	<t t-call="website.submenu">
                         	<t t-set="item_class" t-value="'nav-item'"/>

@@ -6,17 +6,15 @@
 
     'description': "",
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Antonio Fregoso",
+    'website': "http://www.yantoniofregoso.com",
     'category': 'Website/Website',
     'version': '13.0.0.1',
     'depends': ['website'],
     'data': [
-        # 'security/ir.model.access.csv',
         'views/res_config_setting_view.xml',
         'views/website_instant_messaging_templates.xml',
     ],
-    # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],

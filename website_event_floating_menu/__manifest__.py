@@ -13,11 +13,8 @@
 
     'depends': ['website_event'],
     'data': [
-        # 'security/ir.model.access.csv',
         'views/website_event_floating_menu_template.xml',
     ],
     
-    'demo': [
-        'demo/demo.xml',
-    ],
+
 }
