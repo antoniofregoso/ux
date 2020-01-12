@@ -11,3 +11,5 @@ encoding//website_instant_messaging/__init__.py=utf-8
 encoding//website_instant_messaging/__manifest__.py=utf-8
 encoding//website_instant_messaging/models/res_config_settings.py=utf-8
 encoding//website_instant_messaging/models/website.py=utf-8
+encoding//website_legal_page/__init__.py=utf-8
+encoding//website_legal_page/__manifest__.py=utf-8
