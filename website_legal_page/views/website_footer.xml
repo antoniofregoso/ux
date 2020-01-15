@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="legal_link" inherit_id="website.footer_custom" name="Legal Links">
+        <xpath expr="//small" position="after">
+            	<br /><small><a href="/legal/privacy-policy">Privacy Policy</a> - <a href="/legal/terms-of-use">Terms of Use</a> - <a href="/legal/advice">Legal Advice</a></small>
+        </xpath>
+    </template>
+
+</odoo>

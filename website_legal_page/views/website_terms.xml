@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <!-- Add terms of use after copyright and company name -->
-    <template id="terms_of_use_link"
-              inherit_id="website.footer_custom"
-              name="Terms of use Link">
-        <xpath expr="//small" position="after">
-           <small> - <a href="/legal/terms-of-use">Terms of use</a></small>
-        </xpath>
-    </template>
-
     <template id="terms-of-use" name="Terms of use">
                 <t t-call="website.layout">
                     <div id="wrap">

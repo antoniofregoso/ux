@@ -22,6 +22,7 @@
         'views/website_legal.xml',
         'views/website_privacy.xml',
         'views/website_terms.xml',
+        'views/website_footer.xml',
     ],
     'license': 'AGPL-3',
 

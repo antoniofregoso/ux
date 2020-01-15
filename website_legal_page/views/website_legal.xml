@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <!-- Add legal advice after copyright and company name -->
-    <template id="legal_advice_link" inherit_id="website.footer_custom" name="Legal advice Link">
-        <xpath expr="//small" position="after">
-            <small> - <a href="/legal/advice">Legal Advice</a></small>
-        </xpath>
-    </template>
 
     <template id="advice" name="Legal Advice">
                 <t t-call="website.layout">

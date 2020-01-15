@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <!-- Add privacy policy after copyright and company name -->
-    <template id="privacy_policy_link"
-              inherit_id="website.footer_custom"
-              name="Privacy policy Link">
-        <xpath expr="///small" position="after">
-            <small> - <a href="/legal/privacy-policy">Privacy Policy</a></small>
-        </xpath>
-    </template>
+
 
     <template id="privacy-policy" name="Privacy Policy">
                 <t t-call="website.layout">
