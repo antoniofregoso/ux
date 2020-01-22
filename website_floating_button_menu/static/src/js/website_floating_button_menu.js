@@ -4,7 +4,7 @@ odoo.define('website_floating_button_menu.website_floating_button_menu', functio
 var publicWidget = require('web.public.widget');
 
 publicWidget.registry.MenuFloatingButton = publicWidget.Widget.extend({
-	selector: '#menu_floating_button',
+	selector: '.st-menu-btn-container',
     events: {
         'click .st-menu-button-main': '_onClick',
     },
