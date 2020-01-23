@@ -19,7 +19,7 @@ publicWidget.registry.IMFloatingButton = publicWidget.Widget.extend({
 	},
 	
 	_launchPanelAnim: function () {
-		$(".st-menu-modal").fadeIn("300");
+		$(".st-messaging-modal").fadeIn("300");
 		 $(".st-messaging-panel").animate({
 		        opacity: "toggle",
 		        height: "toggle"
@@ -27,7 +27,7 @@ publicWidget.registry.IMFloatingButton = publicWidget.Widget.extend({
 	},
 	
 	_closePanelAnim: function () {
-		$(".st-menu-modal").fadeOut("300");
+		$(".st-messaging-modal").fadeOut("300");
 		 $(".st-messaging-panel").animate({
 		        opacity: "hide",
 		        height: "hide"
