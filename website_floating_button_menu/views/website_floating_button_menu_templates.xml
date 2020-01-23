@@ -39,12 +39,13 @@
 				 </li>
               </ul>
 	</div>
-	<div class="st-menu-btn-container bg-primary right-bottom">
+	<div class="st-menu-btn-container bg-primary right-bottom" >
 		<div class="st-menu-button-main">
 			<i class="fa fa-1x fa-bars"></i>
 		</div>
 	</div>
-</div>
+</div>	
+	<div class="st-menu-modal"></div>
 	 </xpath>
 </template>
 

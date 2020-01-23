@@ -1,7 +1,0 @@
-<odoo>
-   <template id="fullscreen_toggle_menu" name="Fullscreen Toggle Menu"  inherit_id="portal.frontend_layout">
-   	<xpath expr="//button[hasclass('navbar-toggler')]" position="replace">
-   		<span class="navbar-toggler-icon"/><span>Puto</span>
-   		</xpath>
-   </template>
-</odoo>
