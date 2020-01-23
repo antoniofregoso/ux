@@ -1,6 +1,6 @@
 
 .st-messaging-actionContainer {
-	z-index: 9999;
+	z-index: 9966;
 	position: fixed;
 	display: inline-block;
 }
@@ -27,6 +27,19 @@ div.st-messaging-actionContainer li{
 	margin-bottom: 10%;
 	display: none;
 }
+
+.st-messaging-modal{
+	width:100%; 
+	height:100%; 
+	background: rgba(0,0,0,.3);
+	position:fixed;
+	top:0;
+	left:0;
+	display:none;
+	z-index: 9960;
+}
+
+
 
 
 .st-messaging-button-main{

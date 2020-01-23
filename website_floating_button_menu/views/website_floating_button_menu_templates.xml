@@ -12,6 +12,7 @@
 
 <template id="website_floating_button_menu" name="Foating Menu" inherit_id="portal.frontend_layout">
 	 <xpath expr="//button[hasclass('navbar-toggler')]" position="replace">
+	 	<div class="st-menuContainer">
 	 	<div class="st-menu-actionContainer d-block d-md-none right-bottom" id="menu_floating_button">
 	<div class="st-menu-panel navbar navbar-expand-md navbar-light bg-light" >
 			<ul class="nav navbar-nav ml-auto text-right flex-column" id="top_menu">
@@ -46,6 +47,7 @@
 	</div>
 </div>	
 	<div class="st-menu-modal"></div>
+	</div>
 	 </xpath>
 </template>
 

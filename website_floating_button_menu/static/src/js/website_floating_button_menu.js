@@ -4,7 +4,7 @@ odoo.define('website_floating_button_menu.website_floating_button_menu', functio
 var publicWidget = require('web.public.widget');
 
 publicWidget.registry.MenuFloatingButton = publicWidget.Widget.extend({
-	selector: '.st-menu-btn-container',
+	selector: '.st-menuContainer',
 	events: {
 		 'click .st-menu-button-main': '_openPanel',
 		 'click .st-menu-panel': '_boxClick',
@@ -15,6 +15,7 @@ publicWidget.registry.MenuFloatingButton = publicWidget.Widget.extend({
 	start: function () {
 		 var def = this._super.apply(this, arguments);
 		 this._clicks = 0;
+		 this._mainBtn = $(".st-menu-button-main")
 	},
 	
 	_launchPanelAnim: function () {
@@ -35,11 +36,11 @@ publicWidget.registry.MenuFloatingButton = publicWidget.Widget.extend({
 
 	_openPanel: function (e) {
 	      if (this._clicks === 0) {
-	    	  $(".st-menu-button-main").removeClass('rotateBackward').toggleClass('rotateForward');  
+	    	  this._mainBtn.removeClass('rotateBackward').toggleClass('rotateForward');  
 	          this._launchPanelAnim();
 	          this._clicks++;
 	        } else {
-	        	 $(".st-menu-button-main").removeClass('rotateForward').toggleClass('rotateBackward');
+	        	this._mainBtn.removeClass('rotateForward').toggleClass('rotateBackward');
 	          this._closePanelAnim();
 	          this._clicks--;
 	        }
@@ -53,6 +54,11 @@ publicWidget.registry.MenuFloatingButton = publicWidget.Widget.extend({
 	},
 	
 	_modalClick: function (e) {
+		this._closePanelAnim();
+	      if (this._clicks === 1) {
+	    	  this._mainBtn.removeClass('rotateForward').toggleClass('rotateBackward');
+	        }
+	      this._clicks = 0;
 	    },
 	
 });

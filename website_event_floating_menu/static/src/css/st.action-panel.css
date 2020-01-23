@@ -1,13 +1,13 @@
 
 
 .st-event-actionContainer {
-	z-index: 9999;
+	z-index: 9955;
 	position: fixed;
 	display: inline-block;
 }
 
 .right-event-bottom {
-	bottom: 20%;
+	bottom: 30%;
 	right: 1em;
 	float: right !important;
 }
@@ -31,12 +31,12 @@
 .st-event-modal{
 	width:100%; 
 	height:100%; 
-	background: rgba(0,0,0,.3);
+	background: rgba(0,0,0,.5);
 	position:fixed;
 	top:0;
 	left:0;
 	display:none;
-	z-index: 8888;
+	z-index: 9950;
 }
 
 
@@ -61,7 +61,7 @@
 	width:60px;
 	height:60px;
 	border-radius:100%;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.50);
 }
 
 .rotateForward{

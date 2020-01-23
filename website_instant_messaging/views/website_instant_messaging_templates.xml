@@ -12,6 +12,7 @@
 
 <template id="im_floating_buttons" name="IM Foating Buttons" inherit_id="website.layout">
 	 <xpath expr="//main" position="inside">
+		<div class="st-messagingContainer">
 		<div t-att-class="'st-messaging-actionContainer {}'.format(website.button_side)" id="im_floating_buttons">
 	<div class="st-messaging-panel">
 		<ul class="list-unstyled">
@@ -26,6 +27,8 @@
 			<i class="fa fa-1x fa-wechat"></i>
 		</div>
 	</div>
+</div>
+<div class="st-messaging-modal"></div>
 </div>
 	</xpath>
 </template>
