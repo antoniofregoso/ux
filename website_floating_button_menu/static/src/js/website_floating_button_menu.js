@@ -7,7 +7,6 @@ publicWidget.registry.MenuFloatingButton = publicWidget.Widget.extend({
 	selector: '.st-menuContainer',
 	events: {
 		 'click .st-menu-button-main': '_openPanel',
-		 'click .st-menu-panel': '_boxClick',
 		 'click .st-menu-modal': '_modalClick',
 	 },
 
