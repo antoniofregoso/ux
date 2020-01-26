@@ -4,12 +4,10 @@
 
     'summary': 'Integration of floating buttons for instant messaging',
 
-    'description': "",
-
     'author': "Antonio Fregoso",
-    'website': "http://www.yantoniofregoso.com",
+    'website': "https://antoniofregoso.com",
     'category': 'Website/Website',
-    'version': '13.0.0.1',
+    'version': '13.0.1.0',
     'depends': ['website'],
     'data': [
         'views/res_config_setting_view.xml',

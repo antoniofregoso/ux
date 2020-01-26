@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 {
     'name': "Website Floating Button Menu",
+    
+    'summary': 'Place the mobile menu on a floating button',
 
-    'summary': "",
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Antonio Fregoso",
+    'website': "https://antoniofregoso.com",
     'category': 'Website/Website',
-    'version': '13.0.0.0.0',
+    'version': '13.0.0.1.0',
 
     'depends': ['website'],
 

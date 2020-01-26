@@ -1,18 +1,18 @@
 
 
-.st-event-actionContainer {
+.st-blog-actionContainer {
 	z-index: 9955;
 	position: fixed;
 	display: inline-block;
 }
 
-.right-event-bottom {
+.right-blog-bottom {
 	bottom: 30%;
 	right: 1em;
 	float: right !important;
 }
 
-.left-event-bottom {
+.left-blog-bottom {
 	bottom: 2em;
 	left: 2em;
 	float: left !important;
@@ -20,7 +20,7 @@
 
 
 
-.st-event-panel{
+.st-blog-panel{
 	width: auto;
 	margin-bottom: 10%;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -28,7 +28,7 @@
 	display: none;
 }
 
-.st-event-modal{
+.st-blog-modal{
 	width:100%; 
 	height:100%; 
 	background: rgba(0,0,0,.4);
@@ -41,7 +41,7 @@
 
 
 
-.st-event-button-main{
+.st-blog-button-main{
 	font-size:24px;
 	color:#ffffff;
 	text-align:center;
@@ -52,12 +52,12 @@
 	display: table;
 }
 
-.st-event-button-main > i{
+.st-blog-button-main > i{
 	display: table-cell;
 	vertical-align: middle;
 }
 
-.st-event-btn-container{
+.st-blog-btn-container{
 	width:60px;
 	height:60px;
 	border-radius:100%;

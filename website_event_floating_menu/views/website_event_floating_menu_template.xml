@@ -10,12 +10,15 @@
     </xpath>
 </template>
  
-<template id="layout" name="Main layout" inherit_id="website_event.layout">
-	 <xpath expr="//nav[hasclass('navbar', 'navbar-light', 'border-top', 'shadow-sm', 'navbar-expand-md')]" position="replace">
+<template id="layout" name="Floating event menu" inherit_id="website_event.layout">
+	 <xpath expr="//nav[hasclass('navbar', 'navbar-light', 'border-top', 'shadow-sm', 'navbar-expand-md')]" position="replace">               
 		<div class="st-event-menuContainer">
 		<div class="st-event-actionContainer right-event-bottom" id="event_floating_button">
 			<div class="st-event-panel navbar navbar-expand-md navbar-light bg-light">
 				<ul class="nav navbar-nav ml-auto text-right flex-column">
+					<li class="nav-item">
+                    <h5 class="nav-link disabled pl-0 font-weight-bold"  t-field="event.name" />
+                </li>
                 	<t t-foreach="event.menu_id.child_id" t-as="submenu">
                     	<t t-call="website.submenu">
                         	<t t-set="item_class" t-value="'nav-item'"/>

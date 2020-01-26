@@ -2,14 +2,12 @@
 {
     'name': "Website Event Floating Menu",
 
-    'summary': "",
+    'description': "Place the event menu on a floating button",
 
-    'description': "",
-
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Antonio Fregoso",
+    'website': "https://antoniofregoso.com",
     'category': 'Website/Website',
-    'version': '13.0.0.0.1',
+    'version': '13.0.0.1.0',
 
     'depends': ['website_event'],
     'data': [
