@@ -17,15 +17,15 @@
 			<div class="st-blog-panel navbar navbar-expand-md navbar-light bg-light">
 				<ul class="nav navbar-nav ml-auto text-right flex-column">
                 	<li class="nav-item">
-                    <h5 class="nav-link disabled pl-0">Blogs:</h5>
+                    <h5 class="nav-link disabled pl-0 font-weight-bold">Blogs:</h5>
                 </li>
                 <li class="nav-item">
-                    <a href="/blog" t-attf-class="nav-link font-weight-bold #{(not blog) and 'active'}">All</a>
+                    <a href="/blog" t-attf-class="nav-link #{(not blog) and 'active'}">All</a>
                 </li>
                 <li class="nav-item" t-foreach="blogs" t-as="nav_blog">
                     <a t-attf-href="/blog/#{slug(nav_blog)}"
                        t-attf-class="nav-link #{(blog and nav_blog.id == blog.id) and 'active' or ''}">
-                        <b t-field="nav_blog.name"/>
+                        <span t-field="nav_blog.name"/>
                     </a>
                 </li>
                 </ul>
