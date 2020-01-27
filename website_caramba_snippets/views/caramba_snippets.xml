@@ -363,7 +363,7 @@
                     <i class="fa fa-gears"/> Caramba
                 </div>
                 <div class="o_panel_body">
-                	  <t t-snippet="website_caramba_snippets.s_caramba_infographic" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_lp_infographic.png" />
+                	  <t t-snippet="website_caramba_snippets.s_caramba_infographic" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_infographic.png" />
                 </div>
              </div>
          </xpath>
