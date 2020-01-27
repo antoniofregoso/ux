@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="s_caramba_infographic" name="Infographic">
+    <section class="s-lp-timeline">
+        <div class="container pt32 pb32">
+        <h3 style="text-align: center;" class="o_default_snippet_text">Sub Title</h3>
+        <h1 style="text-align: center;" class="o_default_snippet_text">Title</h1>
+        <div class="row ">
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 border-0">
+  					<div class="crmb-tg-h2" >
+  						<h3 class="text-right">Title 1 <span class="fa fa-caret-right"/> </h3>
+  					</div>
+  					<div class="crmb-tg-b2">
+  						 <span class="fa fa-sliders fa-5x"/> 
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c01">
+  								<h4 >01</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c01">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c02">
+  								<h4 >02</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c02">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c03">
+  								<h4 >03</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c03">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c04">
+  								<h4 >04</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c04">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c05">
+  								<h4 >05</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c05">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c06">
+  								<h4 >06</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c06">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c07">
+  								<h4 >07</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c07">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c08">
+  								<h4 >08</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c08">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c09">
+  								<h4 >09</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c09">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c10">
+  								<h4 >10</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c10">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 border-0">
+  					<div class="crmb-tg-h2" >
+  						<h3><span class="fa fa-caret-left"/> Title 2</h3>
+  					</div>
+  					<div class="crmb-tg-b2">
+  						 <span class="fa fa-group fa-5x"/> 
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3  border-0">
+  					<div class="crmb-tg-h2" >
+  						<h3 class="text-right">Title 3 <span class="fa fa-caret-right"/> </h3>
+  					</div>
+  					<div class="crmb-tg-b2">
+  						 <span class="fa fa-gears fa-5x"/> 
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c11">
+  								<h4 >11</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c11">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c12">
+  								<h4 >12</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c12">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c13">
+  								<h4 >13</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c13">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c14">
+  								<h4 >14</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c14">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c15">
+  								<h4 >15</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c15">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c16 ">
+  								<h4 >16</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c16">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c17">
+  								<h4 >17</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c17">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c18">
+  								<h4 >18</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c18">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n   crmb-tg-c19">
+  								<h4 >19</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c19">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3 shadow">
+  					<div class="crmb-tg-h" >
+  						<div class="crmb-tg-b">
+  							<div class="crmb-tg-n  crmb-tg-c20">
+  								<h4 >20</h4>
+  							</div>
+  						</div>
+  					</div>
+  					<div class=" crmb-tg-p crmb-tg-c20">
+  					<h4>Title</h4>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  					</div>
+   				</div>
+  			</div>
+        	<div class="col-12 col-sm-4 col-md-2 mt-4">
+  				<div class="card  pt-3  border-0">
+  					<div class="crmb-tg-h2" >
+  						<h3><span class="fa fa-caret-left"/> Title 4</h3>
+  					</div>
+  					<div class="crmb-tg-b2">
+  						 <span class="fa fa-5x fa-cubes fa-5x"/> 
+  					</div>
+   				</div>
+  			</div>
+  			
+   
+            
+            </div>
+          </div>
+       </section>
+     </template>
+     
+     
+     	<template id="landing_page_snippets" inherit_id="website.snippets" >
+	    <xpath expr="//div[@id='snippet_structure']" position="after">
+	    	<div id="snippet_landing_page" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-gears"/> Caramba
+                </div>
+                <div class="o_panel_body">
+                	  <t t-snippet="website_caramba_snippets.s_caramba_infographic" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_lp_infographic.png" />
+                </div>
+             </div>
+         </xpath>
+        </template>
+
+</odoo>
