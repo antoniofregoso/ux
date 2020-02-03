@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="s_caramba_cc_by" name="BY">
+     <section class="pt32 pb32">
+        <div class="container">
+            <div class="row s_nb_column_fixed">
+                <div class="col-lg-12 s_title pt16 pb16" style="text-align: right;">
+              This work is under a license <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="License Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+  </template>
+  
+  	<template id="s_caramba_cc_by_nd" name="BY ND">
+     <section class="pt32 pb32">
+        <div class="container">
+            <div class="row s_nb_column_fixed">
+                <div class="col-lg-12 s_title pt16 pb16" style="text-align: right;">
+                    This work is under a license <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-WithoutDerive 4.0 International License</a>. <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="License Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+  </template>
+  
+  	<template id="s_caramba_cc_by_sa" name="BY SA">
+     <section class="pt32 pb32">
+        <div class="container">
+            <div class="row s_nb_column_fixed">
+                <div class="col-lg-12 s_title pt16 pb16" style="text-align: right;">
+              		This work is under a license <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="License Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+  </template>
+  
+  	<template id="s_caramba_cc_by_nc" name="BY NC">
+     <section class="pt32 pb32">
+        <div class="container">
+            <div class="row s_nb_column_fixed">
+                <div class="col-lg-12 s_title pt16 pb16" style="text-align: right;">
+                 	This work is under a license  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution- NonCommercial 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="License Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+                 </div>
+            </div>
+        </div>
+    </section>
+  </template>
+  
+  	<template id="s_caramba_cc_by_nc_nd" name="BY NC ND">
+     <section class="pt32 pb32">
+        <div class="container">
+            <div class="row s_nb_column_fixed">
+                <div class="col-lg-12 s_title pt16 pb16" style="text-align: right;">
+                    This work is under a license  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-WithoutDerive 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="License Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+  </template>
+  
+  	<template id="s_caramba_cc_by_nc_sa" name="BY NC SA">
+     <section class="pt32 pb32">
+        <div class="container">
+            <div class="row s_nb_column_fixed">
+                <div class="col-lg-12 s_title pt16 pb16" style="text-align: right;">
+                   This work is under a license  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="License Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+  </template>
+  
+
+
+     	<template id="creative_commons_snippet" inherit_id="website_caramba_snippets.caramba_snippets" >
+	    <xpath expr="//div[@id='snippet_caramba']" position="inside">	  
+                <div class="o_panel_body">
+                	  <t t-snippet="website_cc_license.s_caramba_cc_by" t-thumbnail="/website_cc_license/static/src/img/snippets_thumbs/block_cc_by.png" />
+                	  <t t-snippet="website_cc_license.s_caramba_cc_by_nd" t-thumbnail="/website_cc_license/static/src/img/snippets_thumbs/block_cc_by_nd.png" />
+                	  <t t-snippet="website_cc_license.s_caramba_cc_by_sa" t-thumbnail="/website_cc_license/static/src/img/snippets_thumbs/block_cc_by_sa.png" />
+                	  <t t-snippet="website_cc_license.s_caramba_cc_by_nc" t-thumbnail="/website_cc_license/static/src/img/snippets_thumbs/block_cc_by_nc.png" />
+                	  <t t-snippet="website_cc_license.s_caramba_cc_by_nc_nd" t-thumbnail="/website_cc_license/static/src/img/snippets_thumbs/block_cc_by_nc_nd.png" />
+                	  <t t-snippet="website_cc_license.s_caramba_cc_by_nc_sa" t-thumbnail="/website_cc_license/static/src/img/snippets_thumbs/block_cc_by_nc_sa.png" />
+                </div>
+	    </xpath>
+	  </template>	    	
+
+</odoo>

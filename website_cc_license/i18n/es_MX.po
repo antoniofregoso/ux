@@ -1,0 +1,249 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_cc_license
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-03 17:48+0000\n"
+"PO-Revision-Date: 2020-02-03 12:33-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#. module: website_cc_license
+#: model_terms:ir.ui.view,arch_db:website_cc_license.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-"
+"specific.\" groups=\"website.group_multi_website\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-globe\" title=\"Los valores establecidos aquí son "
+"específicos del sitio web.\" groups=\"website.group_multi_website\"/>"
+
+#. module: website_cc_license
+#: model:ir.model.fields,help:website_cc_license.field_res_config_settings__cc_license
+#: model:ir.model.fields,help:website_cc_license.field_website__cc_license
+msgid "Active creative commons license"
+msgstr "Licencia de bienes comunes creativos activos"
+
+#. module: website_cc_license
+#: model:ir.model.fields,field_description:website_cc_license.field_res_config_settings__cc_share
+#: model:ir.model.fields,field_description:website_cc_license.field_website__cc_share
+#: model_terms:ir.ui.view,arch_db:website_cc_license.res_config_settings_view_form
+msgid "Allow adaptations"
+msgstr "Permitir adaptaciones"
+
+#. module: website_cc_license
+#: model:ir.model.fields,help:website_cc_license.field_res_config_settings__cc_share
+#: model:ir.model.fields,help:website_cc_license.field_website__cc_share
+msgid "Allow adaptations of your work to be shared?"
+msgstr "¿Permitir compartir adaptaciones de tu trabajo?"
+
+#. module: website_cc_license
+#: model:ir.model.fields,help:website_cc_license.field_res_config_settings__cc_commercial
+#: model:ir.model.fields,help:website_cc_license.field_website__cc_commercial
+msgid "Allow commercial uses of your work?"
+msgstr "¿Permites el uso comercial de tu trabajo?"
+
+#. module: website_cc_license
+#: model:ir.model.fields,field_description:website_cc_license.field_res_config_settings__cc_metadata_attribution
+#: model:ir.model.fields,field_description:website_cc_license.field_website__cc_metadata_attribution
+msgid "Attribution"
+msgstr "Atribución"
+
+#. module: website_cc_license
+#: model:ir.model.fields.selection,name:website_cc_license.selection__website__cc_metadata_attribution__author
+msgid "Author"
+msgstr "Autor"
+
+#. module: website_cc_license
+#: model:ir.model.fields,field_description:website_cc_license.field_res_config_settings__cc_license
+#: model:ir.model.fields,field_description:website_cc_license.field_website__cc_license
+msgid "CC License"
+msgstr "Licencia CC"
+
+#. module: website_cc_license
+#: model:ir.model.fields,field_description:website_cc_license.field_res_config_settings__cc_commercial
+#: model:ir.model.fields,field_description:website_cc_license.field_website__cc_commercial
+#: model_terms:ir.ui.view,arch_db:website_cc_license.res_config_settings_view_form
+msgid "Commercial uses"
+msgstr "Usos comerciales"
+
+#. module: website_cc_license
+#: model:ir.model.fields,field_description:website_cc_license.field_res_config_settings__cc_compact_icon
+#: model:ir.model.fields,field_description:website_cc_license.field_website__cc_compact_icon
+#: model_terms:ir.ui.view,arch_db:website_cc_license.res_config_settings_view_form
+msgid "Compact icon"
+msgstr "Icono compacto"
+
+#. module: website_cc_license
+#: model:ir.model.fields.selection,name:website_cc_license.selection__website__cc_metadata_attribution__company
+msgid "Company"
+msgstr "Empresa"
+
+#. module: website_cc_license
+#: model:ir.model,name:website_cc_license.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de Configuración"
+
+#. module: website_cc_license
+#: model_terms:ir.ui.view,arch_db:website_cc_license.legal_link
+msgid "Content copyright"
+msgstr "Copyright de contenido"
+
+#. module: website_cc_license
+#: model_terms:ir.ui.view,arch_db:website_cc_license.res_config_settings_view_form
+msgid "Creative Commons"
+msgstr "Creative Commons"
+
+#. module: website_cc_license
+#: code:addons/website_cc_license/models/website.py:0
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by
+#, python-format
+msgid "Creative Commons Attribution 4.0 International License"
+msgstr "Licencia Creative Commons Atribución 4.0 Internacional"
+
+#. module: website_cc_license
+#: code:addons/website_cc_license/models/website.py:0
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nc
+#, python-format
+msgid "Creative Commons Attribution- NonCommercial 4.0 International License"
+msgstr "Licencia Creative Commons Atribución-NoComercial 4.0 Internacional"
+
+#. module: website_cc_license
+#: code:addons/website_cc_license/models/website.py:0
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nc_sa
+#, python-format
+msgid ""
+"Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International "
+"License"
+msgstr ""
+"Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 "
+"Internacional"
+
+#. module: website_cc_license
+#: code:addons/website_cc_license/models/website.py:0
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nc_nd
+#, python-format
+msgid ""
+"Creative Commons Attribution-NonCommercial-WithoutDerive 4.0 International "
+"License"
+msgstr ""
+"Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 "
+"Internacional"
+
+#. module: website_cc_license
+#: code:addons/website_cc_license/models/website.py:0
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_sa
+#, python-format
+msgid "Creative Commons Attribution-ShareAlike 4.0 International License"
+msgstr "Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional"
+
+#. module: website_cc_license
+#: code:addons/website_cc_license/models/website.py:0
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nd
+#, python-format
+msgid "Creative Commons Attribution-WithoutDerive 4.0 International License"
+msgstr "Licencia Creative Commons Atribución-SinDerivadas 4.0 Internacional"
+
+#. module: website_cc_license
+#: model:ir.model.fields,help:website_cc_license.field_res_config_settings__cc_metadata_attribution
+#: model:ir.model.fields,help:website_cc_license.field_website__cc_metadata_attribution
+msgid "Do you want to include attribution for the author?"
+msgstr "¿Quieres incluir la atribución para el autor?"
+
+#. module: website_cc_license
+#: model:ir.model.fields,help:website_cc_license.field_res_config_settings__cc_metadata_title
+#: model:ir.model.fields,help:website_cc_license.field_website__cc_metadata_title
+msgid "Do you want to include title of work?"
+msgstr "¿Quieres incluir el título del trabajo?"
+
+#. module: website_cc_license
+#: model_terms:ir.ui.view,arch_db:website_cc_license.legal_link
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nc
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nc_nd
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nc_sa
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nd
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_sa
+msgid "License Creative Commons"
+msgstr "Licencia Creative Commons"
+
+#. module: website_cc_license
+#: model_terms:ir.ui.view,arch_db:website_cc_license.res_config_settings_view_form
+msgid "Metadata attribution"
+msgstr "Metadatos atribución"
+
+#. module: website_cc_license
+#: model_terms:ir.ui.view,arch_db:website_cc_license.res_config_settings_view_form
+msgid "Metadata title"
+msgstr "Metadata título"
+
+#. module: website_cc_license
+#: model:ir.model.fields.selection,name:website_cc_license.selection__website__cc_metadata_attribution__no
+#: model:ir.model.fields.selection,name:website_cc_license.selection__website__cc_share__by-nd
+msgid "No"
+msgstr "No"
+
+#. module: website_cc_license
+#: model:ir.model.fields,help:website_cc_license.field_res_config_settings__cc_compact_icon
+#: model:ir.model.fields,help:website_cc_license.field_website__cc_compact_icon
+msgid "Normal icon: 88x31 px, compact icon: 80x15 px"
+msgstr "Icono normal: 88x31 px, icono compacto: 80x15 px"
+
+#. module: website_cc_license
+#: model_terms:ir.ui.view,arch_db:website_cc_license.res_config_settings_view_form
+msgid "Select the type of license."
+msgstr "Seleccione el tipo de licencia."
+
+#. module: website_cc_license
+#: model_terms:ir.ui.view,arch_db:website_cc_license.legal_link
+msgid "This work"
+msgstr "Este trabajo"
+
+#. module: website_cc_license
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nc
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nc_nd
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nc_sa
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nd
+#: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_sa
+msgid "This work is under a license"
+msgstr "Este trabajo está bajo una licencia"
+
+#. module: website_cc_license
+#: model:ir.model.fields,field_description:website_cc_license.field_res_config_settings__cc_metadata_title
+#: model:ir.model.fields,field_description:website_cc_license.field_website__cc_metadata_title
+msgid "Title"
+msgstr "Título"
+
+#. module: website_cc_license
+#: model:ir.model,name:website_cc_license.model_website
+msgid "Website"
+msgstr "Sitio web"
+
+#. module: website_cc_license
+#: model:ir.model.fields.selection,name:website_cc_license.selection__website__cc_share__by
+msgid "Yes"
+msgstr "Si"
+
+#. module: website_cc_license
+#: model:ir.model.fields.selection,name:website_cc_license.selection__website__cc_share__by-sa
+msgid "Yes, as long as others share alike "
+msgstr "Sí, siempre y cuando otros compartan igual "
+
+#. module: website_cc_license
+#: model_terms:ir.ui.view,arch_db:website_cc_license.legal_link
+msgid "by"
+msgstr "por"
+
+#. module: website_cc_license
+#: model_terms:ir.ui.view,arch_db:website_cc_license.legal_link
+msgid " is under a "
+msgstr " está bajo una "

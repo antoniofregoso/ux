@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="legal_link" inherit_id="website.footer_custom" name="Creative Commons">
+   		<xpath expr="//ul[hasclass('list-unstyled')]" position="after">
+   		<t t-if="website.cc_license">
+   		<h5>Content copyright</h5>
+   		<div class="text-center px-4" >	          
+	          <t t-set="cc" t-value="website.get_cc()"/>
+	          <a  class="text-center" rel="license" t-att-href="cc['lc_url']" ><img alt="License Creative Commons" clas="item-photo " t-att-src="cc['lc_img']" /></a>
+		         <t t-if="cc['lc_metadata_title']" ><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title" t-esc="blog_post.name" /></t>
+		        <p class="mt-1" style="font-size: 10px;"> <t t-if="not cc['lc_metadata_title']" >This work</t>         
+		         <t t-if="cc['lc_metadata_attribution']=='author'" > by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" t-esc="blog_post.get_author()" /></t>
+		         <t t-if="cc['lc_metadata_attribution']=='company'" > by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" t-esc="blog_post.get_company()" /></t> 
+		         is under a <a rel="license" t-att-href="cc['lc_url']"><t t-esc="cc['lc_text']" /></a>.</p>
+   		</div>
+   		</t>
+   		</xpath>
+        <xpath expr="//ul[hasclass('list-unstyled')]//li" position="after">
+        	 <li t-foreach="website.get_blogs()" t-as="nav_blog">
+        	 	<a t-attf-href="/blog/#{slug(nav_blog)}"
+                       t-attf-class="#{(blog and nav_blog.id == blog.id) and 'active' or ''}">
+                        <span t-field="nav_blog.name"/>
+                    </a>
+        	</li>
+        </xpath>
+	</template>
+	
+
+	
+   	
+</odoo>
