@@ -356,9 +356,9 @@
      </template>
      
      
-     	<template id="landing_page_snippets" inherit_id="website.snippets" >
+     	<template id="caramba_snippets" inherit_id="website.snippets" >
 	    <xpath expr="//div[@id='snippet_structure']" position="after">
-	    	<div id="snippet_landing_page" class="o_panel">
+	    	<div id="snippet_caramba" class="o_panel">
                 <div class="o_panel_header">
                     <i class="fa fa-gears"/> Caramba
                 </div>
