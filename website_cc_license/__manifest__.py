@@ -10,7 +10,7 @@
 
     'category': 'Website/Website',
     'version': '13.0.0.0.0',
-    'depends': ['website_blog'],
+    'depends': ['website_blog', 'website_caramba_snippets'],
     'data': [
         # 'security/ir.model.access.csv',
         'views/website_template.xml',
