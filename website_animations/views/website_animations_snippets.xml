@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="snippet_animations_opt" name="Snippet Animations Options" inherit_id="website.snippet_options">
+	<xpath expr="//div[@data-js='CoverProperties']" position="after">
+		<div data-js="js_set_animation" data-selector=".card, .s_title, .figure-img, .col-lg-2, .col-lg-4, .col-lg-6, .col-lg-8"> 
+			<we-collapse-area>
+	            <we-toggler><i class="fa fa-fw fa-video-camera"/>Attention Seekers</we-toggler>
+	            <we-collapse>
+	            	 <we-button data-animation="bounce">Bounce</we-button>
+	            	 <we-button data-animation="flash">Flash</we-button>
+	           </we-collapse>
+            </we-collapse-area>
+		</div>
+	</xpath>
+</template>
+
+</odoo>

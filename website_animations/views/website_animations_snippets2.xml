@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="snippet_animations_opt" name="Snippet Animations Options" inherit_id="website.snippet_options">
+	<xpath expr="//div[@data-js='CoverProperties']" position="after">
+		<div data-selector=".card, .s_title, .figure-img, .col-lg-2, .col-lg-4, .col-lg-6, .col-lg-8"> 
+			<we-collapse-area>
+	            <we-toggler><i class="fa fa-fw fa-video-camera"/>Attention Seekers</we-toggler>
+	            <we-collapse>
+	            	 <we-button data-select-class="animated" data-animation="bounce">Bounce</we-button>
+	            	 <we-button data-select-class="animated" data-animation="flash" >Flash</we-button>
+	            	 <we-button data-select-class="animated" data-animation="pulse" >Pulse</we-button>
+	            	 <we-button data-select-class="animated" data-animation="rubberBand" >Rubber Band</we-button>
+	            	 <we-button data-select-class="animated" data-animation="shake" >Shake</we-button>
+	            	 <we-button data-select-class="animated" data-animation="swing" >Swing</we-button>
+	            	 <we-button data-select-class="animated" data-animation="tada" >Tada</we-button>
+	            	 <we-button data-select-class="animated" data-animation="wobble" >Wobble</we-button>
+	            	 <we-button data-select-class="animated" data-animation="jello" >Jello</we-button>
+	            	 <we-button data-select-class="animated" data-animation="heartBeat" >Heart Beat</we-button>
+	           </we-collapse>
+	             <we-toggler><i class="fa fa-fw fa-video-camera"/>Bouncing Entrances</we-toggler>
+	            <we-collapse>
+	            	 <we-button data-select-class="animated" data-animation="bounceIn" >Bounce In</we-button>
+	            	 <we-button data-select-class="animated" data-animation="bounceInDown" >Bounce In Down</we-button>
+	            	 <we-button data-select-class="animated" data-animation="bounceInLeft" >Bounce In Left</we-button>
+	            	 <we-button data-select-class="animated" data-animation="bounceInRight" >Bounce In Right</we-button>
+	            	 <we-button data-select-class="animated" data-animation="bounceInUp" >Bounce In Up</we-button>
+	            </we-collapse>
+	           <we-toggler><i class="fa fa-fw fa-video-camera"/>Fading Entrances</we-toggler>
+	            <we-collapse>
+	            	 <we-button data-select-class="animated" data-animation="fadeIn" >Fade In</we-button>
+	            	 <we-button data-select-class="animated" data-animation="fadeInDown" >Fade In Down</we-button>
+	            	 <we-button data-select-class="animated" data-animation="fadeInDownBig" >Fade In Down Big</we-button>
+	            	 <we-button data-select-class="animated" data-animation="fadeInLeft" >Fade In Left</we-button>
+	            	 <we-button data-select-class="animated" data-animation="fadeInLeftBig" >Fade In Left Big</we-button>
+	            	 <we-button data-select-class="animated" data-animation="fadeInRight" >Fade In Right</we-button>
+	            	 <we-button data-select-class="animated" data-animation="fadeInRightBig" >Fade In Right Big</we-button>
+	            	 <we-button data-select-class="animated" data-animation="fadeInUp" >Fade In Up</we-button>
+	            	 <we-button data-select-class="animated" data-animation="fadeInUpBig" >Fade In Up Big</we-button>
+	           </we-collapse>
+	          <we-toggler><i class="fa fa-fw fa-video-camera"/>Flippers</we-toggler>
+	            <we-collapse>
+	            	 <we-button data-select-class="animated" data-animation="flip" >Flip</we-button>
+	            	 <we-button data-select-class="animated" data-animation="flipInX" >Flip In X</we-button>
+	            	 <we-button data-select-class="animated" data-animation="flipInY" >Flip In</we-button>
+	            </we-collapse>
+	           <we-toggler><i class="fa fa-fw fa-video-camera"/>Lightspeed</we-toggler>
+	            <we-collapse>
+	            	 <we-button data-select-class="animated" data-animation="lightSpeedIn" >Light Speed In</we-button>
+	           </we-collapse>
+	           <we-toggler><i class="fa fa-fw fa-video-camera"/>Rotating Entrances</we-toggler>
+	            <we-collapse>
+	            	 <we-button data-select-class="animated" data-animation="rotateIn" >Rotate In</we-button>
+	            	 <we-button data-select-class="animated" data-animation="rotateInDownLeft" >Rotate In Down Left</we-button>
+	            	 <we-button data-select-class="animated" data-animation="otateInDownRight" >Rotate In Down Right</we-button>
+	            	 <we-button data-select-class="animated" data-animation="rotateInUpLeft" >Rotate In Up Left</we-button>
+	            	 <we-button data-select-class="animated" data-animation="rotateInUpRight" >Rotate In Up Right</we-button> 
+	           </we-collapse>
+	           <we-toggler><i class="fa fa-fw fa-video-camera"/>Sliding Entrances</we-toggler>
+	            <we-collapse>
+	            	 <we-button data-select-class="animated" data-animation="slideInUp" >Slide In Up</we-button>
+	            	 <we-button data-select-class="animated" data-animation="slideInDown" >Slide In Down</we-button>
+	            	 <we-button data-select-class="animated" data-animation="slideInLeft" >Slide In Left</we-button>
+	            	 <we-button data-select-class="animated" data-animation="slideInRight" >Slide In Right</we-button> 
+	            </we-collapse>
+	           <we-toggler><i class="fa fa-fw fa-video-camera"/>Zoom Entrances</we-toggler>
+	            <we-collapse>
+	            	 <we-button data-select-class="animated" data-animation="zoomIn" >Zoom In</we-button>
+	            	 <we-button data-select-class="animated" data-animation="zoomInDown" >Zoom In Down</we-button>
+	            	 <we-button data-select-class="animated" data-animation="zoomInLeft" >Zoom In Lef</we-button>
+	            	 <we-button data-select-class="animated" data-animation="zoomInRight" >Zoom In Right</we-button>
+	            	 <we-button data-select-class="animated" data-animation="zoomInUp" >Zoom In Up</we-button>
+	           </we-collapse>
+	           <we-toggler><i class="fa fa-fw fa-video-camera"/>Specials</we-toggler>
+	            <we-collapse>
+	            	 <we-button data-select-class="animated" data-animation="hinge" >Hinge</we-button>
+	            	 <we-button data-select-class="animated" data-animation="jackInTheBox" >Jack In The Box</we-button>
+	            	 <we-button data-select-class="animated" data-animation="rollIn" >Roll In</we-button>
+	            	 <we-button data-select-class="animated" data-animation="rollOut" >Roll Out</we-button>
+	            	 <we-button data-select-class="" data-animation="" >None</we-button>
+	            </we-collapse>                
+            </we-collapse-area>
+		</div>
+	</xpath>
+</template>
+
+</odoo>
