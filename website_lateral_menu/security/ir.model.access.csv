@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_website_lateral_menu_website_lateral_menu,website_lateral_menu.website_lateral_menu,model_website_lateral_menu_website_lateral_menu,base.group_user,1,1,1,1
