@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-03 17:48+0000\n"
-"PO-Revision-Date: 2020-02-03 12:33-0600\n"
+"POT-Creation-Date: 2020-03-23 18:08+0000\n"
+"PO-Revision-Date: 2020-03-23 15:15-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -94,13 +94,14 @@ msgstr "Opciones de Configuración"
 
 #. module: website_cc_license
 #: model_terms:ir.ui.view,arch_db:website_cc_license.legal_link
+#: model_terms:ir.ui.view,arch_db:website_cc_license.opt_blog_post_creative_commons_license
 msgid "Content copyright"
 msgstr "Copyright de contenido"
 
 #. module: website_cc_license
 #: model_terms:ir.ui.view,arch_db:website_cc_license.res_config_settings_view_form
 msgid "Creative Commons"
-msgstr "Creative Commons"
+msgstr ""
 
 #. module: website_cc_license
 #: code:addons/website_cc_license/models/website.py:0
@@ -166,6 +167,7 @@ msgstr "¿Quieres incluir el título del trabajo?"
 
 #. module: website_cc_license
 #: model_terms:ir.ui.view,arch_db:website_cc_license.legal_link
+#: model_terms:ir.ui.view,arch_db:website_cc_license.opt_blog_post_creative_commons_license
 #: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by
 #: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nc
 #: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by_nc_nd
@@ -189,7 +191,7 @@ msgstr "Metadata título"
 #: model:ir.model.fields.selection,name:website_cc_license.selection__website__cc_metadata_attribution__no
 #: model:ir.model.fields.selection,name:website_cc_license.selection__website__cc_share__by-nd
 msgid "No"
-msgstr "No"
+msgstr ""
 
 #. module: website_cc_license
 #: model:ir.model.fields,help:website_cc_license.field_res_config_settings__cc_compact_icon
@@ -204,8 +206,9 @@ msgstr "Seleccione el tipo de licencia."
 
 #. module: website_cc_license
 #: model_terms:ir.ui.view,arch_db:website_cc_license.legal_link
+#: model_terms:ir.ui.view,arch_db:website_cc_license.opt_blog_post_creative_commons_license
 msgid "This work"
-msgstr "Este trabajo"
+msgstr "Este contenido"
 
 #. module: website_cc_license
 #: model_terms:ir.ui.view,arch_db:website_cc_license.s_caramba_cc_by
@@ -240,10 +243,12 @@ msgstr "Sí, siempre y cuando otros compartan igual "
 
 #. module: website_cc_license
 #: model_terms:ir.ui.view,arch_db:website_cc_license.legal_link
+#: model_terms:ir.ui.view,arch_db:website_cc_license.opt_blog_post_creative_commons_license
 msgid "by"
 msgstr "por"
 
 #. module: website_cc_license
 #: model_terms:ir.ui.view,arch_db:website_cc_license.legal_link
-msgid " is under a "
-msgstr " está bajo una "
+#: model_terms:ir.ui.view,arch_db:website_cc_license.opt_blog_post_creative_commons_license
+msgid "is under a"
+msgstr "está bajo una"

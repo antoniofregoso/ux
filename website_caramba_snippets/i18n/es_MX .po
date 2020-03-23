@@ -1,0 +1,184 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_caramba_snippets
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-23 17:36+0000\n"
+"PO-Revision-Date: 2020-03-23 11:55-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "01"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "02"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "03"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "04"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "05"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "06"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "07"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "08"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "09"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "10"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "11"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "12"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "13"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "14"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "15"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "16"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "17"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "18"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "19"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "20"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.caramba_snippets
+msgid "<i class=\"fa fa-gears\"/> Caramba"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "<span class=\"fa fa-caret-left\"/> Title 2"
+msgstr "<span class=\"fa fa-caret-left\"/> Título 2"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "<span class=\"fa fa-caret-left\"/> Title 4"
+msgstr "<span class=\"fa fa-caret-left\"/> Títlo 4"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_video_cover
+msgid "About us"
+msgstr "Sobre nosotros"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_video_cover
+msgid "Catchy Headline"
+msgstr "Titular pegadizo"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_video_cover
+msgid "Contact us"
+msgstr "Contactanos"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "Sub Title"
+msgstr "Sub Título"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "Title"
+msgstr "Título"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "Title 1 <span class=\"fa fa-caret-right\"/>"
+msgstr "Título 1 <span class=\"fa fa-caret-right\"/>"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "Title 3 <span class=\"fa fa-caret-right\"/>"
+msgstr "Título 3 <span class=\"fa fa-caret-right\"/>"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_video_cover
+msgid ""
+"Write one or two paragraphs describing your product, services or a specific "
+"feature.<br/> To be successful your content needs to be useful to your "
+"readers."
+msgstr ""
+"Escriba uno o dos párrafos que describan su producto, servicios o una "
+"característica específica. <br/> Para tener éxito, su contenido debe ser "
+"útil para sus lectores."
