@@ -22,19 +22,57 @@
 	 </section>
 </template>
 
+<template id="s_caramba_infographic_2" name="Infographic 2">
+    <section class="s-lp-infographic-2">
+    	<div class="container pt32 pb32">
+    		<h1 style="text-align: center;" class="o_default_snippet_text">Title</h1>
+    		<div class="row mt4">
+    			<div class="col">
+    				<div class="col crmb-info crmb-border-1">
+    					<i class="fa fa-2x fa-compass"/>
+    				</div>
+		              <h4 class="text-center mt-4">Title 1</h4>
+		              <p>Description</p>
+    			</div>
+    			<div class="col">
+    				<div class="col crmb-info crmb-border-2">
+    					<i class="fa fa-2x fa-group"/>
+    				</div>    				
+	              <h4 class="text-center mt-4">Title 2</h4>
+	              <p>Description</p>
+    			</div>
+    			<div class="col">
+    				<div class="col crmb-info crmb-border-3">
+    					<i class="fa fa-2x fa-gears"/>
+    				</div>    				
+		              <h4 class="text-center mt-4">Title 3</h4>
+		              <p>Description</p>
+		    			</div>
+    			<div class="col">
+    				<div class="col crmb-info crmb-border-4">
+    					<i class="fa fa-2x fa-user"/>
+    				</div>
+		              <h4 class="text-center mt-4">Title 4</h4>
+		              <p>Description</p>
+		    	</div>
+    		</div>
+    	</div>    
+    </section>
+</template>
+
 <template id="s_caramba_infographic" name="Infographic">
     <section class="s-lp-infographic">
         <div class="container pt32 pb32">
         <h3 style="text-align: center;" class="o_default_snippet_text">Sub Title</h3>
         <h1 style="text-align: center;" class="o_default_snippet_text">Title</h1>
         <div class="row ">
-        	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 border-0">
+        	<div class="col-12 col-sm-4 col-md-2 mt-4" id="title-1">
+  				<div class="pt-3 border-0" >
   					<div class="crmb-tg-h2" >
   						<h6 class="text-right">Title 1 <span class="fa fa-caret-right"/> </h6>
   					</div>
   					<div class="crmb-tg-b2 ">
-  						 <span class="fa fa-sliders fa-5x"/> 
+  						 <span class="fa fa-compass fa-5x"/> 
   					</div>
    				</div>
   			</div>
@@ -188,8 +226,8 @@
   					</div>
    				</div>
   			</div>
-        	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 border-0">
+        	<div class="col-12 col-sm-4 col-md-2 mt-4" id="title-2">
+  				<div class="pt-3 border-0">
   					<div class="crmb-tg-h2" >
   						<h6><span class="fa fa-caret-left"/> Title 2</h6>
   					</div>
@@ -198,8 +236,8 @@
   					</div>
    				</div>
   			</div>
-        	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3  border-0">
+        	<div class="col-12 col-sm-4 col-md-2 mt-4" id="title-3">
+  				<div class="pt-3  border-0">
   					<div class="crmb-tg-h2" >
   						<h6 class="text-right">Title 3 <span class="fa fa-caret-right"/> </h6>
   					</div>
@@ -358,13 +396,13 @@
   					</div>
    				</div>
   			</div>
-        	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3  border-0">
+        	<div class="col-12 col-sm-4 col-md-2 mt-4" id="title-4">
+  				<div class="pt-3  border-0">
   					<div class="crmb-tg-h2" >
   						<h6><span class="fa fa-caret-left"/> Title 4</h6>
   					</div>
   					<div class="crmb-tg-b2">
-  						 <span class="fa fa-5x fa-cubes fa-5x"/> 
+  						 <span class="fa fa-5x fa-user fa-5x"/> 
   					</div>
    				</div>
   			</div>
@@ -382,7 +420,8 @@
                 </div>
                 <div class="o_panel_body">
                 	  <t t-snippet="website_caramba_snippets.s_caramba_video_cover" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_video_cover.png" />
-                	  <t t-snippet="website_caramba_snippets.s_caramba_infographic" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_infographic.png" />
+                	  <t t-snippet="website_caramba_snippets.s_caramba_infographic" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_infographic.png" />                	  
+                	  <t t-snippet="website_caramba_snippets.s_caramba_infographic_2" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_infographic_2.png" />
                 	  
                 </div>
              </div>
