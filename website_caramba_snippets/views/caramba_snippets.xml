@@ -29,28 +29,28 @@
     		<div class="row mt4">
     			<div class="col">
     				<div class="col crmb-info crmb-border-1">
-    					<i class="fa fa-2x fa-compass"/>
+    					<i class="fa fa-3x fa-compass"/>
     				</div>
 		              <h4 class="text-center mt-4">Title 1</h4>
 		              <p>Description</p>
     			</div>
     			<div class="col">
     				<div class="col crmb-info crmb-border-2">
-    					<i class="fa fa-2x fa-group"/>
+    					<i class="fa fa-3x fa-group"/>
     				</div>    				
 	              <h4 class="text-center mt-4">Title 2</h4>
 	              <p>Description</p>
     			</div>
     			<div class="col">
     				<div class="col crmb-info crmb-border-3">
-    					<i class="fa fa-2x fa-gears"/>
+    					<i class="fa fa-3x fa-gears"/>
     				</div>    				
 		              <h4 class="text-center mt-4">Title 3</h4>
 		              <p>Description</p>
 		    			</div>
     			<div class="col">
     				<div class="col crmb-info crmb-border-4">
-    					<i class="fa fa-2x fa-user"/>
+    					<i class="fa fa-3x fa-user"/>
     				</div>
 		              <h4 class="text-center mt-4">Title 4</h4>
 		              <p>Description</p>
@@ -68,10 +68,10 @@
         <div class="row ">
         	<div class="col-12 col-sm-4 col-md-2 mt-4" id="title-1">
   				<div class="pt-3 border-0" >
-  					<div class="crmb-tg-h2" >
-  						<h6 class="text-right">Title 1 <span class="fa fa-caret-right"/> </h6>
+  					<div class="crmb-tg-h2 text-right" >
+  						<h6 class="">Title 1 <span class="fa fa-caret-right"/> </h6>
   					</div>
-  					<div class="crmb-tg-b2 ">
+  					<div class="crmb-tg-b2">
   						 <span class="fa fa-compass fa-5x"/> 
   					</div>
    				</div>
