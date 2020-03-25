@@ -21,6 +21,8 @@
 
 .logo-wolf {
 	display: none;
+	width: 150px;
+	height: 40px;
 }
 	
 .over-wolf a {
@@ -32,6 +34,7 @@
 }
 
 
-.item-wolf {
+.item-wolf i {
 	width: 50px;
+	float: left;
 }
