@@ -7,16 +7,16 @@ publicWidget.registry.Animated = publicWidget.Widget.extend({
 	selector: '#wrapwrap',
 
     start: function () {
-    	const _objs = document.querySelectorAll('.animated');
+    	const _objs = document.querySelectorAll('[data-animated]');
     	var observer = new IntersectionObserver(function(entries) {
     		entries.forEach(entry => {
-    		    if (entry.intersectionRatio > 0) {
-    		      var animation =  entry.target.dataset.animation;
-    		      entry.target.classList.add(animation, 'delay-1s', 'bounceIn');
-    		    } else {
-    		      entry.target.classList.remove(animation, 'delay-1s');
-    		    }
-    		  });
+    			var animation = entry.target.dataset.animated;
+    			if (entry.intersectionRatio > 0) {
+    				entry.target.classList.add('animated',  animation);
+    			} else {
+    				entry.target.classList.remove('animated',  animation);
+    				}
+    			});
     		});
     	_objs.forEach(obj => {
 			observer.observe(obj);
