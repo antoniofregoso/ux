@@ -60,19 +60,29 @@
 }
 
 .crmb-border-1 {border-color: #5b78bb;}
-.crmb-border-2 {border-color: #b3b417;}
+.crmb-border-2 {border-color: #3ab073;}
 .crmb-border-3 {border-color: #e48f20;}
-.crmb-border-4 {border-color: #6c4f9f;}
+.crmb-border-4 {border-color: #d51165;}
+
+.crm-tg {
+	border-radius: 20px 20px 0 0;
+}
 
 .crmb-tg-p  {
-	height: 390px;
+	height: 300px;
 	padding: 45px 8px 8px 8px;
 	color:White;
 
 }
+
+.crmb-tg-p h6 {
+	text-align: center;
+	text-transform: uppercase ;
+}
+
+
 .crmb-tg-h  {
 	height: 60px;
-	background-color: White;	
 
 }
 
@@ -86,6 +96,7 @@
 .crmb-tg-h2 h4 {
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
 
 }
 

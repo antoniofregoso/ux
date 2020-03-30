@@ -10,8 +10,8 @@
         <div class="container h-100">
 		    <div class="d-flex h-100 text-center align-items-center pt-6">
 		      <div class="w-100 text-white">
-		        <h1 class="display-3" >Catchy Headline</h1>
-		        <p class="lead mb-0"  >Write one or two paragraphs describing your product, services or a specific feature.<br/> To be successful your content needs to be useful to your readers.</p>
+		        <h1 class="s_title_thin o_default_snippet_text display-3" style="font-size: 62px; text-align: center;">Catchy Headline</h1>
+		        <p class="lead mb-0"  style="text-align: center;">Write one or two paragraphs describing your product, services or a specific feature.<br/> To be successful your content needs to be useful to your readers.</p>
                 <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
                     <a href="/aboutus" class="btn btn-delta rounded-circle">About us</a>
                     <a href="/contactus" class="btn btn-primary rounded-circle">Contact us</a>
@@ -25,35 +25,35 @@
 <template id="s_caramba_infographic_2" name="Infographic 2">
     <section class="s-lp-infographic-2">
     	<div class="container pt32 pb32">
-    		<h1 style="text-align: center;" class="o_default_snippet_text">Title</h1>
+    		<h1 class="s_title_default" style="text-align: center;">Title</h1>
     		<div class="row mt4">
     			<div class="col">
-    				<div class="col crmb-info crmb-border-1">
+    				<div class="col crmb-info crmb-border-1 mt-4">
     					<i class="fa fa-3x fa-compass"/>
     				</div>
-		              <h4 class="text-center mt-4">Title 1</h4>
-		              <p>Description</p>
+		              <h4 class="text-center mt-4 o_default_snippet_text">Sub Title 1</h4>
+		              <p class="o_default_snippet_text">Description</p>
     			</div>
     			<div class="col">
-    				<div class="col crmb-info crmb-border-2">
+    				<div class="col crmb-info crmb-border-2 mt-4">
     					<i class="fa fa-3x fa-group"/>
-    				</div>    				
-	              <h4 class="text-center mt-4">Title 2</h4>
-	              <p>Description</p>
+    				</div>   
+		              <h4 class="text-center mt-4 o_default_snippet_text">Sub Title 2</h4>
+		              <p class="o_default_snippet_text">Description</p>
     			</div>
     			<div class="col">
-    				<div class="col crmb-info crmb-border-3">
+    				<div class="col crmb-info crmb-border-3 mt-4">
     					<i class="fa fa-3x fa-gears"/>
-    				</div>    				
-		              <h4 class="text-center mt-4">Title 3</h4>
-		              <p>Description</p>
+    				</div> 
+		              <h4 class="text-center mt-4 o_default_snippet_text">Sub Title 3</h4>
+		              <p class="o_default_snippet_text">Description</p>
 		    			</div>
     			<div class="col">
-    				<div class="col crmb-info crmb-border-4">
+    				<div class="col crmb-info crmb-border-4 mt-4">
     					<i class="fa fa-3x fa-user"/>
     				</div>
-		              <h4 class="text-center mt-4">Title 4</h4>
-		              <p>Description</p>
+		              <h4 class="text-center mt-4 o_default_snippet_text">Sub Title 4</h4>
+		              <p class="o_default_snippet_text">Description</p>
 		    	</div>
     		</div>
     	</div>    
@@ -68,8 +68,8 @@
         <div class="row ">
         	<div class="col-12 col-sm-4 col-md-2 mt-4" id="title-1">
   				<div class="pt-3 border-0" >
-  					<div class="crmb-tg-h2 text-right" >
-  						<h6 class="">Title 1 <span class="fa fa-caret-right"/> </h6>
+  					<div class="crmb-tg-h2" >
+  						<h4 style="text-align: right; "> Sub Title 1 <span class="fa fa-caret-right"/> </h4>
   					</div>
   					<div class="crmb-tg-b2">
   						 <span class="fa fa-compass fa-5x"/> 
@@ -77,7 +77,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c01">
@@ -92,7 +92,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c02">
@@ -107,7 +107,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c03">
@@ -122,7 +122,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c04">
@@ -137,7 +137,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c05">
@@ -152,7 +152,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c06">
@@ -167,7 +167,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c07">
@@ -182,7 +182,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c08">
@@ -197,7 +197,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c09">
@@ -212,7 +212,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c10">
@@ -229,7 +229,7 @@
         	<div class="col-12 col-sm-4 col-md-2 mt-4" id="title-2">
   				<div class="pt-3 border-0">
   					<div class="crmb-tg-h2" >
-  						<h6><span class="fa fa-caret-left"/> Title 2</h6>
+  						<h4 style="text-align: left; "><span class="fa fa-caret-left"/> Sub Title 2</h4>
   					</div>
   					<div class="crmb-tg-b2">
   						 <span class="fa fa-group fa-5x"/> 
@@ -239,7 +239,7 @@
         	<div class="col-12 col-sm-4 col-md-2 mt-4" id="title-3">
   				<div class="pt-3  border-0">
   					<div class="crmb-tg-h2" >
-  						<h6 class="text-right">Title 3 <span class="fa fa-caret-right"/> </h6>
+  						<h4 style="text-align: right; "> Sub Title 3 <span class="fa fa-caret-right"/> </h4>
   					</div>
   					<div class="crmb-tg-b2">
   						 <span class="fa fa-gears fa-5x"/> 
@@ -247,7 +247,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c11">
@@ -262,7 +262,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c12">
@@ -277,7 +277,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c13">
@@ -292,7 +292,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c14">
@@ -307,7 +307,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c15">
@@ -322,7 +322,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c16 ">
@@ -337,7 +337,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c17">
@@ -352,7 +352,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c18">
@@ -367,7 +367,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n   crmb-tg-c19">
@@ -382,7 +382,7 @@
    				</div>
   			</div>
         	<div class="col-12 col-sm-4 col-md-2 mt-4">
-  				<div class="card  pt-3 shadow">
+  				<div class="card  pt-3 shadow crm-tg">
   					<div class="crmb-tg-h" >
   						<div class="crmb-tg-b">
   							<div class="crmb-tg-n  crmb-tg-c20">
@@ -399,7 +399,7 @@
         	<div class="col-12 col-sm-4 col-md-2 mt-4" id="title-4">
   				<div class="pt-3  border-0">
   					<div class="crmb-tg-h2" >
-  						<h6><span class="fa fa-caret-left"/> Title 4</h6>
+  						<h4 style="text-align: right; "><span class="fa fa-caret-left"/> Sub Title 4</h4>
   					</div>
   					<div class="crmb-tg-b2">
   						 <span class="fa fa-5x fa-user fa-5x"/> 
