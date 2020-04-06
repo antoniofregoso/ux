@@ -1,7 +1,7 @@
 .s-lp-video_cover {
   position: relative;
   background-color: black;
-  height: 75vh;
+  height: 90vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -45,6 +45,22 @@
   .s-lp-video_cover video {
     display: none;
   }
+}
+
+.crmb-100h {	
+    height: 90vh;
+    overflow: auto;
+}
+
+.crmb-header {	
+	padding-top: 15%;
+}
+
+
+.crmb-social {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
 }
 
 .crmb-info {

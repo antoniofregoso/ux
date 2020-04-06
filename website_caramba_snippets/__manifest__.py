@@ -10,11 +10,12 @@
     'category': 'Website/Website',
     'version': '13.0.0.0.1',
 
-    'depends': ['website'],
+    'depends': ['website_pinterest'],
 
 
     'data': [
         # 'security/ir.model.access.csv',
+        'data/website_caramba_snippets_data.xml',
         'views/caramba_snippets.xml',
         'views/caramba_templates.xml',
     ],
