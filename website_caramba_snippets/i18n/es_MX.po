@@ -6,16 +6,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-23 17:36+0000\n"
-"PO-Revision-Date: 2020-03-23 11:55-0600\n"
+"POT-Creation-Date: 2020-04-06 02:45+0000\n"
+"PO-Revision-Date: 2020-04-05 21:51-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: \n"
 "Language: es_MX\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 
 #. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
@@ -124,13 +124,13 @@ msgstr ""
 
 #. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
-msgid "<span class=\"fa fa-caret-left\"/> Title 2"
-msgstr "<span class=\"fa fa-caret-left\"/> Título 2"
+msgid "<span class=\"fa fa-caret-left\"/> Sub Title 2"
+msgstr "<span class=\"fa fa-caret-left\"/> Subtítulo 2"
 
 #. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
-msgid "<span class=\"fa fa-caret-left\"/> Title 4"
-msgstr "<span class=\"fa fa-caret-left\"/> Títlo 4"
+msgid "<span class=\"fa fa-caret-left\"/> Sub Title 4"
+msgstr "<span class=\"fa fa-caret-left\"/> Subtítulo 4"
 
 #. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_video_cover
@@ -138,14 +138,26 @@ msgid "About us"
 msgstr "Sobre nosotros"
 
 #. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_3_images
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_screen_cover
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_video_cover
 msgid "Catchy Headline"
 msgstr "Titular pegadizo"
 
 #. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_screen_cover
+msgid "Company team"
+msgstr "Equipo de la empresa"
+
+#. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_video_cover
 msgid "Contact us"
-msgstr "Contactanos"
+msgstr "Contacta con nosotros"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic_2
+msgid "Description"
+msgstr "Descripción"
 
 #. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
@@ -155,24 +167,47 @@ msgstr ""
 #. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
 msgid "Sub Title"
-msgstr "Sub Título"
+msgstr "Subtítulo"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic_2
+msgid "Sub Title 1"
+msgstr "Subtítulo 1"
 
 #. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "Sub Title 1 <span class=\"fa fa-caret-right\"/>"
+msgstr "Subtítulo 1 <span class=\"fa fa-caret-right\"/>"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic_2
+msgid "Sub Title 2"
+msgstr "Subtítulo 2"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic_2
+msgid "Sub Title 3"
+msgstr "Subtítulo 3"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+msgid "Sub Title 3 <span class=\"fa fa-caret-right\"/>"
+msgstr "Subtítulo 3 <span class=\"fa fa-caret-right\"/>"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic_2
+msgid "Sub Title 4"
+msgstr "Subtítulo 4"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic_2
 msgid "Title"
 msgstr "Título"
 
 #. module: website_caramba_snippets
-#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
-msgid "Title 1 <span class=\"fa fa-caret-right\"/>"
-msgstr "Título 1 <span class=\"fa fa-caret-right\"/>"
-
-#. module: website_caramba_snippets
-#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
-msgid "Title 3 <span class=\"fa fa-caret-right\"/>"
-msgstr "Título 3 <span class=\"fa fa-caret-right\"/>"
-
-#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_3_images
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_screen_cover
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_video_cover
 msgid ""
 "Write one or two paragraphs describing your product, services or a specific "
