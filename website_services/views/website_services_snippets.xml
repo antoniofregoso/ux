@@ -2,19 +2,96 @@
 
 	<template id="s_caramba_services" name="Services">
 	 	<section class="">
+	 		<div class="container">
+	 			<div class="row">
+	 			<div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                    <h1 class="s_title_thin">Services</h1>
+                </div>
+	 			
+	 			</div>
+	 			<div class="swiper-container pb16">
+	 			
+	 			</div>
+	 		</div>
 	 	</section>
+	 </template>
+	 
+	 <template id="s_services_template">
+	 	 <div class="swiper-wrapper">
+	   <t t-foreach="services" t-as="s">
+	    	 <div class="swiper-slide card">
+	    	 	<div class="card-body crmb-body">
+	    	 		<h5 class="card-title crmb-card-title" t-esc="s.name" />
+	    	 		<p class="card-text crmb-card-text" ><spam t-esc="s.description_sale"/></p>
+	    	 		<div class="crmb-price-container">
+		    	 		<div class="crmb-price">
+		    	 			<span class="crmb-money-sign">$</span>
+		    	 			<span class="crmb-money" t-esc="str(int(s.list_price))"/>
+		    	 			<span class="crmb-cents" t-raw="'.' + str(round(s.list_price - int(s.list_price), 2)).replace('0.','').ljust(2,'0') + '&lt;br /&gt;/' +s.uom_name"/>
+		    	 		</div>
+	    	 		</div>
+	    	 		 <ul class="list-group list-group-flush" t-foreach="s.service_ids" t-as="s">
+	    	 		 	<li class="list-group-item" t-esc="s.name"/>
+	    	 		 </ul>
+	    	 	</div>
+	    	 </div>
+	    </t> 
+	    </div>
+	     <div class="swiper-pagination"></div>
+	     <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+	     <![CDATA[]]>
 	 </template>
 	 
 	 <template id="s_caramba_services_form" name="Services Form">
 	 	<section class="">
+	 		<div class="container-fluid">
+	 			<div class="row s_nb_column_fixed">
+                <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                    <h1 class="s_title_thin">Our Location</h1>
+                
+                </div>
+            </div>
+	 		</div>
+	 	</section>
+	 </template>
+	 
+	 	 
+	 <template id="s_caramba_services_team" name="Services Team">
+	 	<section class="">
+	 		<div class="container-fluid">
+	 			<div class="row s_nb_column_fixed">
+                <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                    <h1 class="s_title_thin">Our Team</h1>
+                
+                </div>
+            </div>
+	 		</div>
 	 	</section>
 	 </template>
 
 
-     <template id="caramba_snippets" inherit_id="website.snippets" >
+     <template id="website_services_snippets" inherit_id="website.snippets" >
 	    <xpath expr="//div[@id='snippet_caramba']/div[hasclass('o_panel_body')]" position="inside">	    	
-        	<t t-snippet="website_services.s_caramba_services" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_services.png" />                	  
-            <t t-snippet="website_services.s_caramba_services_form" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_services_form.png" />    
+        	<t t-snippet="website_services.s_caramba_services" t-thumbnail="/website_services/static/src/img/snippets_thumbs/block_services.png" />                	  
+            <t t-snippet="website_services.s_caramba_services_form" t-thumbnail="/website_services/static/src/img/snippets_thumbs/block_services_form.png" />  
+            <t t-snippet="website_services.s_caramba_services_team" t-thumbnail="/website_services/static/src/img/snippets_thumbs/block_services_team.png" />    
          </xpath>
      </template>
         

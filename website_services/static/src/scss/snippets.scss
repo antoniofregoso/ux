@@ -1,0 +1,69 @@
+
+.swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+
+.swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px !important;
+      height: 450px !important;
+
+    }
+
+
+.crmb-card-text {
+	height: 2em;
+}
+
+
+.crmb-price-container {	
+	width:100%;
+	text-align: center;
+	
+}
+
+.crmb-price {	
+	display: inline-block; 
+	margin: 0 auto;
+}
+
+.crmb-card-title {
+	font-size:2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.crmb-money-sign {
+    vertical-align:text-top;
+	font-weight: bold;
+    float:left;
+    padding-top:1.2em;
+}
+
+.crmb-money {		
+	font-size:3.7em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 0px;
+    float:left;
+}
+
+
+.crmb-cents {	
+    vertical-align: text-top; 
+    text-align: left;
+	font-weight: bold;
+    float:left;
+    padding-top:1.2em;
+}
+
+.crmb-uom {
+	background-color: green;
+    position: absolute;
+    bottom: 0px;
+	
+}

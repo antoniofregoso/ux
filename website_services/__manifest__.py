@@ -11,11 +11,12 @@
     'version': '13.0.0.0.0',
 
     
-    'depends': ['website_caramba_snippets', 'sale'],
+    'depends': ['website_caramba_snippets', 'sale', 'website_swiper'],
 
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/product_views.xml',
+        'views/website_services_templates.xml',
         'views/website_services_snippets.xml',
     ],
 

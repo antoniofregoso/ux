@@ -1,0 +1,40 @@
+odoo.define('website_swiper.SwiperRenderer', function (require) {
+"use strict";
+
+
+var publicWidget = require('web.public.widget');
+
+var SwiperRenderer = publicWidget.Widget.extend({
+	jsLibs: [[
+        '/website_swiper/static/lib/js/swiper.min.js',
+    ]],
+    
+    start: function () {
+    	
+    	
+    },
+    
+    _render: function () {
+    	alert('Puto');
+    	var s  = new swiper('.swiper-container', {
+    	      effect: 'coverflow',
+    	      grabCursor: true,
+    	      centeredSlides: true,
+    	      slidesPerView: 'auto',
+    	      coverflowEffect: {
+    	        rotate: 50,
+    	        stretch: 0,
+    	        depth: 100,
+    	        modifier: 1,
+    	        slideShadows : true,
+    	      },
+    	      pagination: {
+    	        el: '.swiper-pagination',
+    	      },
+    	    });
+    },
+
+	
+});
+return SwiperRenderer;
+});
