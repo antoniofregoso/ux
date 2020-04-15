@@ -3,14 +3,14 @@ odoo.define('website_lateral_menu.website_lateral_menu', function (require) {
 
 var publicWidget = require('web.public.widget');
 
-publicWidget.registry.MenuFloatingButton = publicWidget.Widget.extend({
+publicWidget.registry.MenuLateral = publicWidget.Widget.extend({
 	selector: '#container-wolf',
 	events: {
-		 'click #nav-wolf': '_wolfNav',
-		 'click #nav-wolf': '_wolfNav',
+		 'mouseover #items-wolf': '_wolfOver',
+		 'mouseleave #items-wolf': '_wolfLeave',
 	 },
 	 
-	 _wolfNav: function (e) {
+	 _wolfOver: function (e) {
 			if($('#nav-wolf').hasClass('dock-wolf')){
 				$('#nav-wolf').addClass('over-wolf');
 				$('#logo-wolf').addClass('logo-wolf');
@@ -18,17 +18,21 @@ publicWidget.registry.MenuFloatingButton = publicWidget.Widget.extend({
 				$('.nav-wolf').animate({
 					width: '190px'
 				}, 500);
-				$('#nav-wolf').removeClass('dock-wolf');		
-			} else {
-				$('#nav-wolf').removeClass('over-wolf');
-				$('#logo-wolf').removeClass('logo-wolf');
-				$('#logo-wolf-big').addClass('logo-wolf');
-				$('.nav-wolf').animate({
-					width: '70px'
-				}, 500);
-				$('#nav-wolf').addClass('dock-wolf');
-			}
-	 }
+				$('#nav-wolf').removeClass('dock-wolf');
+			} 
+	 },
+	 
+	 _wolfLeave: function (e) {
+		 if($('#nav-wolf').hasClass('over-wolf')){
+			 $('#nav-wolf').removeClass('over-wolf');
+			 $('#logo-wolf').removeClass('logo-wolf');
+			 $('#logo-wolf-big').addClass('logo-wolf');
+			 $('.nav-wolf').animate({
+				width: '70px'
+			  }, 250);
+			 $('#nav-wolf').addClass('dock-wolf');			 
+		 }
+	 },
 	 
 });
 });

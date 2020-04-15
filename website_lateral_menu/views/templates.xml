@@ -9,24 +9,44 @@
     </xpath>
 </template>
 <template id="website_lateral_menu" name="Lateral Menu" inherit_id="portal.frontend_layout">
-
-	<xpath expr="//nav[hasclass('navbar')]" position="replace">	 	
+	<xpath expr="//nav[hasclass('navbar')]" position="attributes">
+		<attribute name="class" separator=" " add="d-none"/>
+	</xpath>
+	<xpath expr="//nav[hasclass('navbar')]" position="after">	 	
     <nav class="navbar nav-wolf d-none d-md-block" id="container-wolf" >
     <a href="/" class="navbar-brand logo-wolf" id="logo-wolf-big">
 	            <span t-field="website.logo" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % website.name" t-att-title="website.name" />
 	        </a>
 	    <div class="dock-wolf" id="nav-wolf">
 	    	<a class="navbar-brand" id="logo-wolf" href="#">
-    			<img src="/website_lateral_menu/static/src/img/logo_sqr.png"   width="40" height="40" />
+    			<img src="/website_lateral_menu/static/src/img/logo_sqr.png"   width="40" height="40" id="logo-img-wolf"/>
   			</a>    
-	    	<ul class="navbar-nav" >
+	    	<ul class="navbar-nav" id="items-wolf">
 		    	<t t-foreach="website.menu_id.child_id" t-as="submenu">
 		    		<li class="nav-item item-wolf"><i t-att-class="submenu.icon"></i> <a class="nav-link" t-att-href="submenu.clean_url()"><span t-field="submenu.name"/></a></li>
+		    		
 		    	</t>				
                 <li class="nav-item divider" t-ignore="true" t-if="not user_id._is_public()"/>
+                	<li class="nav-item item-wolf dropdown" t-ignore="true" t-if="not user_id._is_public()">
+                	<a t-attf-href="#"><i class="fa fa-2x fa-user"/></a>
+                	<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                        	<span t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) &gt; 25 else user_id.name"/>                   
+                     </a>
+                   	<div class="dropdown-menu js_usermenu" role="menu"> 
+                    	<a id="o_logout" class="dropdown-item" t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a>
+                    </div>
+                 </li>
+                <li groups="base.group_public" class="nav-item item-wolf"> 
+                	<a t-attf-href="/web/login"><i class="fa fa-2x fa-user"/></a>
+					 <a t-attf-href="/web/login" class="nav-link ">
+					     Sign in
+					 </a>
+				 </li>
               </ul>
 	    </div>
     </nav>
 	 </xpath>
 </template>
+
+
 </odoo>
