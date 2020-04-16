@@ -10,7 +10,7 @@
 </template>
 <template id="website_lateral_menu" name="Lateral Menu" inherit_id="portal.frontend_layout">
 	<xpath expr="//nav[hasclass('navbar')]" position="attributes">
-		<attribute name="class" separator=" " add="d-none"/>
+		<attribute name="class" separator=" " add="hide-wolf"/>
 	</xpath>
 	<xpath expr="//nav[hasclass('navbar')]" position="after">	 	
     <nav class="navbar nav-wolf d-none d-md-block" id="container-wolf" >
@@ -28,7 +28,7 @@
 		    	</t>				
                 <li class="nav-item divider" t-ignore="true" t-if="not user_id._is_public()"/>
                 	<li class="nav-item item-wolf dropdown" t-ignore="true" t-if="not user_id._is_public()">
-                	<i class="fa fa-2x fa-user"/>
+                	<i class="fa fa-2x fa-user"/> 
                 	<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
                         	<span t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) &gt; 25 else user_id.name"/>                   
                      </a>

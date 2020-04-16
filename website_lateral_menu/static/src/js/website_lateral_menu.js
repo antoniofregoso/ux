@@ -16,7 +16,7 @@ publicWidget.registry.MenuLateral = publicWidget.Widget.extend({
 				$('#logo-wolf').addClass('logo-wolf');
 				$('#logo-wolf-big').removeClass('logo-wolf');
 				$('.nav-wolf').animate({
-					width: '190px'
+					width: '220px'
 				}, 500);
 				$('#nav-wolf').removeClass('dock-wolf');
 			} 
