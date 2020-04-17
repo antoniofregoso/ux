@@ -21,6 +21,6 @@ odoo.define('website_anchor_smooth_scroll.website_anchor_smooth_scroll', functio
 
     require('web.dom_ready');
 
-    $("a[href^='#']:not([href=#])").on("click", website_anchor_smooth_scroll);
+    $("a[href^='#']:not([href='#'])").on("click", website_anchor_smooth_scroll);
 
 });
