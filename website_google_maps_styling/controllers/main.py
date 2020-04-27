@@ -17,6 +17,7 @@ class GoogleMap(http.Controller):
     def google_map(self,company, **kw):
         partner = request.env['res.partner'].sudo().search([("id", "=", company),
                                                              ('website_published', '=', True), ('is_company', '=', True)])
+        api_key = request.website.google_maps_api_key
         if len(partner) ==1:
             theme = request.website.google_map_theme_id
             js_theme = []
@@ -44,7 +45,7 @@ class GoogleMap(http.Controller):
                     js_theme.append(js_option)
             lat = partner.partner_latitude
             lng = partner.partner_longitude
-            values = {'lat':lat, 'lng':lng, 'styles':js_theme}
+            values = {'lat':lat, 'lng':lng, 'styles':js_theme, 'api_key':api_key}
         return request.render("website_google_maps_styling.company_google_map", values)
          
          
