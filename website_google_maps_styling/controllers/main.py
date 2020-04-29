@@ -37,7 +37,9 @@ class GoogleMap(http.Controller):
                 else:
                     js_theme.append({"elementType": "labels.text.fill","stylers":[{ "visibility":"off"}]})  
                 for option in theme.options_ids:
-                    js_option = {"featureType": option.feature, "elementType": option.element , "stylers":[]}
+                    js_option = {"featureType": option.feature}
+                    if option.element:
+                        js_option['elementType'] = option.element
                     if option.visibility:
                         js_option["stylers"]= [{"color":option.color}]
                     else:
