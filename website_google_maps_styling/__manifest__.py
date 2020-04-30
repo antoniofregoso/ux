@@ -10,7 +10,7 @@
     'category': 'Website/Website',
     'version': '13.0.0.0.0',
 
-    'depends': ['website_google_map'],
+    'depends': ['website_google_map','website_form'],
 
     'data': [
         'security/ir.model.access.csv',

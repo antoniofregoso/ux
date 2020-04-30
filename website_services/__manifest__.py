@@ -11,7 +11,7 @@
     'version': '13.0.0.0.0',
 
     
-    'depends': ['website_caramba_snippets', 'sale', 'website_swiper'],
+    'depends': ['website_caramba_snippets', 'sale', 'website_swiper', 'stock'],
 
     'data': [
         'security/ir.model.access.csv',
