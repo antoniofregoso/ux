@@ -14,11 +14,12 @@ class GoogleMap(http.Controller):
     def google_map(self,company, **kw):
         partner = request.env['res.partner'].sudo().search([("id", "=", company),
                                                              ('website_published', '=', True), ('is_company', '=', True)])
+        google_maps_api_key = request.website.google_maps_api_key
         if len(partner) ==1:
             jsn_theme = request.website.get_map_styles()
             lat = partner.partner_latitude
             lng = partner.partner_longitude
-            values = {'lat':lat, 'lng':lng, 'styles':jsn_theme,}
+            values = {'lat':lat, 'lng':lng, 'styles':jsn_theme,'api_key':google_maps_api_key}
         return request.render("website_google_maps_styling.company_google_map", values)
     
 
