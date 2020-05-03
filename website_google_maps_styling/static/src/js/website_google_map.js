@@ -6,10 +6,20 @@ function initMap() {
         zoom: 12,
         center: {lat: mapLat, lng: mapLng},
         styles: mapTheme
-        alert(mapTheme)
     });
+    
+    google.maps.event.addDomListener(mapDiv, 'click', function() {
+        window.alert('Map was clicked!');
+      });
 
 }
 
-// Initialize map once the DOM has been loaded
-//google.maps.event.addDomListener(window, 'load', initialize_map);
+document.addEventListener('readystatechange', event => {
+	  if (event.target.readyState === 'interactive') {
+	    //
+	  }
+	  else if (event.target.readyState === 'complete') {
+	    initMap();
+	  }
+	});
+

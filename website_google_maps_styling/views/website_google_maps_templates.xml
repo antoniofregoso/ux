@@ -8,7 +8,7 @@
 		        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 		        <title>World Map</title>
 		    </head>
-	    	<body  onload="initMap()" style="height: 100%; margin: 0; padding: 0;">
+	    	<body   style="height: 100%; margin: 0; padding: 0;">
 		        <script>
 		            var mapTheme = <t t-raw="styles"/>;
 		            var mapLat = <t t-raw="lat"/>;
