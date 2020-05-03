@@ -6,6 +6,7 @@ function initMap() {
         zoom: 12,
         center: {lat: mapLat, lng: mapLng},
         styles: mapTheme
+        alert(mapTheme)
     });
 
 }
