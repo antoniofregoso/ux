@@ -11,4 +11,12 @@ function initialize_map() {
 }
 
 // Initialize map once the DOM has been loaded
-google.maps.event.addDomListener(window, 'load', initialize_map);
+//google.maps.event.addDomListener(window, 'load', initialize_map);
+document.addEventListener('readystatechange', event => {
+	  if (event.target.readyState === 'interactive') {
+	    //
+	  }
+	  else if (event.target.readyState === 'complete') {
+	    initMap();
+	  }
+	});
