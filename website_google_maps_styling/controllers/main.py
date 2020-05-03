@@ -5,7 +5,9 @@ import json
 from odoo import http
 from odoo.http import request
 from odoo.tools import html_escape as escape
+import logging
 
+_logger = logging.getLogger(__name__)
 
 class GoogleMap(http.Controller):
     
@@ -14,9 +16,10 @@ class GoogleMap(http.Controller):
     def google_map(self,company, **kw):
         partner = request.env['res.partner'].sudo().search([("id", "=", company),
                                                              ('website_published', '=', True), ('is_company', '=', True)])
-        google_maps_api_key = request.website.google_maps_api_key
+        site = request.website
+        google_maps_api_key = site.google_maps_api_key
         if len(partner) ==1:
-            jsn_theme = request.website.get_map_styles()
+            jsn_theme = site.get_map_styles()
             lat = partner.partner_latitude
             lng = partner.partner_longitude
             values = {'lat':lat, 'lng':lng, 'styles':jsn_theme,'api_key':google_maps_api_key}
