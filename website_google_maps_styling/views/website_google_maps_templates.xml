@@ -14,7 +14,7 @@
 		            var mapLat = <t t-raw="lat"/>;
 		            var mapLng = <t t-raw="lng"/>;
 		        </script>
-			    		 <div id="company-map" style="height: 100%;"></div>
+			    		 <div id="company-map" style="height: 100%; width: 100%;"></div>
 	    		 <t t-if="api_key">
 	    		 	  <script t-attf-src="https://maps.googleapis.com/maps/api/js?key=#{api_key}" async="async"  defer="defer"></script>
 		        </t>
