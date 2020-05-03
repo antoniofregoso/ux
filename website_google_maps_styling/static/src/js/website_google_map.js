@@ -1,4 +1,4 @@
-function initialize_map() {
+function initMap() {
     'use strict';
 
     // MAP CONFIG AND LOADING
@@ -12,11 +12,3 @@ function initialize_map() {
 
 // Initialize map once the DOM has been loaded
 //google.maps.event.addDomListener(window, 'load', initialize_map);
-document.addEventListener('readystatechange', event => {
-	  if (event.target.readyState === 'interactive') {
-	    //
-	  }
-	  else if (event.target.readyState === 'complete') {
-		  initialize_map();
-	  }
-	});
