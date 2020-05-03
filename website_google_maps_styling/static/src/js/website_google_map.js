@@ -17,6 +17,6 @@ document.addEventListener('readystatechange', event => {
 	    //
 	  }
 	  else if (event.target.readyState === 'complete') {
-	    initMap();
+		  initialize_map();
 	  }
 	});
