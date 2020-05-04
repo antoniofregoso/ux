@@ -2,7 +2,8 @@ function initMap() {
     'use strict';
 
     // MAP CONFIG AND LOADING
-    var map = new google.maps.Map(document.getElementById('company-map'), {
+    var mapDiv = document.getElementById('map');
+    var map = new google.maps.Map(mapDiv, {
         zoom: 12,
         center: {lat: mapLat, lng: mapLng},
         styles: mapTheme
