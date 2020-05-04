@@ -3,6 +3,8 @@ function initMap() {
 
     // MAP CONFIG AND LOADING
     
+    var mapDiv = document.getElementById('map');
+    
     var map = new google.maps.Map(mapDiv, {
         zoom: 12,
         center: {lat: mapLat, lng: mapLng},
