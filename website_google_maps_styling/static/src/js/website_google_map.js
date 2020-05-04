@@ -8,7 +8,7 @@ function initMap() {
     var map = new google.maps.Map(mapDiv, {
         zoom: 12,
         center: {lat: mapLat, lng: mapLng},
-        styles: mapTheme
+        //styles: mapTheme
     });
     
     google.maps.event.addDomListener(mapDiv, 'click', function() {
