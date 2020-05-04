@@ -3,7 +3,7 @@ function initMap() {
 
     // MAP CONFIG AND LOADING
     
-    var map = new google.maps.Map(document.getElementById('map'), {
+    var map = new google.maps.Map(document.getElementById('company-map'), {
         center: {lat: 40.674, lng: -73.945},
         zoom: 12,
         styles: [
