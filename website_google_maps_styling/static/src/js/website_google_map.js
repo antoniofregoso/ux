@@ -3,11 +3,9 @@ function initMap() {
 
     // MAP CONFIG AND LOADING
     
-    var mapDiv = document.getElementById('company-map');
-    var map = new google.maps.Map(mapDiv, {
+    var map = new google.maps.Map(document.getElementById('company-map'), {
         zoom: 12,
         center: {lat: mapLat, lng: mapLng},
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
         styles: mapTheme
     });
 }
