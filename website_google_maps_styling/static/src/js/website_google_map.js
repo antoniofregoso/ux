@@ -2,7 +2,8 @@ function initMap() {
     'use strict';
 
     // MAP CONFIG AND LOADING
-    
+
+    alert(lng);
     var map = new google.maps.Map(document.getElementById('company-map'), {
         zoom: 12,
         center: {lat: mapLat, lng: mapLng},
