@@ -61,9 +61,13 @@
 	 
 	 <template id="s_caramba_services_form" name="Services Form">
 	 	    <section class="s_features pt32 pb32">
-        <div class="container">
+	 	    <div class="container">
+	 	    	<h1 class="s_title_thin crmb-map-title" >Our Location</h1>
+	 	    </div>
+	 	<iframe class="container-fluid crmb-form-map" src="http://mapas.santerra.com.mx/conco.html" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
+        <div class="container crmb-map-form">
             <div class="row">
-            	<div class="col-lg-8 pt32 pb32 text-left">
+            	<div class="col-lg-8 pt32 pb32 text-left bg-white">
             	 <h3 class="o_default_snippet_text text-left"><b>Write to us</b></h3>
             		<form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you"  class="s_website_form container-fluid mt32" enctype="multipart/form-data">
 		                 <div class="form-row px-3">
@@ -96,7 +100,7 @@
 		                  </div>
 		            </form>
             	</div>
-            	<div class="col-lg-4 pt32 pb32 bg-800">
+            	<div class="col-lg-4 pt32 pb32 bg-900">
             		 <h3 class="o_default_snippet_text text-left mb-5"><b>Contact</b></h3>
             		 <address itemscope="itemscope" itemtype="http://schema.org/Organization">
 				        <!-- TODO widget contact must add itemprop attributes -->
