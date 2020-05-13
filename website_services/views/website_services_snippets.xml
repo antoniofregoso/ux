@@ -44,6 +44,7 @@
       grabCursor: true,
       centeredSlides: true,
       slidesPerView: 'auto',
+      initialSlide: 2;
       coverflowEffect: {
         rotate: 50,
         stretch: 0,
@@ -66,7 +67,7 @@
 	 	    </div>
 	 	<iframe class="container-fluid crmb-form-map" src="https://mapas.santerra.com.mx/conco.html" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
         <div class="container crmb-map-form">
-            <div class="row">
+            <div class="row shadow-lg">
             	<div class="col-lg-8 pt32 pb32 text-left bg-white">
             	 <h3 class="o_default_snippet_text text-left"><b>Write to us</b></h3>
             		<form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you"  class="s_website_form container-fluid mt32" enctype="multipart/form-data">
