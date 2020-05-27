@@ -1,7 +1,7 @@
 <odoo>
 
 
-
+<!-- Integration with product -->
     <record model="ir.ui.view" id="product_template_form_search">
         <field name="name">product.template.product.website.search</field>
         <field name="model">product.template</field>
