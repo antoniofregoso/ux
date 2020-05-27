@@ -23,9 +23,6 @@ class ProductTemplate(models.Model):
     service_ids = fields.Many2many('product.service', relation='product_service_combination', string="Service Components", ondelete='restrict')
 
 
-    
-
-    
 
     
 
