@@ -10,7 +10,7 @@
     'category': 'Website/Website',
     'version': '13.0.0.0.1',
 
-    'depends': ['website_pinterest','sale_stock'],
+    'depends': ['website_pinterest'],
 
 
     'data': [
