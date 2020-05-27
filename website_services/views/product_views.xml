@@ -5,9 +5,9 @@
     <record model="ir.ui.view" id="product_template_form_search">
         <field name="name">product.template.product.website.search</field>
         <field name="model">product.template</field>
-        <field name="inherit_id" ref="website_sale.product_template_form_view"/>
+        <field name="inherit_id" ref="website_sale.product_template_search_view_website"/>
         <field name="arch" type="xml">
-        	<xpath expr="//filter[@name='filter_to_purchase']" position="after">   
+        	<xpath expr="//filter[@name='published']" position="after">   
         		<filter string="In Landing Page" name="landig_page_published" domain="[('landig_page_published', '=', True)]"/>
         	</xpath>
         </field>
@@ -16,7 +16,7 @@
     <record model="ir.ui.view" id="product_template_form_view">
         <field name="name">product.template.product.website.form</field>
         <field name="model">product.template</field>
-        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="inherit_id" ref="website_sale.product_template_form_view"/>
         <field name="arch" type="xml">
         	<xpath expr="//page[@name='shop']/group[@name='shop']" position="after">     
 	        	<group string="Landing Page">
