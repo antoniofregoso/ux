@@ -1,0 +1,150 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_services
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-27 19:02+0000\n"
+"PO-Revision-Date: 2020-05-27 14:03-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. module: website_services
+#: model_terms:ir.ui.view,arch_db:website_services.s_caramba_services_form
+msgid "<b>Contact</b>"
+msgstr "<b>Contacto</b>"
+
+#. module: website_services
+#: model_terms:ir.ui.view,arch_db:website_services.s_caramba_services_form
+msgid "<b>Write to us</b>"
+msgstr "<b>Escribenos</b>"
+
+#. module: website_services
+#: model:ir.model.fields,field_description:website_services.field_product_service__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: website_services
+#: model:ir.model.fields,field_description:website_services.field_product_service__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: website_services
+#: model:ir.model.fields,help:website_services.field_product_service__sequence
+msgid "Determine the display order"
+msgstr "Determina el orden de presentación"
+
+#. module: website_services
+#: model:ir.model.fields,field_description:website_services.field_product_service__display_name
+msgid "Display Name"
+msgstr "Mostrar Nombre"
+
+#. module: website_services
+#: model_terms:ir.ui.view,arch_db:website_services.s_caramba_services_form
+msgid "Email"
+msgstr ""
+
+#. module: website_services
+#: model:ir.model.fields,field_description:website_services.field_product_service__id
+msgid "ID"
+msgstr ""
+
+#. module: website_services
+#: model_terms:ir.ui.view,arch_db:website_services.product_template_form_search
+msgid "In Landing Page"
+msgstr "En Landing Page"
+
+#. module: website_services
+#: model_terms:ir.ui.view,arch_db:website_services.product_template_form_view
+msgid "Landing Page"
+msgstr ""
+
+#. module: website_services
+#: model:ir.model.fields,field_description:website_services.field_product_service____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: website_services
+#: model:ir.model.fields,field_description:website_services.field_product_service__write_uid
+msgid "Last Updated by"
+msgstr "Última modificación  por"
+
+#. module: website_services
+#: model:ir.model.fields,field_description:website_services.field_product_service__write_date
+msgid "Last Updated on"
+msgstr "Última modificación  en"
+
+#. module: website_services
+#: model:ir.model.fields,field_description:website_services.field_product_service__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: website_services
+#: model:ir.model.fields,field_description:website_services.field_product_product__landig_page_published
+#: model:ir.model.fields,field_description:website_services.field_product_template__landig_page_published
+msgid "On Landing Page"
+msgstr "En Landing Page"
+
+#. module: website_services
+#: model_terms:ir.ui.view,arch_db:website_services.s_caramba_services_form
+msgid "Our Location"
+msgstr "Nuestra Ubicación"
+
+#. module: website_services
+#: model_terms:ir.ui.view,arch_db:website_services.s_caramba_services_team
+msgid "Our Team"
+msgstr "Nuestro equipo"
+
+#. module: website_services
+#: model_terms:ir.ui.view,arch_db:website_services.s_caramba_services_form
+msgid "Phone Number"
+msgstr "Télefono"
+
+#. module: website_services
+#: model:ir.model,name:website_services.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: website_services
+#: model:ir.model.fields,field_description:website_services.field_product_service__sequence
+msgid "Sequence"
+msgstr "Sequencia"
+
+#. module: website_services
+#: model:ir.actions.act_window,name:website_services.service_action
+#: model:ir.model,name:website_services.model_product_service
+#: model:ir.model.fields,field_description:website_services.field_product_product__service_ids
+#: model:ir.model.fields,field_description:website_services.field_product_template__service_ids
+#: model:ir.ui.menu,name:website_services.menu_sale_product_services
+#: model_terms:ir.ui.view,arch_db:website_services.product_service_view_form
+#: model_terms:ir.ui.view,arch_db:website_services.service_tree_view
+msgid "Service Components"
+msgstr "Componentes de Servicio"
+
+#. module: website_services
+#: model_terms:ir.ui.view,arch_db:website_services.s_caramba_services
+msgid "Services"
+msgstr "Servicios"
+
+#. module: website_services
+#: model_terms:ir.ui.view,arch_db:website_services.s_caramba_services_form
+msgid "Subject"
+msgstr "Asunto"
+
+#. module: website_services
+#: model_terms:ir.ui.view,arch_db:website_services.s_caramba_services_form
+msgid "Your Name"
+msgstr "Su nombre"
+
+#. module: website_services
+#: model_terms:ir.ui.view,arch_db:website_services.s_caramba_services_form
+msgid "Your Question"
+msgstr "Su pregunta"
