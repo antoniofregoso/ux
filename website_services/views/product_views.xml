@@ -23,7 +23,8 @@
 	        		<field name="service_ids" widget="many2many_tags"	  />
 	        	</group>   		
             	<group  >
-            	<group><field name="landig_page_published" /></group>
+            	<group><field name="landig_page_published" />
+            		<field name="show_price" /></group>
                 </group>
         	</xpath>
         </field>
