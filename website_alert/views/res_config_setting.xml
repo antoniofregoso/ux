@@ -16,6 +16,14 @@
                              	<div class="row">
                              		<label for="alert_color" string="Background Color" class="col-3 col-lg-3 o_light_label"/>
                                     <field name="alert_color" nolabel="1" widget="color"/>
+                                    <label for="alert_message_color" string="Background Color" class="col-3 col-lg-3 o_light_label"/>
+                                     <field name="alert_message_color" nolabel="1" widget="color"/>
+                             		<label for="alert_title" string="Title" class="col-3 col-lg-3 o_light_label"/>
+                                    <field name="alert_title" nolabel="1" />
+                             		<label for="alert_message1" string="Message 1" class="col-3 col-lg-3 o_light_label"/>
+                                    <field name="alert_message1" nolabel="1" />
+                             		<label for="alert_message2" string="Message 2" class="col-3 col-lg-3 o_light_label"/>
+                                    <field name="alert_message2" nolabel="1" />
                              	</div>
                             </div>
                          </div>
