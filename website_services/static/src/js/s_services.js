@@ -8,9 +8,6 @@ var publicWidget = require('web.public.widget');
 var _t = core._t;
 
 publicWidget.registry.js_get_services = publicWidget.Widget.extend({
-	jsLibs: [[
-        '/website_swiper/static/lib/js/swiper.min.js',
-    ]],
     selector: '.swiper-container',
     
     /**

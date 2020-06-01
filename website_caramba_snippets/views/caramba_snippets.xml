@@ -671,9 +671,7 @@
     </section>
 </template>
     
-    
- 
-    
+
      	<template id="caramba_snippets" inherit_id="website.snippets" >
 	    <xpath expr="//div[@id='snippet_structure']" position="after">
 	    	<div id="snippet_caramba" class="o_panel">
