@@ -8,7 +8,7 @@
     'website': "http://antoniofregoso.com",
 
     'category': 'Website/Website',
-    'version': '13.0.0.1.1',
+    'version': '13.0.0.4.0',
 
     
     'depends': ['website_caramba_snippets', 'website_sale', 'website_swiper'],

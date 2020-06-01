@@ -4,18 +4,12 @@
 
     'summary': "Integration of the swiper.js library",
 
-    'author': "Antonio Fregoso",
-    'website': "http://antoniofregoso.com",
+    'author': "COLOGNE WEBDESIGN",
+    'website': "https://swiperjs.com/",
     'category': 'website',
-    'version': '13.0.0.0.1',
+    'version': '13.0.0.1.0',
     'depends': ['website'],
     'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
         'views/templates.xml',
-    ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
     ],
 }

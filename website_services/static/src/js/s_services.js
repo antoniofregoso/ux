@@ -4,21 +4,23 @@ odoo.define('website_services.s_services.js', function (require) {
 var core = require('web.core');
 var wUtils = require('website.utils');
 var publicWidget = require('web.public.widget');
-//var swiper = require('website_swiper.SwiperRenderer')
 
 var _t = core._t;
 
 publicWidget.registry.js_get_services = publicWidget.Widget.extend({
+	jsLibs: [[
+        '/website_swiper/static/lib/js/swiper.min.js',
+    ]],
     selector: '.swiper-container',
-    disabledInEditableMode: true,
     
     /**
      * @override
      */
-    start: function () {
+    willStart: function () {
         var self = this;
         var template = self.$target.data('template') || 'website_services.s_services_template';
         var domain = [];
+        
         var prom = new Promise(function (resolve) {
    		 self._rpc({
                 route: '/services/get_services',
@@ -35,8 +37,10 @@ publicWidget.registry.js_get_services = publicWidget.Widget.extend({
    		 resolve(); 
    	 });
    	 return Promise.all([this._super.apply(this, arguments), prom]);
-    	
+   	 
     },
+    
+
     
     destroy: function () {
         this.$target.empty();

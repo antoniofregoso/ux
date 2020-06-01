@@ -1,0 +1,13 @@
+<odoo>
+
+    <template id="covid_19_banner" inherit_id="website.layout">
+        <xpath expr="//header" position="before">
+            <div class="alert alert-info container-fluid" role="alert" style="position: fixed; z-index: 1100;" id="pulsar-alert">	 
+            	  <h4 class="alert-heading">Well done! </h4>
+            	   <p class="text-center">Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+			 	 <p class="text-center">Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+			 </div>
+        </xpath>
+    </template>
+    
+</odoo>

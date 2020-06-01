@@ -5,7 +5,7 @@
     <xpath expr="//link[last()]" position="after">
           <link rel="stylesheet" type="text/scss" href="/website_swiper/static/lib/css/swiper.min.css"/>
          
-           <script type="text/javascript" src="/website_swiper/static/lib/js/swiper.min.js"/>   
+          
 	 </xpath>
 </template>
 

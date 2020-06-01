@@ -12,6 +12,18 @@
         	</xpath>
         </field>
     </record>
+    
+    <!-- Integration with product -->
+    <record model="ir.ui.view" id="product_template_multi_site_group_form_search">
+        <field name="name">product.template.product.multi.website.search</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_search_view"/>
+        <field name="arch" type="xml">
+        	<xpath expr="//filter[@name='type']" position="before">   
+        		<filter string="Website" name="website" context="{'group_by':'website_id'}"/>
+        	</xpath>
+        </field>
+    </record>
 
     <record model="ir.ui.view" id="product_template_form_view">
         <field name="name">product.template.product.website.form</field>
@@ -36,7 +48,8 @@
         <field name="arch" type="xml">
             <tree string="Service Components">
                 <field name="sequence" widget="handle"/>
-                <field name="name"/>
+                <field name="name"/>                
+               	<field name="website_id" options="{'no_create': True}" groups="website.group_multi_website"/>
             </tree>
         </field>
     </record>
@@ -48,6 +61,8 @@
             <form string="Service Components">
             	<sheet>   
                 	<field name="name"/>
+                	<field name="website_id" options="{'no_create': True}" groups="website.group_multi_website"/>
+                	<field name="sequence"/>
             	</sheet>
          </form>
          </field>
