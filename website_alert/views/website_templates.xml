@@ -4,13 +4,13 @@
         <xpath expr="//header" position="before">
             <div class="alert container-fluid" role="alert" t-att-style="'position: fixed; z-index: 1100; background-color: '+ website.alert_color + ';'" id="pulsar-alert">	 
             	  <h4 class="alert-heading text-center" t-field="website.alert_title" t-att-style="'color: ' + website.alert_message_color + ';'"/>
-            	  <div class="row  border-top pt-8">
-            	   <div class="col-sm-12 col-md-4 " style="height: 100px;">
+            	  <div class="row  border-top">
+            	   <div class="col-sm-12 col-md-4 pt-4" style="height: 100px;">
             	   	<div class="align-middle" style="width:200px; margin: auto;">
             	   		  <span  t-field="website.logo" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % website.name" t-att-title="website.name" />
             	   	</div>
             	   </div>
-            	   <div class="col-sm-12 col-md-8">
+            	   <div class="col-sm-12 col-md-8 pt-4">
 	            	   <p class="text-center" t-field="website.alert_message1"  t-att-style="'color: ' + website.alert_message_color + ';'"/>
 				 	   <p class="text-center" t-field="website.alert_message2"  t-att-style="'color: ' + website.alert_message_color + ';'"/>
 					</div>
