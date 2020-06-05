@@ -11,9 +11,12 @@
 </template>
  
 <template id="layout" name="Floating blogs menu" inherit_id="website_blog.blogs_nav">
-	 <xpath expr="//nav" position="replace">
+	<xpath expr="//nav" position="attributes">
+		<attribute name="t-attf-class" add="d-none d-md-block" separator=" "/>
+	</xpath>
+	 <xpath expr="//nav" position="after">
 		<div class="st-blog-menuContainer">
-		<div class="st-blog-actionContainer right-blog-bottom" id="blog_floating_button">
+		<div class="st-blog-actionContainer right-blog-bottom d-block d-md-none" id="blog_floating_button">
 			<div class="st-blog-panel navbar navbar-expand-md navbar-light bg-light">
 				<ul class="nav navbar-nav ml-auto text-right flex-column">
                 	<li class="nav-item">
