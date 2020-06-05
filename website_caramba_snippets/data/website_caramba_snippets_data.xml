@@ -36,7 +36,14 @@
             <field name="name">s_screen_logo.png</field>
             <field name="type">url</field>
             <field name="url">/website_caramba_snippets/static/src/img/s_screen_logo.png</field>
-        </record>      
+        </record>     
+        
+          <record id="website_caramba_snippets.s_cover" model="ir.attachment">
+            <field name="public" eval="True"/>
+            <field name="name">s_cover.jpg</field>
+            <field name="type">url</field>
+            <field name="url">/website_caramba_snippets/static/src/img/s_cover.jpg</field>
+        </record>     
     
     </data>
  </odoo>

@@ -73,19 +73,35 @@
 <template id="s_caramba_icons_cover" name="Icons Cover">
 	
     <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 pb96" data-scroll-background-ratio="1">
-        <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_cover_default_image'); background-position: 50% 0;"/>
+        <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website_caramba_snippets.s_cover'); background-position: 50% 0;"/>
         <div class="container">
         	 <div class="row s_nb_column_fixed crmb-100h">
                 <div class="col-lg-12 s_title" data-name="Title">
                     <h1 class="s_title_thin" style="font-size: 62px; text-align: center;">Catchy Headline</h1>
                 </div>
-                <div class="col-lg-12 s_text pt16 pb16" data-name="Text">
+                <div class="col-lg-12 s_text pt4 pb16" data-name="Text">
                     <p class="lead" style="text-align: center;">Write one or two paragraphs describing your product, services or a specific feature.<br/> To be successful your content needs to be useful to your readers.</p>
                 </div>
-                <div class="col-lg-12 s_btn text-center pt16 pb16" data-name="Buttons">
-                    <a href="/aboutus" class="btn btn-delta rounded-circle">About us</a>
-                    <a href="/contactus" class="btn btn-primary rounded-circle">Contact us</a>
+               <div class="col-lg-3 pt32  text-center">
+                    <i class="fa fa-5x fa-gear "/>
+                    <h3>First Feature</h3>
                 </div>
+               <div class="col-lg-3 pt32 text-center">
+                    <i class="fa fa-5x fa-gear "/>
+                    <h3>Second Feature</h3>
+                </div>
+               <div class="col-lg-3 pt32 text-center">
+                    <i class="fa fa-5x fa-gear "/>
+                    <h3>Third Feature</h3>
+                </div>
+               <div class="col-lg-3 pt32 text-center">
+                    <i class="fa fa-5x fa-gear "/>
+                    <h3>Fourth Feature</h3>
+                </div>
+                <div class="col-sm-12 text-right js_get_social" 
+                		data-template="website_caramba_snippets.s_social_template"/>
+               <a href="#" class="justify-content-center align-items-center rounded-circle mx-auto text-decoration-none" ><i class="fa fa-angle-down fa-3x text-white mx-auto"></i></a>
+               
             </div>
         </div>
      </section>
