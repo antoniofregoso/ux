@@ -1,0 +1,60 @@
+<odoo>
+
+	<record id="website_tags_cloud_form_view" model="ir.ui.view">
+            <field name="name">website.tags_cloud.form</field>
+            <field name="model">tags_cloud.tags_cloud</field>
+            <field name="arch" type="xml">
+                <form string="Tag Cloud">
+                    <sheet>
+                    	<field name="name"/>
+                    	<group>
+                    		<group string='Colors'>
+                    			<field name="background" widget="color"/>
+                    			<field name="transparency"/>
+                    			<field name="start" widget="color"/>
+                    			<field name="end" widget="color"/>
+                    			<field name="color"/>
+                    		</group>
+                    		<group string=''>
+                    			<field name="rotation_ratio"/>
+                    			<field name="print_multiplier"/>
+                    			<field name="sort"/>
+                    			<field name="shape"/>
+                    		</group>
+                    	</group>
+                        <label for="tag_ids" string="Tags"/>
+                        <field name="tags_ids"/>
+                    	
+                    </sheet>
+                </form>
+             </field>
+     </record>
+     
+      <record id="website_tags_cloud_tree_view" model="ir.ui.view">
+            <field name="name">website.tags_cloud.list</field>
+            <field name="model">tags_cloud.tags_cloud</field>
+            <field name="arch" type="xml">
+                <tree string="Tags Clouds" default_order="name">
+                	<field name="name"/>
+                    <field name="shape"/>
+                     <field name="write_date"/> 
+                </tree>
+            </field>
+      </record>
+      
+       <record id="action_website_tags_cloud" model="ir.actions.act_window">
+            <field name="name">Tags Clouds</field>
+            <field name="res_model">tags_cloud.tags_cloud</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="website_tags_cloud_tree_view"/>
+            <field name="target">current</field>
+        </record>
+
+	<menuitem name="Tags Clouds"
+            id="menu_website_tags_clouds"
+            action="action_website_tags_cloud"
+            parent="website.menu_website_global_configuration"
+            sequence="100"
+            />
+            
+</odoo>

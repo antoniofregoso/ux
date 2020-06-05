@@ -16,9 +16,6 @@ class Website(models.Model):
     cc_compact_icon = fields.Boolean('Compact icon', help="Normal icon: 88x31 px, compact icon: 80x15 px", default=False)
     
      
-    def get_blogs(self):
-        res = self.env['blog.blog'].sudo().search(['|',('website_id','=', self.id),('website_id', '=', False)])
-        return res
         
              
     def get_cc(self):
