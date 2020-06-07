@@ -316,3 +316,25 @@ h4{text-align:center;margin:30px 0;color:#444}
 .main-timeline5 .timeline-content:before,.main-timeline5 .timeline:nth-child(2n) .timeline-content:before{width:15px;height:25px;position:absolute;top:-22px;left:50%;z-index:-1;transform:translate(-50%,0)}
 }
 
+
+@include media-breakpoint-only(xs) { 
+	.crmb-tg-p h6 {font-size: 18px;}
+	.crmb-tg-p p {font-size: 17px;}
+}
+@include media-breakpoint-only(sm) { 
+	.crmb-tg-p h6 {font-size: 14px;}
+	.crmb-tg-p p {font-size: 13px;}
+}
+@include media-breakpoint-only(md) { 
+	.crmb-tg-p h6 {font-size: 12px;}
+	.crmb-tg-p p {font-size: 11px;}
+	
+}
+@include media-breakpoint-only(lg) { 
+	.crmb-tg-p h6 {font-size: 12px;}
+	.crmb-tg-p p {font-size: 11px;}
+}
+@include media-breakpoint-only(xl) { 
+	.crmb-tg-p h6 {font-size: 14px;}
+	.crmb-tg-p p {font-size: 13px;}
+}
