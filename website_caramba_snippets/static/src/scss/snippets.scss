@@ -86,6 +86,7 @@
 
 .crmb-tg-p  {
 	height: 300px;
+	display: table;
 	padding: 45px 8px 8px 8px;
 	color:White;
 
@@ -93,8 +94,17 @@
 
 .crmb-tg-p h6 {
 	text-align: center;
-	text-transform: uppercase ;
+	text-transform: uppercase ;	
+	display: table-header-group;
+	width: 100%;
 }
+
+.crmb-tg-p p {
+	display: table-cell;
+	vertical-align: middle;
+
+	}
+	
 
 
 .crmb-tg-h  {
