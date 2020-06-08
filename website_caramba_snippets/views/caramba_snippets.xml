@@ -17,14 +17,10 @@
                     <a href="/contactus" class="btn btn-primary rounded-circle">Contact us</a>
                 </div>     	
                 	<div class="row crmb-social">
-                		<div class="col"></div>
-                		<div class="col-sm-12 text-center">
-                			<a  href="#" class="mx-auto text-decoration-none">
-                           		<i class="fa fa-angle-down fa-3x d-block mx-auto"/>
-                        	</a>
-                		</div>
                 		<div class="col-sm-12 text-right js_get_social" 
                 		data-template="website_caramba_snippets.s_social_template"/>
+                		 <a href="#" class="crmb-down  justify-content-center align-items-center rounded-circle mx-auto text-decoration-none" ><i class="fa fa-angle-down fa-3x text-white mx-auto"></i></a>
+              
                 	</div>
 		      </div>
 		    </div>
@@ -47,14 +43,10 @@
                    	 	<p class="lead" style="text-align: center;">Write one or two paragraphs describing your product, services or a specific feature.<br/> To be successful your content needs to be useful to your readers.</p>
                 	</div>                	
                 	<div class="row crmb-social">
-                		<div class="col"></div>
-                		<div class="col-sm-12 text-center">
-                			<a  href="#" class="mx-auto text-decoration-none">
-                           		<i class="fa fa-angle-down fa-3x d-block mx-auto"/>
-                        	</a>
-                		</div>
                 		<div class="col-sm-12 text-right js_get_social" 
                 		data-template="website_caramba_snippets.s_social_template"/>
+                		<a href="#" class="crmb-down  justify-content-center align-items-center rounded-circle mx-auto text-decoration-none" ><i class="fa fa-angle-down fa-3x text-white mx-auto"></i></a>
+              
                 	</div>
     			</div>  
     		</div>
@@ -100,7 +92,7 @@
                 </div>
                 <div class="col-sm-12 text-right js_get_social" 
                 		data-template="website_caramba_snippets.s_social_template"/>
-               <a href="#" class="justify-content-center align-items-center rounded-circle mx-auto text-decoration-none" ><i class="fa fa-angle-down fa-3x text-white mx-auto"></i></a>
+               <a href="#" class="crmb-down  justify-content-center align-items-center rounded-circle mx-auto text-decoration-none" ><i class="fa fa-angle-down fa-3x text-white mx-auto"></i></a>
                
             </div>
         </div>
