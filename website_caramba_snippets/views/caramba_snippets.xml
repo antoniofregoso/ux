@@ -55,9 +55,44 @@
 
 <template id="s_caramba_form_cover" name="Form Cover">
     <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 pb96" data-scroll-background-ratio="1">
-        <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_cover_default_image'); background-position: 50% 0;"/>
-        <div class="container crmb-100h">
-        
+        <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website_caramba_snippets.s_form_cover'); background-position: 50% 0;"/>
+        <div class="container crmb-100h align-right">
+        <div class="row">
+        	<div class="col-lg-8 col-md-7 pr-5">
+        		 <div class="s_title" data-name="Title">
+                    <h1 class="s_title_thin" style="font-size: 62px; text-align: right;">Catchy Headline</h1>
+                </div>
+                <div class="col-lg-12 s_text pt4 pb16" data-name="Text">
+                    <p class="lead" style="text-align: right;">Write one or two paragraphs describing your product, services or a specific feature.<br/> To be successful your content needs to be useful to your readers.</p>
+                </div>     
+        	</div>
+        	<div class="col-lg-4 col-md-5">
+        		<form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you"  class="s_website_form container-fluid mt32 border border-white p-4" enctype="multipart/form-data">
+
+		                 	 <div class="form-group">
+		                 	 	 <label class="text-muted" for="contact_name">Your Name</label>
+      							 <input type="text" class="form-control o_website_form_input" name="contact_name" t-att-value="request.params.get('contact_name', '')" required=""/>
+		                 	 </div>
+		                 	 <div class="form-group ">
+		                 	  <label class="text-muted" for="email_from">Email</label>
+		                 	  <input type="text" class="form-control o_website_form_input" name="email_from" required="" t-att-value="request.params.get('email_from', '')"/>
+		                 	 </div>
+		                 	 <div class="form-group ">
+		                 	 	 <label class="text-muted" for="phone">Phone Number</label>
+		                 	 	 <input type="text" class="form-control o_website_form_input" name="phone" t-att-value="request.params.get('phone', '')"/>
+		                 	 </div>
+		                 	 <div class="text-center">
+		                  		<button type="submit" class="btn btn-primary btn-lg">Send Form</button>
+		                  		</div>
+		            </form>
+        	</div>
+        	</div>    	
+                	<div class="row crmb-social">
+                		<div class="col-sm-12 text-right js_get_social" 
+                		data-template="website_caramba_snippets.s_social_template"/>
+                		<a href="#" class="crmb-down  justify-content-center align-items-center rounded-circle mx-auto text-decoration-none" ><i class="fa fa-angle-down fa-3x text-white mx-auto"></i></a>
+              
+                	</div>
         </div>
      </section>
 </template>
@@ -92,7 +127,7 @@
                 </div>
                 <div class="col-sm-12 text-right js_get_social" 
                 		data-template="website_caramba_snippets.s_social_template"/>
-               <a href="#" class="crmb-down  justify-content-center align-items-center rounded-circle mx-auto text-decoration-none" ><i class="fa fa-angle-down fa-3x text-white mx-auto"></i></a>
+               <a href="#" class="crmb-down justify-content-center align-items-center rounded-circle mx-auto text-decoration-none" ><i class="fa fa-angle-down fa-3x text-white mx-auto"></i></a>
                
             </div>
         </div>

@@ -11,7 +11,9 @@
           animation-iteration-count: infinite;
           box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
           &:hover {
-                    background-color:  rgba(black, 0.7);}
+                    animation-name: crmb-down-animation-over;
+                   animation-duration: 2s;
+				}
 }
 
 @keyframes crmb-down-animation {
@@ -20,6 +22,12 @@
   100% {background-color: rgba(black, 0.5);}
 	
 }
+
+@keyframes crmb-down-animation-over {
+	0% {background-color: rgba(black, 0.5);}
+  100% {background-color: rgba(black, 0.7);}
+}
+
 .s-lp-video_cover {
   position: relative;
   background-color: black;
