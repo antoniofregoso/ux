@@ -8,7 +8,7 @@
     'author': "Antonio Fregoso",
     'website': "https://antoniofregoso.com",
     'category': 'Website/Website',
-    'version': '1.4,5',
+    'version': '1.5,5',
 
     'depends': ['website_pinterest'],
 

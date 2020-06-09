@@ -743,6 +743,15 @@
     
     </section>
 </template>
+
+	 <template id="s_map" name="Map">
+	 	    <section class="s_features pt32 pb32">
+	 	    <div class="container">
+	 	    	<h1 class="s_title_thin crmb-map-title" >Our Location</h1>
+	 	    </div>
+	 	<iframe class="container-fluid crmb-form-map" src="https://mapas.santerra.com.mx/conco.html" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
+	 	</section>
+	</template>
     
 
      	<template id="caramba_snippets" inherit_id="website.snippets" >
@@ -763,6 +772,7 @@
                 	  <t t-snippet="website_caramba_snippets.s_timeline" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_timeline_basic.png" />
                 	  <t t-snippet="website_caramba_snippets.s_timeline_modern" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_time_line_modern.png" />
                 	  <t t-snippet="website_caramba_snippets.s_timeline_road" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_time_line_road.png" />
+                	  <t t-snippet="website_caramba_snippets.s_map" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_map.png" />
                 	  
                 </div>
              </div>
