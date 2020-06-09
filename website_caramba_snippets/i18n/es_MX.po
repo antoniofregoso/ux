@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-06 02:45+0000\n"
-"PO-Revision-Date: 2020-04-05 21:51-0500\n"
+"POT-Creation-Date: 2020-06-09 18:03+0000\n"
+"PO-Revision-Date: 2020-06-09 13:17-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
 "Language: es_MX\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
@@ -61,6 +61,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
 msgid "09"
 msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline
+msgid "1 April, 2014"
+msgstr "Abril 1, 2014"
 
 #. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
@@ -118,6 +123,21 @@ msgid "20"
 msgstr ""
 
 #. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline
+msgid "21 000 Job Seekers"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline
+msgid "21 March, 2014"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline
+msgid "4 March, 2014"
+msgstr ""
+
+#. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.caramba_snippets
 msgid "<i class=\"fa fa-gears\"/> Caramba"
 msgstr ""
@@ -133,12 +153,44 @@ msgid "<span class=\"fa fa-caret-left\"/> Sub Title 4"
 msgstr "<span class=\"fa fa-caret-left\"/> Subtítulo 4"
 
 #. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline_road
+msgid "<span class=\"year\">2015</span>"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline_road
+msgid "<span class=\"year\">2016</span>"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline_road
+msgid "<span class=\"year\">2017</span>"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline_road
+msgid "<span class=\"year\">2018</span>"
+msgstr ""
+
+#. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_video_cover
 msgid "About us"
 msgstr "Sobre nosotros"
 
 #. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_portfolio
+msgid "Adipiscing Elit"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline
+msgid "Awesome Employers"
+msgstr ""
+
+#. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_3_images
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_form_cover
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_icons_cover
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_screen_cover
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_video_cover
 msgid "Catchy Headline"
@@ -150,9 +202,21 @@ msgid "Company team"
 msgstr "Equipo de la empresa"
 
 #. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_portfolio
+msgid "Consectetur"
+msgstr ""
+
+#. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_video_cover
 msgid "Contact us"
 msgstr "Contacta con nosotros"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline
+msgid ""
+"Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam "
+"pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin..."
+msgstr ""
 
 #. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic_2
@@ -160,9 +224,122 @@ msgid "Description"
 msgstr "Descripción"
 
 #. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_portfolio
+msgid "Dolor Sit Amet"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_form_cover
+msgid "Email"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_icons_cover
+msgid "First Feature"
+msgstr "Primer Atributo"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_icons_cover
+msgid "Fourth Feature"
+msgstr "Cuarto Atributo"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline
+msgid ""
+"Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, "
+"tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh..."
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline
+msgid "Latest News"
+msgstr "Últimas Noticias"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_portfolio
+msgid "Lorem Ipsum"
+msgstr ""
+
+#. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
 msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline_road
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi "
+"ultrices, luctus nunc ut, commodo enim. Vivamus sem erat."
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_portfolio
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra "
+"euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, "
+"adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu "
+"convallis placerat, felis enim."
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque "
+"scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas "
+"placerat facilisis mollis. Duis sagittis ligula in sodales vehicula...."
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline_modern
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate "
+"ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam "
+"voluptatum."
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline
+msgid "New Web Design"
+msgstr "Diseño Web Nuevo"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_portfolio
+msgid ""
+"Page Heading\n"
+"\t\t\t    <small>Secondary Text</small>"
+msgstr ""
+"Encabezado\n"
+"\t\t\t    <small>Texto Secundario</small>"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_form_cover
+msgid "Phone Number"
+msgstr "Teléfono"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_portfolio
+msgid "Project Description"
+msgstr "Descripción del Proyecto"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_portfolio
+msgid "Project Details"
+msgstr "Detalles del Proyecto"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_portfolio
+msgid "Related Projects"
+msgstr "Proyectos Relacionados"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_icons_cover
+msgid "Second Feature"
+msgstr "Segundo Atributo"
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_form_cover
+msgid "Send Form"
+msgstr "Envíar"
 
 #. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
@@ -200,13 +377,46 @@ msgid "Sub Title 4"
 msgstr "Subtítulo 4"
 
 #. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_icons_cover
+msgid "Third Feature"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline_modern
+msgid "Timeline Style : Demo-1"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline_road
+msgid "Timeline Style : Demo-5"
+msgstr ""
+
+#. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_infographic_2
 msgid "Title"
 msgstr "Título"
 
 #. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline_road
+msgid "Web Desginer"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline_modern
+msgid "Web Designer"
+msgstr ""
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline_modern
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_timeline_road
+msgid "Web Developer"
+msgstr "Desarrollador Web"
+
+#. module: website_caramba_snippets
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_3_images
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_form_cover
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_icons_cover
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_screen_cover
 #: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_video_cover
 msgid ""
@@ -217,3 +427,8 @@ msgstr ""
 "Escriba uno o dos párrafos que describan su producto, servicios o una "
 "característica específica. <br/> Para tener éxito, su contenido debe ser "
 "útil para sus lectores."
+
+#. module: website_caramba_snippets
+#: model_terms:ir.ui.view,arch_db:website_caramba_snippets.s_caramba_form_cover
+msgid "Your Name"
+msgstr "Su Nombre"
