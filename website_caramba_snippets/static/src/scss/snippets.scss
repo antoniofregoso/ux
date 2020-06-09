@@ -69,13 +69,37 @@
 }
 
 @media (pointer: coarse) and (hover: none) {
-  .s-lp-video_cover {
+  .s-lp-vc1 {
     background: url('/website_caramba_snippets/static/src/img/video_cover.png') black no-repeat center center scroll;
   }
-  .s-lp-video_cover video {
+  .s-lp-vc1 {
+    display: none;
+  }
+  .s-lp-vc2 {
+    background: url('/website_caramba_snippets/static/src/img/video_cover2.png') black no-repeat center center scroll;
+  }
+  .s-lp-vc2 {
+    display: none;
+  }
+  .s-lp-vc3 {
+    background: url('/website_caramba_snippets/static/src/img/video_cover3.png') black no-repeat center center scroll;
+  }
+  .s-lp-vc3 {
+    display: none;
+  }
+  .s-lp-vc4 {
+    background: url('/website_caramba_snippets/static/src/img/video_cover4.png') black no-repeat center center scroll;
+  }
+  .s-lp-vc4 {
     display: none;
   }
 }
+  .s-lp-vc5 {
+    background: url('/website_caramba_snippets/static/src/img/video_cover5.png') black no-repeat center center scroll;
+  }
+  .s-lp-vc5 {
+    display: none;
+  }
 
 .crmb-100h {	
     height: 90vh;

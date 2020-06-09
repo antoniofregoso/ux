@@ -36,7 +36,7 @@ class ProductTemplate(models.Model):
     
     landig_page_published = fields.Boolean('On Landing Page', default=False)
     show_price = fields.Boolean('Show Price', default=True)
-    service_ids = fields.Many2many('product.service', relation='product_service_combination', string="Service Components", ondelete='restrict')
+    service_ids = fields.Many2many('product.service', relation='product_service_combination', string="Service Components", domain="['|',('website_id', '=?', website_id),('website_id', '=', False)]", ondelete='restrict')
     
 
 
