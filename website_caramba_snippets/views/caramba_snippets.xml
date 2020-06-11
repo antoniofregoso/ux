@@ -747,39 +747,137 @@
 	 <template id="s_map" name="Map">
 	 	    <section class="s_features pt32 pb32">
 	 	    <div class="container">
-	 	    	<h1 class="s_title_thin crmb-map-title" >Our Location</h1>
+	 	    	<h1  style="text-align: center;">Our Location</h1>
 	 	    </div>
+	 	    <address  style="margin:auto; width:300px; padding-left:10px;" >
+	 	    	 <span t-field="res_company.name"/><br />
+	 	    	 <span t-field="res_company.street"/> <span t-field="res_company.street2"/><br />
+	 	    	  <span t-field="res_company.state_id"/>, <span t-field="res_company.state_id"/><br />
+	 	    	  <span t-field="res_company.country_id"/>, <span t-field="res_company.zip"/><br />
+	 	    </address>
 	 	<iframe class="container-fluid crmb-form-map" src="https://mapas.santerra.com.mx/conco.html" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
 	 	</section>
 	</template>
+	
+	<template id="s_caramba_text_progress" name="Text - Progress">
+    <section class="pt32 pb32">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pt16 pb16">
+                    <h2>A Section Subtitle</h2>
+                    <p>Write one or two paragraphs describing your product or services. <br/>To be successful your content needs to be useful to your readers.</p>
+                    <p>Start with the customer – find out what they want and give it to them.</p>
+                    
+                </div>
+                <div class="col-lg-6 pt16 pb16">
+	                <span>Attribute 1</span>
+	                <div class="progress">
+					  	<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>Attribute 2</span>
+	                <div class="progress">
+					  	<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>Attribute 3</span>
+	                <div class="progress">
+					  	<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>Attribute 4</span>
+	                <div class="progress">
+					  	<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>Attribute 5</span>
+	                <div class="progress">
+					  	<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<template id="s_caramba_progress_text" name="Progress - Text">
+    <section class="pt32 pb32">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pt16 pb16">
+                	<span>Attribute 1</span>
+	                <div class="progress">
+					  	<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>Attribute 2</span>
+	                <div class="progress">
+					  	<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>Attribute 3</span>
+	                <div class="progress">
+					  	<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>Attribute 4</span>
+	                <div class="progress">
+					  	<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>Attribute 5</span>
+	                <div class="progress">
+					  	<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+                  
+                   
+                </div>
+                <div class="col-lg-6 pt16 pb16">
+                    <h2>Section Subtitle</h2>
+                    <p>Write one or two paragraphs describing your product or services. <br/>To be successful your content needs to be useful to your readers.</p>
+                    <p>Start with the customer – find out what they want and give it to them.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
     
 
      	<template id="caramba_snippets" inherit_id="website.snippets" >
-	    <xpath expr="//div[@id='snippet_structure']" position="after">
-	    	<div id="snippet_caramba" class="o_panel">
-                <div class="o_panel_header">
-                    <i class="fa fa-gears"/> Caramba
-                </div>
-                <div class="o_panel_body">
+     	<xpath expr="//div[@id='snippet_structure']//t[@t-snippet]['website.s_cover']" position="before">     	
                 	  <t t-snippet="website_caramba_snippets.s_caramba_video_cover" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_video_cover.png" />                	  
                 	  <t t-snippet="website_caramba_snippets.s_caramba_screen_cover" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_screen_cover.png" />     
                 	   <t t-snippet="website_caramba_snippets.s_caramba_form_cover" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_form_cover.png" />    
-                	   <t t-snippet="website_caramba_snippets.s_caramba_icons_cover" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_icons_cover.png" />                        	  
+                	   <t t-snippet="website_caramba_snippets.s_caramba_icons_cover" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_icons_cover.png" />        
+     	</xpath>
+     	<xpath expr="//div[@id='snippet_structure']//t[@t-snippet][last()]" position="after">  
+                	  <t t-snippet="website_caramba_snippets.s_caramba_3_images" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_3_images.png" />	                	  
                 	  <t t-snippet="website_caramba_snippets.s_caramba_infographic_2" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_infographic_2.png" />
-                	  <t t-snippet="website_caramba_snippets.s_caramba_infographic" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_infographic.png" />                	  
-                	  <t t-snippet="website_caramba_snippets.s_caramba_3_images" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_3_images.png" />
-                	  <t t-snippet="website_caramba_snippets.s_caramba_portfolio" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_portfolio.png" />
+                	  <t t-snippet="website_caramba_snippets.s_caramba_infographic" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_infographic.png" />      
                 	  <t t-snippet="website_caramba_snippets.s_timeline" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_timeline_basic.png" />
                 	  <t t-snippet="website_caramba_snippets.s_timeline_modern" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_time_line_modern.png" />
                 	  <t t-snippet="website_caramba_snippets.s_timeline_road" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_time_line_road.png" />
-                	  <t t-snippet="website_caramba_snippets.s_map" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_map.png" />
-                	  
-                </div>
-             </div>
-         </xpath>
+     	</xpath>
+     	<xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">
+     					<t t-snippet="website_caramba_snippets.s_caramba_text_progress" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_portfolio.png" />
+     				 <t t-snippet="website_caramba_snippets.s_caramba_progress_text" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_portfolio.png" /> 
+                	  <t t-snippet="website_caramba_snippets.s_caramba_portfolio" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_portfolio.png" /> 
+                	  <t t-snippet="website_caramba_snippets.s_map" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_map.png" />	   
+     	</xpath>
         </template>
         
-
+	<!-- Snippets' Options -->
+	<template id="s_caramba_options" inherit_id="website.snippet_options">
+		<xpath expr="//div[@data-js='background']" position="before">
+			<div data-selector=".s-lp-video_cover">
+				<we-collapse-area>
+	            <we-toggler><i class="fa fa-fw fa-photo"/> Change video on mobile</we-toggler>
+		            <we-collapse>
+		            	<we-button data-select-class="">None</we-button>
+		            	<we-button data-select-class="s-lp-vc1">Image 1</we-button>
+		            	<we-button data-select-class="s-lp-vc2">Image 2</we-button>
+		            	<we-button data-select-class="s-lp-vc3">Image 3</we-button>
+		            	<we-button data-select-class="s-lp-vc4">Image 4</we-button>
+		            	<we-button data-select-class="s-lp-vc5">Image 5</we-button>
+		            </we-collapse>
+	            </we-collapse-area>
+			</div>
+		</xpath>	
+	</template>
 
 
 

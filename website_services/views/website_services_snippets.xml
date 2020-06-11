@@ -139,7 +139,7 @@
 
 
      <template id="website_services_snippets" inherit_id="website.snippets" >
-	    <xpath expr="//div[@id='snippet_caramba']/div[hasclass('o_panel_body')]" position="inside">	    	
+	    <xpath expr="//div[@id='snippet_feature']/div[hasclass('o_panel_body')]" position="inside">	    	
         	<t t-snippet="website_services.s_caramba_services" t-thumbnail="/website_services/static/src/img/snippets_thumbs/block_services.png" />                	  
             <t t-snippet="website_services.s_caramba_services_form" t-thumbnail="/website_services/static/src/img/snippets_thumbs/block_services_form.png" />  
             <t t-snippet="website_services.s_caramba_services_team" t-thumbnail="/website_services/static/src/img/snippets_thumbs/block_services_team.png" />    
