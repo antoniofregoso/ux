@@ -6,7 +6,7 @@
 
 
 
-    'author': "Antonio Fregoso  & Russ Porosky",
+    'author': "Antonio Fregoso",
     'website': "http://antoniofregoso.com",
 
 
@@ -14,7 +14,7 @@
     'version': '0.1.0',
 
   
-    'depends': ['website'],
+    'depends': ['website_caramba_snippets'],
 
 
     'data': [

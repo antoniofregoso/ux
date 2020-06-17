@@ -33,8 +33,8 @@
 
 <!-- Snippets' Options -->
 <template id="s_tags_cloud_options" inherit_id="website.snippet_options">
-    <xpath expr="//div[@data-js='background']" position="before">
-    	<div data-js="s_tags_cloud_select" data-selector=".s_tag_cloud" data-target=".js_get_tags" data-no-check="true">
+     <xpath expr="//div[@data-js='background']" position="before">
+    	<div data-js="s_tags_cloud_select" data-selector=".s_tags_cloud" data-target=".js_get_tags" data-no-check="true">
     		<we-collapse-area>
     			 <we-toggler><i class="fa fa-folder-open"/> Choose a tags cloud</we-toggler>
     			 	<we-collapse data-no-preview="true">
