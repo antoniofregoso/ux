@@ -1,0 +1,348 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_tags_cloud
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-17 16:36+0000\n"
+"PO-Revision-Date: 2020-06-17 11:46-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,help:website_tags_cloud.field_tags_cloud_tags_cloud__sort
+msgid ""
+" \"highest\" to show big words first, \"lowest\" to do small words first, "
+"\"random\" to not care"
+msgstr ""
+"\"más alto\" para mostrar las palabras grandes primero, \"más bajo\" para "
+"hacer las palabras pequeñas primero, \"aleatorio\" para que no le importe"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,help:website_tags_cloud.field_tags_cloud_tags_cloud__rotation_ratio
+msgid "0 is all horizontal, 1 is all vertical"
+msgstr "0 es todo horizontal, 1 es todo vertical"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__rotation_ratio__0_1
+msgid "0.1"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__rotation_ratio__0_2
+msgid "0.2"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__rotation_ratio__0_3
+msgid "0.3"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__rotation_ratio__0_4
+msgid "0.4"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__rotation_ratio__0_5
+msgid "0.5"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__rotation_ratio__0_6
+msgid "0.6"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__rotation_ratio__0_7
+msgid "0.7"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__rotation_ratio__0_8
+msgid "0.8"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__rotation_ratio__0_9
+msgid "0.9"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model_terms:ir.ui.view,arch_db:website_tags_cloud.s_tags_cloud
+msgid "<font style=\"font-size: 62px;\">Tags Cloud</font>"
+msgstr "<font style=\"font-size: 62px;\">Nube de Etiquetas</font>"
+
+#. module: website_tags_cloud
+#: model_terms:ir.ui.view,arch_db:website_tags_cloud.s_tags_cloud_options
+msgid "<i class=\"fa fa-folder-open\"/> Choose a tags cloud"
+msgstr "<i class=\"fa fa-folder-open\"/> Escoge una nube de etiquetas"
+
+#. module: website_tags_cloud
+#: model_terms:ir.ui.view,arch_db:website_tags_cloud.s_tags_cloud_options
+msgid "<i class=\"fa fa-fw fa-eyedropper\"/> Color"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__shape__circle
+msgid "Circle"
+msgstr "Circulo"
+
+#. module: website_tags_cloud
+#: model_terms:ir.ui.view,arch_db:website_tags_cloud.website_cloud_form_view
+#: model_terms:ir.ui.view,arch_db:website_tags_cloud.website_tag_form_view
+msgid "Cloud"
+msgstr "Nube"
+
+#. module: website_tags_cloud
+#: model:ir.actions.act_window,name:website_tags_cloud.action_website_cloud
+#: model:ir.ui.menu,name:website_tags_cloud.menu_website_clouds
+#: model_terms:ir.ui.view,arch_db:website_tags_cloud.website_cloud_tree_view
+msgid "Clouds"
+msgstr "Nubes"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__color
+msgid "Color"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model_terms:ir.ui.view,arch_db:website_tags_cloud.website_cloud_form_view
+msgid "Colors"
+msgstr "Colores"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tag__create_uid
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tag__create_date
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__shape__diamond
+msgid "Diamond"
+msgstr "Diamante"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tag__display_name
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__display_name
+msgid "Display Name"
+msgstr "Mostrar Nombre"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__end
+msgid "End"
+msgstr "Fin"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__font_h2
+msgid "Font Max Height"
+msgstr "Altura Máxima"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__font_h1
+msgid "Font Min Height"
+msgstr "Altura Mínima"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__color__gradient
+msgid "Gradient"
+msgstr "Gradiente"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__sort__highest
+msgid "Highest"
+msgstr "Mas alta"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tag__id
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__id
+msgid "ID"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tag____last_update
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tag__write_uid
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tag__write_date
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__sort__lowest
+msgid "Lowest"
+msgstr "Más bajo"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,help:website_tags_cloud.field_tags_cloud_tags_cloud__font_h2
+msgid "Maximum height"
+msgstr "Altura máxima"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,help:website_tags_cloud.field_tags_cloud_tags_cloud__font_h1
+msgid "Minimun height"
+msgstr "Altura mínima"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tag__name
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: website_tags_cloud
+#: model_terms:ir.ui.view,arch_db:website_tags_cloud.s_tags_cloud_options
+msgid "None"
+msgstr "Ninguna"
+
+#. module: website_tags_cloud
+#: model_terms:ir.ui.view,arch_db:website_tags_cloud.website_cloud_form_view
+msgid "Options"
+msgstr "Opciones"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__shape__pentagon
+msgid "Pentagon"
+msgstr "Pentágono"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tag__percentile
+msgid "Percentile"
+msgstr "Percentil"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__sort__random
+msgid "Random"
+msgstr "Aleatoria"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__color__random-dark
+msgid "Random Dark"
+msgstr "Aleatorio Oscuro"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__color__random-light
+msgid "Random Light"
+msgstr "Aleatorio Claro"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__rotation_ratio
+msgid "Rotation"
+msgstr "Rotación"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__shape
+msgid "Shape"
+msgstr "Forma"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__sort
+msgid "Sort"
+msgstr "Ordenar"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__shape__square
+msgid "Square"
+msgstr "Cuadrado"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__shape__star
+msgid "Star"
+msgstr "Estrella"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__start
+msgid "Start"
+msgstr "Comienzo"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tag__style
+msgid "Style"
+msgstr "Estilo"
+
+#. module: website_tags_cloud
+#: model:ir.actions.act_window,name:website_tags_cloud.action_website_tag
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__tags_ids
+#: model:ir.ui.menu,name:website_tags_cloud.menu_website_tags
+#: model_terms:ir.ui.view,arch_db:website_tags_cloud.website_cloud_form_view
+#: model_terms:ir.ui.view,arch_db:website_tags_cloud.website_tag_tree_view
+msgid "Tags"
+msgstr "Etiqueta"
+
+#. module: website_tags_cloud
+#: model:ir.model,name:website_tags_cloud.model_tags_cloud_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tag__tags_cloud_id
+msgid "Tags Cloud"
+msgstr "Nube de Etiquetas"
+
+#. module: website_tags_cloud
+#: model:ir.model,name:website_tags_cloud.model_tags_cloud_tag
+msgid "Tags Cloud Tag"
+msgstr "Etiqueta"
+
+#. module: website_tags_cloud
+#: model:ir.ui.menu,name:website_tags_cloud.menu_website_tags_clouds
+msgid "Tags Clouds"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__shape__triangle
+msgid "Triangle"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields.selection,name:website_tags_cloud.selection__tags_cloud_tags_cloud__shape__triangle-forward
+msgid "Triangle Forward"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tag__url
+msgid "URL"
+msgstr ""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,field_description:website_tags_cloud.field_tags_cloud_tags_cloud__website_id
+msgid "Website"
+msgstr "Sirio web"
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,help:website_tags_cloud.field_tags_cloud_tags_cloud__website_id
+msgid "Website where it will be located."
+msgstr "Sitio web donde se ubicará."
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,help:website_tags_cloud.field_tags_cloud_tags_cloud__end
+msgid "color of the largest font, if options.color = \"gradient\""
+msgstr "color de la fuente más grande, si options.color = \"gradiente\""
+
+#. module: website_tags_cloud
+#: model:ir.model.fields,help:website_tags_cloud.field_tags_cloud_tags_cloud__start
+msgid "color of the smallest font, if options.color = \"gradient\""
+msgstr "color de la fuente más pequeña, si options.color = \"gradiente\""
+
+#. module: website_tags_cloud
+#: model_terms:ir.ui.view,arch_db:website_tags_cloud.website_cloud_form_view
+msgid "font"
+msgstr "Fuente"
