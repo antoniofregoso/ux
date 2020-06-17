@@ -1,40 +1,59 @@
 <odoo>
 
-	<record id="website_tags_cloud_form_view" model="ir.ui.view">
-            <field name="name">website.tags_cloud.form</field>
+<!-- Main -->
+
+	<menuitem name="Tags Clouds"
+            id="menu_website_tags_clouds"
+            parent="website.menu_website_global_configuration"
+            sequence="100"
+            />
+            
+            
+<!-- Cloud -->
+	<record id="website_cloud_form_view" model="ir.ui.view">
+            <field name="name">website.cloud.form</field>
             <field name="model">tags_cloud.tags_cloud</field>
             <field name="arch" type="xml">
-                <form string="Tag Cloud">
+                <form string="Cloud">
                     <sheet>
-                    	<field name="name"/>
+                    	<group>
+                    		<group><field name="name"/></group>
+                    		<group><field name="website_id"/></group>
+                    	</group>
                     	<group>
                     		<group string='Colors'>
-                    			<field name="background" widget="color"/>
-                    			<field name="transparency"/>
                     			<field name="start" widget="color"/>
                     			<field name="end" widget="color"/>
                     			<field name="color"/>
                     		</group>
-                    		<group string=''>
+                    		<group string='Options'>
                     			<field name="rotation_ratio"/>
-                    			<field name="print_multiplier"/>
                     			<field name="sort"/>
                     			<field name="shape"/>
+                    		</group>                    		
+                    		<group string='font'>
+                    			<field name="font_h1"/>
+                    			<field name="font_h2"/>
                     		</group>
                     	</group>
                         <label for="tag_ids" string="Tags"/>
-                        <field name="tags_ids"/>
-                    	
+                        <field name="tags_ids" >
+                        	 <tree string="Tags" editable="bottom">
+                                	 <field name="name"/>
+                    				<field name="percentile"/>
+                                  	<field name="url"/>
+                                  	</tree>
+                                </field>
                     </sheet>
                 </form>
              </field>
      </record>
      
-      <record id="website_tags_cloud_tree_view" model="ir.ui.view">
-            <field name="name">website.tags_cloud.list</field>
+      <record id="website_cloud_tree_view" model="ir.ui.view">
+            <field name="name">website.cloud.list</field>
             <field name="model">tags_cloud.tags_cloud</field>
             <field name="arch" type="xml">
-                <tree string="Tags Clouds" default_order="name">
+                <tree string="Clouds" default_order="name">
                 	<field name="name"/>
                     <field name="shape"/>
                      <field name="write_date"/> 
@@ -42,19 +61,74 @@
             </field>
       </record>
       
-       <record id="action_website_tags_cloud" model="ir.actions.act_window">
-            <field name="name">Tags Clouds</field>
+       <record id="action_website_cloud" model="ir.actions.act_window">
+            <field name="name">Clouds</field>
             <field name="res_model">tags_cloud.tags_cloud</field>
             <field name="view_mode">tree,form</field>
-            <field name="view_id" ref="website_tags_cloud_tree_view"/>
+            <field name="view_id" ref="website_cloud_tree_view"/>
             <field name="target">current</field>
         </record>
-
-	<menuitem name="Tags Clouds"
-            id="menu_website_tags_clouds"
-            action="action_website_tags_cloud"
-            parent="website.menu_website_global_configuration"
-            sequence="100"
+        
+     <menuitem name="Clouds"
+            id="menu_website_clouds"
+            action="action_website_cloud"
+            parent="menu_website_tags_clouds"
+            sequence="1"
             />
-            
+
+<!-- Tags -->
+
+	<record id="website_tag_form_view" model="ir.ui.view">
+            <field name="name">website.tag.form</field>
+            <field name="model">tags_cloud.tag</field>
+            <field name="arch" type="xml">
+                <form string="Cloud">
+                    <sheet>
+                    	<group>
+                    		<group>
+			                	<field name="name"/>
+			                    <field name="percentile"/>
+                    		</group>
+                    		<group>
+			                	<field name="url"/>
+			                    <field name="tags_cloud_id"/>
+                    		</group>
+                    	</group>
+                    </sheet>
+                 </form>
+             </field>
+    </record>
+    
+    
+          <record id="website_tag_tree_view" model="ir.ui.view">
+            <field name="name">website.tag.list</field>
+            <field name="model">tags_cloud.tag</field>
+            <field name="arch" type="xml">
+                <tree string="Tags" default_order="name">
+                	<field name="name"/>
+                    <field name="percentile"/>
+                    <field name="url"/>
+                     <field name="tags_cloud_id"/>   
+                </tree>
+             </field>
+          </record>
+          
+          
+       <record id="action_website_tag" model="ir.actions.act_window">
+            <field name="name">Tags</field>
+            <field name="res_model">tags_cloud.tag</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="website_tag_tree_view"/>
+            <field name="target">current</field>
+        </record>
+        
+     <menuitem name="Tags"
+            id="menu_website_tags"
+            action="action_website_tag"
+            parent="menu_website_tags_clouds"
+            sequence="2"
+            />
+
+
+
 </odoo>

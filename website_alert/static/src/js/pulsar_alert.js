@@ -9,7 +9,7 @@ publicWidget.registry.PulsarAlert = publicWidget.Widget.extend({
     ]],
 	selector: '#pulsar-alert',
     disabledInEditableMode: true,
-	start: function () {
+    start: function () {
 		$('#pulsar-alert').fadeIn( 3000 ).pulsate({reach:100, color:"#ff0000"}).delay( 3000 ).slideUp( 300 );
 
 	},

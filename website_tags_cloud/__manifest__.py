@@ -11,16 +11,17 @@
 
 
     'category': 'website',
-    'version': '13.0.0.0.0',
+    'version': '0.1.0',
 
   
-    'depends': ['website_caramba_snippets'],
+    'depends': ['website'],
 
 
     'data': [
         'security/ir.model.access.csv',
         'views/website_tags_cloud_views.xml',
         'views/website_tags_cloud_snippets.xml',
+        'views/website_tags_cloud_templates.xml',
     ],
 
     'demo': [

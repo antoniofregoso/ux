@@ -1,26 +1,32 @@
 <odoo>
 
 <template id="s_tags_cloud" name="Tags Cloud">
-    <section class="s_tag_cloud pt16 pb16">
+    <section class="s_tags_cloud pt16 pb16">
         <div class="container">
             <div class="row s_nb_column_fixed">
                 <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
                     <h1 class="s_title_thin"><font style="font-size: 62px;">Tags Cloud</font></h1>
                 </div>
             </div>
-            <div class="row s_col_no_bgcolor s_nb_column_fixed js_get_tags"
-                data-loading="true"
-                data-template="website_tags_cloud.s_tags_cloud_template"/>
+            <div class="row s_nb_column_fixed"/>
+                <div id="crmb-tag-cloud" class="col-12 js_get_tags" data-loading="true"
+                data-template="website_tags_cloud.s_tags_cloud_template">
+                </div>
         </div>
     </section>
 </template>
 
 <template id="s_tags_cloud_template">
-	<div id="tagcloud" class="wordcloud"/>
+	 <t t-foreach="tags" t-as="tg">
+		<span t-att-style="tg.style">
+			<t t-if="tg.url!=False"><a t-att-href="tg.url" t-att-style="tg.style"><t  t-esc="tg.name"/></a></t>	
+			<t t-else=""><t  t-esc="tg.name"/></t>
+		</span>
+	</t>
 </template>
 
 <template id="website_tags_cloud" inherit_id="website.snippets" name="Snippet Tags Cloud">
-      <xpath expr="//div[@id='snippet_caramba']/div[hasclass('o_panel_body')]" position="inside">	
+     <xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">	
         <t t-snippet="website_tags_cloud.s_tags_cloud" t-thumbnail="/website_tags_cloud/static/src/img/s_tags_cloud.png"/>
     </xpath>
 </template>
@@ -28,10 +34,11 @@
 <!-- Snippets' Options -->
 <template id="s_tags_cloud_options" inherit_id="website.snippet_options">
     <xpath expr="//div[@data-js='background']" position="before">
-    	<div data-js="js_get_tags_clouds" data-selector=".s_tag_cloud" data-target=".js_get_tags" data-no-check="true">
+    	<div data-js="s_tags_cloud_select" data-selector=".s_tag_cloud" data-target=".js_get_tags" data-no-check="true">
     		<we-collapse-area>
     			 <we-toggler><i class="fa fa-folder-open"/> Choose a tags cloud</we-toggler>
     			 	<we-collapse data-no-preview="true">
+    			 		<we-button data-filter-by-cloud-id="0">None</we-button>
     			 		  <!-- the tags clouds list will be generated in js -->
     			 	</we-collapse>
     		</we-collapse-area>

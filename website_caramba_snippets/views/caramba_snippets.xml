@@ -749,11 +749,11 @@
 	 	    <div class="container">
 	 	    	<h1  style="text-align: center;">Our Location</h1>
 	 	    </div>
-	 	    <address  style="margin:auto; width:300px; padding-left:10px;" >
-	 	    	 <span t-field="res_company.name"/><br />
-	 	    	 <span t-field="res_company.street"/> <span t-field="res_company.street2"/><br />
-	 	    	  <span t-field="res_company.state_id"/>, <span t-field="res_company.state_id"/><br />
-	 	    	  <span t-field="res_company.country_id"/>, <span t-field="res_company.zip"/><br />
+	 	    <address  class="row" >
+	 	    	 <div t-field="res_company.name"/>
+	 	    	 <div t-field="res_company.street"/> <div t-field="res_company.street2"/>
+	 	    	  <div t-field="res_company.state_id"/> <div t-field="res_company.state_id"/>
+	 	    	  <div t-field="res_company.country_id"/> <div t-field="res_company.zip"/>
 	 	    </address>
 	 	<iframe class="container-fluid crmb-form-map" src="https://mapas.santerra.com.mx/conco.html" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
 	 	</section>
@@ -853,9 +853,9 @@
                 	  <t t-snippet="website_caramba_snippets.s_timeline_road" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_time_line_road.png" />
      	</xpath>
      	<xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">
-     					<t t-snippet="website_caramba_snippets.s_caramba_text_progress" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_portfolio.png" />
-     				 <t t-snippet="website_caramba_snippets.s_caramba_progress_text" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_portfolio.png" /> 
                 	  <t t-snippet="website_caramba_snippets.s_caramba_portfolio" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_portfolio.png" /> 
+     				 <t t-snippet="website_caramba_snippets.s_caramba_text_progress" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_portfolio.png" />
+     				 <t t-snippet="website_caramba_snippets.s_caramba_progress_text" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_portfolio.png" /> 
                 	  <t t-snippet="website_caramba_snippets.s_map" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/block_map.png" />	   
      	</xpath>
         </template>

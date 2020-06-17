@@ -1,5 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_tags_cloud_public,tags_cloud_public,model_tags_cloud_tags_cloud,,1,0,0,0
 access_tag_designer,tags_cloud_designer,model_tags_cloud_tags_cloud,website.group_website_designer,1,1,1,1
-access_tag_item_public,tags_cloud_item_public,model_tags_cloud_item,,1,0,0,0
-access_tag_item_designer,tags_cloud_item_designer,model_tags_cloud_item,website.group_website_designer,1,1,1,1
+access_tag_item_public,tags_cloud_item_public,model_tags_cloud_tag,,1,0,0,0
+access_tag_item_designer,tags_cloud_item_designer,model_tags_cloud_tag,website.group_website_designer,1,1,1,1
