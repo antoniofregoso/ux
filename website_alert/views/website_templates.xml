@@ -2,7 +2,7 @@
 
     <template id="covid_19_banner" inherit_id="website.layout">
         <xpath expr="//header" position="before">
-            <div class="alert container-fluid" role="alert" t-att-style="'position: fixed; z-index: 1100; background-color: '+ website.alert_color + ';'" id="pulsar-alert">	 
+            <div class="alert container-fluid" role="alert" t-att-style="'position: fixed; z-index: 100; background-color: '+ website.alert_color + ';'" id="pulsar-alert">	 
            	  <div class="row  ">
             	   <div class="col-sm-12 col-md-4 pt-4" style="height: 100px;">
             	   	<div class="align-middle" style="width:200px; margin: auto;">
