@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="assets_frontend" inherit_id="portal.assets_frontend" name="blog Floating Menu  Front-end assets">
+    <xpath expr="//link[last()]" position="after">
+        <link rel="stylesheet" type="text/scss" href="/website_loading_spinner/static/src/scss/loading_spinner.scss"/>
+        <script type="text/javascript" src="/website_loading_spinner/static/src/js/loading_spinner.js"></script> 
+	 </xpath>
+
+</template>
+
+<template id="website_loading_spinner_template" name="Loading Spinner" inherit_id="website.user_navbar">
+	<xpath expr="//nav" position="before">
+	<div class="modal fade" id="crmb-loader" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content bg-transparent border-0">
+     	<div t-att-class="website.loader_style">Loading...</div>
+    </div>
+  </div>
+</div>
+</xpath>
+</template>
+
+
+
+</odoo>
