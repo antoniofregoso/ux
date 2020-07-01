@@ -8,7 +8,7 @@ var publicWidget = require('web.public.widget');
 var _t = core._t;
 
 publicWidget.registry.js_get_services = publicWidget.Widget.extend({
-    selector: '.swiper-container',
+    selector: '.crmb-services',
     
     /**
      * @override
