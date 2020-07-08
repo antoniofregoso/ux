@@ -41,7 +41,7 @@
 	    </div>
 	     <div class="swiper-pagination"></div>
 	     <script>
-     var swiper = new Swiper('.swiper-container', {
+     var swiper = new Swiper('.crmb-services', {
             effect: 'coverflow',
             grabCursor: true,
             centeredSlides: true,
