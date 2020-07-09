@@ -10,7 +10,6 @@ publicWidget.registry.swiperCoverflow = publicWidget.Widget.extend({
    start: function () {
     	var self = this;
     	var config = document.getElementById('swiper-coverflow');
-    	// base swipper
     	var swiperStyle = {
     	      effect: 'coverflow',
     	      grabCursor: true,
@@ -59,7 +58,7 @@ publicWidget.registry.swiperCoverflow = publicWidget.Widget.extend({
     	      };
     	}
     	
-    	var swiper = new Swiper('.re-units', 
+    	var swiper = new Swiper(config.dataset.container, 
     			swiperStyle);
     },
     
