@@ -10,7 +10,7 @@
 
 
     'category': 'website/website',
-    'version': '13.0.0.0.1',
+    'version': '13.0.0.1.1',
 
     'depends': ['website'],
 

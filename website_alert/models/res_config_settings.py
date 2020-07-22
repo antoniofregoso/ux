@@ -11,3 +11,4 @@ class ResConfigSettings(models.TransientModel):
     alert_title =  fields.Char('Title',related='website_id.alert_title', readonly=False)
     alert_message1 = fields.Char('Message 1',related='website_id.alert_message1', readonly=False)
     alert_message2 = fields.Char('message 2',related='website_id.alert_message2', readonly=False)
+    alert_covid_enabled = fields.Boolean(related='website_id.alert_covid_enabled', readonly=False)

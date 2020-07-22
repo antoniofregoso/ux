@@ -12,6 +12,7 @@ class Website(models.Model):
     alert_title =  fields.Char('Title', default="Important Message")
     alert_message1 = fields.Char('Message 1', default="Aww yeah, you successfully read this important alert message")
     alert_message2 = fields.Char('message 2', default="Aww yeah, you successfully read this important alert message")
+    alert_covid_enabled = fields.Boolean(default=True)
     
     
     
