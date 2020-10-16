@@ -1,4 +1,4 @@
-odoo.define('website_caramba_snippets.s_social.js', function (require) {
+odoo.define('website_caramba_snippets.s_social_frontend', function (require) {
 'use strict';
 
 var core = require('web.core');
@@ -16,7 +16,8 @@ publicWidget.registry.js_get_social = publicWidget.Widget.extend({
      */
     start: function () {
          var self = this;
-         var template = self.$target.data('template') || 'website_caramba_snippets.s_social_template';
+         const data = self.$target[0].dataset;
+         const template = data.template || 'website_caramba_snippets.s_social_template';
          var domain = [];
          var prom = new Promise(function (resolve) {
     		 self._rpc({

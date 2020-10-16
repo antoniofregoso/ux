@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="s_infographic_2" name="Important Points">
+     <section class="s_references pt48 pb32">
+        <div class="container">
+            <h2 style="text-align: center;">Title</h2>
+            <p style="text-align: center;">Subtitle</p>
+            <div class="row">
+                <div class="col">
+                <div class="col crmb-info crmb-border-1 mt-4">
+                <i class="fa fa-3x fa-dashboard"/>
+                </div>
+                <h4 class="text-center mt-4 o_default_snippet_text">Sub Title 1</h4>
+                <p class="o_default_snippet_text">Description</p>
+                </div>
+                <div class="col">
+                <div class="col crmb-info crmb-border-2 mt-4">
+                <i class="fa fa-3x fa-group"/>
+                </div>
+                <h4 class="text-center mt-4 o_default_snippet_text">Sub Title 2</h4>
+                <p class="o_default_snippet_text">Description</p>
+                </div>
+                <div class="col">
+                <div class="col crmb-info crmb-border-3 mt-4">
+                <i class="fa fa-3x fa-gears"/>
+                </div>
+                <h4 class="text-center mt-4 o_default_snippet_text">Sub Title 3</h4>
+                <p class="o_default_snippet_text">Description</p>
+                </div>
+                <div class="col">
+                <div class="col crmb-info crmb-border-4 mt-4">
+                <i class="fa fa-3x fa-puzzle-piece"/>
+                </div>
+                <h4 class="text-center mt-4 o_default_snippet_text">Sub Title 4</h4>
+                <p class="o_default_snippet_text">Description</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<template id="assets_snippet_s_alert_css_000" inherit_id="website.assets_frontend">
+    <xpath expr="//link[last()]" position="after">
+        <link rel="stylesheet" type="text/scss" href="/website_caramba_snippets/static/src/snippets/s_infographic_2/000.scss"/>
+    </xpath>
+</template>
+
+</odoo>

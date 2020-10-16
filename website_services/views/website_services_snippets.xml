@@ -1,0 +1,153 @@
+<odoo>
+
+	<template id="s_caramba_services" name="Services">
+	 	<section class="">
+	 		<div class="container">
+	 			<div class="row">
+	 			<div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                    <h1 class="s_title_thin">Services</h1>
+                </div>
+	 			
+	 			</div>
+	 			<div class="swiper-container crmb-services pb16">
+	 			
+	 			</div>
+	 		</div>
+	 	</section>
+	 </template>
+	 
+	 <template id="s_services_template">
+	 	 <div class="swiper-wrapper">
+	   <t t-foreach="services" t-as="s">
+	    	 <div class="swiper-slide card" itemscope="itemscope" itemtype="https://schema.org/Service">
+	    	 		<div class="card-header">
+	    	 		<h5 class="card-title crmb-card-title" t-esc="s.name" itemprop="serviceType"/>
+	    	 		<p class="card-text crmb-card-text" ><spam t-esc="s.description_sale"/></p>
+	    	 		<div t-if="s.show_price" class="crmb-price-container">
+		    	 		<div class="crmb-price" itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
+		    	 			<span class="crmb-money-sign" itemprop="priceCurrency" t-att-content="website.company_id.currency_id.name">$</span>
+		    	 			<span class="crmb-money" t-esc="str(int(s.list_price))" itemprop="price" t-att-content="s.list_price"/>
+		    	 			<span class="crmb-cents" t-raw="'.' + str(round(s.list_price - int(s.list_price), 2)).replace('0.','').ljust(2,'0') + '&lt;br /&gt;/' +s.uom_name"/>
+		    	 		</div>
+	    	 		</div>
+	    	 		</div>
+	    	 		<div class="card-body crmb-body">
+	    	 		 <ul class="list-group list-group-flush" t-foreach="s.service_ids" t-as="s" itemprop="hasOfferCatalog" itemscope="itemscope" itemtype="https://schema.org/OfferCatalog">
+	    	 		 	<li class="list-group-item" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/Offer">
+						  	<div itemprop="itemOffered" itemscope="itemscope" itemtype="https://schema.org/Service">
+							  <span itemprop="name" t-esc="s.name"/>
+						   	</div>
+						  </li>
+	    	 		 </ul>
+	    	 	</div>
+	    	 </div>
+	    </t> 
+	    </div>
+	     <div class="swiper-pagination"></div>
+	     <script>
+     var swiper = new Swiper('.crmb-services', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            initialSlide: 3,
+            coverflowEffect: {
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows : true,
+            },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+              renderBullet: function (index, className) {
+	          return '<span class="' + className + '">' + (index + 1) + '</span>';
+	        },
+            },
+          });
+  </script>
+	 </template>
+	 
+	 <template id="s_caramba_services_form" name="Services Form">
+	 	    <section class="s_features pt32 pb32">
+	 	    <div class="container">
+	 	    	<h1 class="s_title_thin crmb-map-title" >Our Location</h1>
+	 	    </div>
+	 	<iframe class="container-fluid crmb-form-map" src="https://mapas.santerra.com.mx/conco.html" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
+        <div class="container crmb-map-form">
+            <div class="row shadow-lg">
+            	<div class="col-lg-8 pt32 pb32 text-left bg-white">
+            	 <h3 class="o_default_snippet_text text-left"><b>Write to us</b></h3>
+            		<form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you"  class="s_website_form container-fluid mt32" enctype="multipart/form-data">
+		                 <div class="form-row px-3">
+		                 	 <div class="form-group col-md-6">
+		                 	 	 <label class="text-muted" for="contact_name">Your Name</label>
+      							 <input type="text" class="form-control o_website_form_input" name="contact_name" t-att-value="request.params.get('contact_name', '')" required=""/>
+		                 	 </div>
+		                 	 <div class="form-group col-md-6">
+		                 	  <label class="text-muted" for="email_from">Email</label>
+		                 	  <input type="text" class="form-control o_website_form_input" name="email_from" required="" t-att-value="request.params.get('email_from', '')"/>
+		                 	 </div>
+		                 	 <div class="form-group col-md-6">
+		                 	 	 <label class="text-muted" for="phone">Phone Number</label>
+		                 	 	 <input type="text" class="form-control o_website_form_input" name="phone" t-att-value="request.params.get('phone', '')"/>
+		                 	 </div>
+		                 	 <div class="form-group col-md-6">
+		                 	 	 <label class="text-muted" for="name">Subject</label>
+		                 	 	 <input type="text" class="form-control o_website_form_input" name="name" required="" t-att-value="request.params.get('name', '')"/>
+		                 	 </div>
+		                 </div>
+		                  <div class="form-row">
+		                  </div>
+		                  <div class="form-row">
+		                  		 <label class="text-muted" for="description">Your Question</label>
+		                  	  <textarea class="form-control o_website_form_input" name="description" required=""><t t-esc="request.params.get('description', '')"/></textarea>
+		                  </div>
+		                   <div class="form-row mt-4 flex-row-reverse">
+		                  		<button type="submit" class="btn btn-primary rounded-circle"><i class="fa fa-2x fa-telegram"/></button>
+		                  
+		                  </div>
+		            </form>
+            	</div>
+            	<div class="col-lg-4 pt32 pb32 bg-900">
+            		 <h3 class="o_default_snippet_text text-left mb-5"><b>Contact</b></h3>
+            		 <address itemscope="itemscope" itemtype="http://schema.org/Organization">
+				        <!-- TODO widget contact must add itemprop attributes -->
+				        <div class="text-left my-5" t-field="res_company.partner_id" t-options='{
+				                "widget": "contact",
+				                "fields": ["address", "phone", "mobile", "email"]}'/>
+				      
+				    </address>
+				    <div class="js_get_social  mt-5"
+				    	data-template="website_caramba_snippets.s_social_template"/>
+            	</div>
+            </div>
+          </div>
+        </section>
+	 </template>
+	 
+	 	 
+	 <template id="s_caramba_services_team" name="Services Team">
+	 	<section class="">
+	 		<div class="container-fluid">
+	 			<div class="row s_nb_column_fixed">
+                <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+                    <h1 class="s_title_thin">Our Team</h1>
+                
+                </div>
+            </div>
+	 		</div>
+	 	</section>
+	 </template>
+
+
+     <template id="website_services_snippets" inherit_id="website.snippets" >
+	    <xpath expr="//div[@id='snippet_feature']/div[hasclass('o_panel_body')]" position="inside">	    	
+        	<t t-snippet="website_services.s_caramba_services" t-thumbnail="/website_services/static/src/img/snippets_thumbs/block_services.png" />                	  
+            <t t-snippet="website_services.s_caramba_services_form" t-thumbnail="/website_services/static/src/img/snippets_thumbs/block_services_form.png" />  
+            <t t-snippet="website_services.s_caramba_services_team" t-thumbnail="/website_services/static/src/img/snippets_thumbs/block_services_team.png" />    
+         </xpath>
+     </template>
+        
+</odoo>

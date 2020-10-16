@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="s_form_cover" name="Form Cover">
+    <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 pb96" data-scroll-background-ratio="1"  data-vcss="001" data-snippet="s_website_form">
+        <span class="s_parallax_bg oe_img_bg" style="background-image: url('/web/image/website_caramba_snippets.s_form_cover'); background-position: 50% 0;"/>
+        <div class="o_we_bg_filter bg-black-50"/>
+            <div class="container s_allow_columns">
+                <div class="row s_website_form">
+                    <div class="o_colored_level col-lg-6">
+                        <h1 style="text-align: center;">
+                            <font style="font-size: 62px; font-weight: bold;" class="o_default_snippet_text">Catchy Headline</font>
+                        </h1>
+                        <p class="lead" style="text-align: center;">Write one or two paragraphs describing your product, services or a specific feature.<br/> To be successful your content needs to be useful to your readers.</p>
+                        
+                    </div>
+                    <div  class="o_colored_level col-lg-6">
+                        <form action="/website_form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*">
+                            <div class="s_website_form_rows row s_col_no_bgcolor">
+                            <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
+                            <div style="width: 200px;" class="s_website_form_label"/>
+                            <a href="#" role="button" class="btn btn-primary btn-lg s_website_form_send">Submit</a>
+                            <span id="s_website_form_result"/>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row crmb-social">
+                    <div class="col-sm-12 text-right js_get_social" data-template="website_caramba_snippets.s_social_template"/>
+                </div>
+            </div>
+    </section>
+</template>
+
+</odoo>

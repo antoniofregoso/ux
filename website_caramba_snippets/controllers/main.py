@@ -24,6 +24,4 @@ class WebsiteCaramba(http.Controller):
             res.append({'url':site.social_github, 'icon': 'fa-github'})
         if site.social_instagram:
             res.append({'url':site.social_instagram, 'icon': 'fa-instagram'})
-        if site.social_pinterest:
-            res.append({'url':site.social_pinterest, 'icon': 'fa-pinterest'})
-        return request.website.viewref(template).render({'social_media': res})
+        return request.website.viewref(template)._render({'social_media': res})

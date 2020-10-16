@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="website_caramba_snippets" inherit_id="website.snippets" name="Caramba Snipets">
+    <xpath expr="//div[@id='snippet_structure']//t[@t-snippet]['website.s_cover']" position="after">
+        <t t-snippet="website_caramba_snippets.s_form_cover" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/s_form_cover.svg">
+            <keywords>hero, jumbotron, caramba</keywords>
+        </t>
+        <t t-snippet="website_caramba_snippets.s_icons_cover" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/s_icons_cover.svg">
+            <keywords>hero, jumbotron, caramba</keywords>
+        </t> 
+        <t t-snippet="website_caramba_snippets.s_logo_cover" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/s_logo_cover.svg">
+            <keywords>hero, jumbotron, caramba</keywords>
+        </t>
+    </xpath>
+    <xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="before">  
+        <t t-snippet="website_caramba_snippets.s_portfolio" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/s_portfolio.svg">
+            <keywords>portfolio, caramba</keywords>
+        </t> 
+        <t t-snippet="website_caramba_snippets.s_infographic_2" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/s_infographic_2.svg">
+            <keywords>communication, caramba</keywords>
+        </t>
+        <t t-snippet="website_caramba_snippets.s_infographic" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/s_infographic.svg">
+            <keywords>communication, caramba</keywords>
+        </t>
+    </xpath>
+</template>
+
+</odoo>

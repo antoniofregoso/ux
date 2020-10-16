@@ -1,0 +1,90 @@
+.crm-tg {
+	border-radius: 20px 20px 0 0;
+}
+
+.crmb-tg-p  {
+	height: 300px;
+	display: table;
+	padding: 45px 8px 8px 8px;
+	color:White;
+
+}
+
+.crmb-tg-p h6 {
+	text-align: center;
+	text-transform: uppercase ;	
+	display: table-header-group;
+	width: 100%;
+}
+
+.crmb-tg-p p {
+	display: table-cell;
+	vertical-align: middle;
+
+	}
+	
+
+
+.crmb-tg-h  {
+	height: 60px;
+
+}
+
+.crmb-tg-h2  {
+	height: 60px;
+	padding: 8px;
+	display: table;
+    text-transform: uppercase;
+	}
+
+.crmb-tg-h2 h4 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.crmb-tg-b2 {
+	display: table;
+	height: 230px;
+	text-align: center;
+	margin: auto;
+
+	}
+
+
+.crmb-tg-b2 span {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+
+.crmb-tg-b  {
+	height: 95px;
+	width: 95px;
+	border-radius: 50%;
+	background-color: White;
+  	position: relative;
+  	z-index:10;
+  	margin:auto;
+}
+
+.crmb-tg-n  {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	text-align: center;
+	margin: auto;
+  	position: relative;
+  	z-index:20;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+	display: table;
+}
+
+.crmb-tg-n h4 {
+	color:White;
+    display: table-cell;
+    vertical-align: middle;
+
+}

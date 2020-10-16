@@ -13,9 +13,15 @@
 
 
     'data': [
-        'data/website_caramba_snippets_data.xml',
-        'views/caramba_snippets.xml',
-        'views/caramba_templates.xml',
+        'data/snippets_data.xml',
+        'views/snippets/snippets.xml',
+        'views/snippets/s_form_cover.xml',
+        'views/snippets/s_icons_cover.xml',
+        'views/snippets/s_infographic_2.xml',
+        'views/snippets/s_infographic.xml',
+        'views/snippets/s_logo_cover.xml',
+        'views/snippets/s_portfolio.xml',
+        'views/snippets/s_social.xml',
     ],
 
 
