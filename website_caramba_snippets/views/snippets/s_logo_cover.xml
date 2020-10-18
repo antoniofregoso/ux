@@ -7,7 +7,7 @@
         <div class="o_we_bg_filter bg-black-50"/>
         <div class="container s_allow_columns">
             <div class="row">
-                <div class="col-12 align-top">
+                <div class="col-12 mb-5">
                     <img alt="Company team" src="/web/image/website_caramba_snippets.s_screen_logo" class="img-fluid d-block mx-auto" style="width: 300px;"/>
                 </div>
                 <div class="o_colored_level col-lg-12">
@@ -24,9 +24,7 @@
                     </p>
                 </div>
             </div>
-                <div class="row crmb-social">
-                    <div class="col-sm-12 text-right js_get_social" data-template="website_caramba_snippets.s_social_template"/>
-                </div>
+              <div class="col-sm-12 text-right mt-4 js_get_social" data-template="website_caramba_snippets.s_social_template"/>
         </div>
     </section>
 </template>

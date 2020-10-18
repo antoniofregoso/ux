@@ -17,7 +17,7 @@
                     <div  class="o_colored_level col-lg-6">
                         <form action="/website_form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*">
                             <div class="s_website_form_rows row s_col_no_bgcolor">
-                            <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
+                            <div class="form-group col-12 s_website_form_submit text-right" data-name="Submit Button">
                             <div style="width: 200px;" class="s_website_form_label"/>
                             <a href="#" role="button" class="btn btn-primary btn-lg s_website_form_send">Submit</a>
                             <span id="s_website_form_result"/>
@@ -25,9 +25,7 @@
                             </div>
                         </form>
                     </div>
-                </div>
-                <div class="row crmb-social">
-                    <div class="col-sm-12 text-right js_get_social" data-template="website_caramba_snippets.s_social_template"/>
+                    <div class="col-sm-12 text-right mt-4 js_get_social" data-template="website_caramba_snippets.s_social_template"/>
                 </div>
             </div>
     </section>
