@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="legal_link" inherit_id="web.frontend_layout" name="Legal Links">
+        <xpath expr="//div[hasclass('o_footer_copyright')]//div//div" position="before">
+        	<div class="row">
+        		<div class="col-12 text-center">
+            	<span><a href="/legal/privacy-policy">Privacy Policy</a> - <a href="/legal/terms-of-use">Terms of Use</a> - <a href="/legal/advice">Legal Advice</a></span>
+            	</div>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

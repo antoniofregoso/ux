@@ -1,35 +1,29 @@
-# -*- coding: utf-8 -*-
+# Copyright 2015 Antonio Espinosa <antonioea@antiun.com>
+# Copyright 2017 Jairo Llopis <jairo.llopis@tecnativa.com>
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+
+
 {
-    'name': "website_legal_page",
+    'name': "Website Legal Page",
 
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
 
-    'description': """
-        Long description of module's purpose
-    """,
+    'author': "Antonio Fregoso",
+    'website': "https://antoniofregoso.com",
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
 
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
-    'category': 'Uncategorized',
-    'version': '0.1',
+    'category': 'Website/Website',
+    'version': '13.0.0.0.0',
 
-    # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['website'],
 
-    # always loaded
+
     'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'views/reusable_templates.xml',
+        'views/website_legal.xml',
+        'views/website_privacy.xml',
+        'views/website_terms.xml',
+        'views/website_footer.xml',
     ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+    'license': 'AGPL-3',
+
 }
