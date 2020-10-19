@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Remove "Create a free website with Odoo" -->
+<template id="brand_promotion" inherit_id="website.brand_promotion" name="Brand Promotion">
+    <xpath expr="//t[@t-call='web.brand_promotion_message']" position="replace">
+        <t t-call="web.brand_promotion_message">
+            <t t-set="_message">
+                Made by <a target="_blank" href="https://www.antoniofregoso.com/contactus?utm_source=db&amp;utm_medium=website">Antonio Fregoso</a>
+            </t>
+            <t t-set="_utm_medium" t-valuef="website"/>
+        </t>
+    </xpath>
+</template>
+
+</odoo>
