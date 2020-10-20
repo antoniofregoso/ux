@@ -13,7 +13,7 @@
     'license': 'AGPL-3',
 
     
-    #'depends': ['website_caramba_snippets', 'website_sale', 'website_swiper'],
+    'depends': ['website_sale', 'website_swiper'],
 
     'data': [
         'security/ir.model.access.csv',
