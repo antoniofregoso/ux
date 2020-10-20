@@ -3,16 +3,16 @@
 
 <template id="assets_editor" inherit_id="website.assets_editor" name="Tag Cloud Editor">
     <xpath expr="." position="inside">
-        <script type="text/javascript" src="/website_tags_cloud/static/src/js/website_tags_cloud_editor.js"></script>
+        <script type="text/javascript" src="/website_tags_cloud/static/src/snippets/s_tags_cloud/options.js"></script>
     </xpath>
 </template>
 
 
 <template id="assets_frontend" inherit_id="website.assets_frontend" name="Tag Cloud Front-end assets">
     <xpath expr="." position="inside">
-         <link rel="stylesheet" type="text/scss" href="/website_tags_cloud/static/src/css/tag_cloud.css"/>
+         <link rel="stylesheet" type="text/scss" href="/website_tags_cloud/static/src/snippets/s_tags_cloud/000.scss"/>
 
-        <script type="text/javascript" src="/website_tags_cloud/static/src/js/website_tags_cloud_frontend.js"/>
+        <script type="text/javascript" src="/website_tags_cloud/static/src/snippets/s_tags_cloud/000.js"/>
     </xpath>
 </template>
  

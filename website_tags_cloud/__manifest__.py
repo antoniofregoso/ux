@@ -23,8 +23,8 @@
     'data': [
         'security/ir.model.access.csv',
         'views/website_tags_cloud_views.xml',
-        #'views/website_tags_cloud_snippets.xml',
-        #'views/website_tags_cloud_templates.xml',
+        'views/website_tags_cloud_snippets.xml',
+        'views/website_tags_cloud_templates.xml',
     ],
 
     'demo': [

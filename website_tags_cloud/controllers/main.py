@@ -47,5 +47,5 @@ class WebsiteServices(http.Controller):
                 tag.style = 'color: rgb({},{},{}); '.format(random.randrange(128,255),random.randrange(128,255),random.randrange(128,255))  + 'font-size: ' + font_height + 'px;'
             else:
                 tag.style = 'color: rgb({},{},{}); '.format(random.randrange(0,127),random.randrange(0,127),random.randrange(0,127))  + 'font-size: ' + font_height + 'px;'
-        return request.website.viewref(template).render({'tags':tags})
+        return request.website.viewref(template)._render({'tags':tags})
     

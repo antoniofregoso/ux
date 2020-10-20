@@ -26,22 +26,19 @@
 </template>
 
 <template id="website_tags_cloud" inherit_id="website.snippets" name="Snippet Tags Cloud">
-     <xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">	
-        <t t-snippet="website_tags_cloud.s_tags_cloud" t-thumbnail="/website_tags_cloud/static/src/img/s_tags_cloud.png"/>
+     <xpath expr="//div[@id='snippet_effect']//div[hasclass('o_panel_body')]" position="inside">	
+        <t t-snippet="website_tags_cloud.s_tags_cloud" t-thumbnail="/website_tags_cloud/static/src/img/snippets_thumbs/s_tags_cloud.svg"/>
     </xpath>
 </template>
 
 <!-- Snippets' Options -->
-<template id="s_tags_cloud_options" inherit_id="website.snippet_options">
-     <xpath expr="//div[@data-js='background']" position="before">
-    	<div data-js="s_tags_cloud_select" data-selector=".s_tags_cloud" data-target=".js_get_tags" data-no-check="true">
-    		<we-collapse-area>
-    			 <we-toggler><i class="fa fa-folder-open"/> Choose a tags cloud</we-toggler>
-    			 	<we-collapse data-no-preview="true">
-    			 		<we-button data-filter-by-cloud-id="0">None</we-button>
-    			 		  <!-- the tags clouds list will be generated in js -->
-    			 	</we-collapse>
-    		</we-collapse-area>
+<template id="s_tags_cloud_options" inherit_id="website.snippet_options"  name="Tags Cloud snippet options">
+     <xpath expr="." position="inside">
+        <div data-js="s_tags_cloud_select" data-selector=".s_tags_cloud" data-target=".js_get_tags" data-no-check="true">
+            <we-select string="Choose a tags cloud" data-no-preview="true" name="cloud_selection" data-attribute-name="filterByCloudId">
+                <we-button data-filter-by-cloud-id="0">None</we-button>
+                <!-- the tags clouds list will be generated in js -->
+            </we-select>
     	</div>
     </xpath>
 </template>
