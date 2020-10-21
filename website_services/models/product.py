@@ -5,6 +5,18 @@ from odoo import api, fields, models, _
 from odoo.tools.translate import html_translate
 from odoo.addons.http_routing.models.ir_http import slug
 
+VALUES = {
+    'suscribe':_('Subscribe'),
+    'apply':_('Apply'),
+    'reserve':_('Reserve'),
+    'download':_('Download'),
+    'get_offer':_('Get Offer'),
+    'quote':_('Quote'),
+    'sign_up':_('Sign Up'),
+    'more_info':_('More Information')
+    }
+
+
 
 
 class ProductService(models.Model):
@@ -38,8 +50,21 @@ class ProductTemplate(models.Model):
     landig_page_published = fields.Boolean('On Landing Page', default=False)
     show_price = fields.Boolean('Show Price', default=True)
     service_ids = fields.Many2many('product.service', relation='product_service_combination', string="Service Components", domain="['|',('website_id', '=?', website_id),('website_id', '=', False)]", ondelete='restrict')
+    call_to_action = fields.Selection([
+        ('suscribe','Subscribe'), 
+        ('apply','Apply'),
+        ('reserve','Reserve'),
+        ('download','Download'),
+        ('get_offer','Get Offer'),
+        ('quote','Quote'),
+        ('sign_up','Sign Up'),
+        ('more_info','More Information')
+        ], string='Call to Action', default='more_info',)
     button_url = fields.Char('Button URL')
     show_button = fields.Boolean()
+
+    def get_web_value(self,key):
+        return VALUES[key]
 
     
 

@@ -3,8 +3,9 @@
 
 <template id="assets_frontend" inherit_id="portal.assets_frontend" name="Swiper Front-end assets">
     <xpath expr="//link[last()]" position="after">
-          <link rel="stylesheet" type="text/scss" href="/website_swiper/static/src/lib/swiper/swiper-bundle.css"/>
-          <script type="text/javascript" src="/website_swiper/static/src/lib/swiper/swiper-bundle.js"/>
+          <link rel="stylesheet" type="text/scss" href="/website_swiper/static/package/css/swiper.min.css"/>
+          <link rel="stylesheet" type="text/scss" href="/website_swiper/static/src/scss/swiper.scss"/>
+          <script type="text/javascript" src="/website_swiper/static/package/js/swiper.js"/>
 	 </xpath>
 </template>
 

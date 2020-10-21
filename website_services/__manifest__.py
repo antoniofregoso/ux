@@ -18,8 +18,8 @@
     'data': [
         'security/ir.model.access.csv',
         'views/product_views.xml',
-        #'views/website_services_templates.xml',
-        #'views/website_services_snippets.xml',
+        'views/website_services_templates.xml',
+        'views/website_services_snippets.xml',
     ],
 
     'demo': [

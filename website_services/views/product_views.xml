@@ -39,6 +39,7 @@
                     <field name="landig_page_published" />
             		<field name="show_price" />
                     <field name="show_button" />
+                    <field name="call_to_action" />
                     <field name="button_url" />
                 </group>
                 </group>

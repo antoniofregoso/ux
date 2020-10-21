@@ -1,12 +1,14 @@
+
 <odoo>
-  
-
-<template id="assets_frontend" inherit_id="portal.assets_frontend" name="Caramba Snippets  Front-end assets">
-    <xpath expr="//link[last()]" position="after">
-          <link rel="stylesheet" type="text/scss" href="/website_services/static/src/scss/snippets.scss"/>
-         
-           <script type="text/javascript" src="/website_services/static/src/js/s_services.js"/>
-	 </xpath>
-</template>
-
+  <!--   <template id="assets_editor" inherit_id="website.assets_editor" name="Services Editor">
+       <xpath expr="." position="inside">
+            <script type="text/javascript" src="/website_services/static/src/snippets/s_services/options.js"/>
+        </xpath>
+    </template> -->
+    <template id="assets_frontend" inherit_id="website.assets_frontend" name="Services Front-end assets">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/scss" href="website_services/static/src/snippets/s_services/000.scss"/>
+            <script type="text/javascript" src="/website_services/static/src/snippets/s_services/000.js"/>
+        </xpath>
+    </template>
 </odoo>
