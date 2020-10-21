@@ -24,5 +24,5 @@ msgstr "Antonio Fregoso"
 
 #. module: website_branding
 #: model_terms:ir.ui.view,arch_db:website_branding.brand_promotion
-msgid "Made by"
-msgstr "Hecho por"
+msgid "Website by"
+msgstr "Sitio Web por"
