@@ -5,7 +5,17 @@ from odoo import api, fields, models, _
 from odoo.tools.translate import html_translate
 from odoo.addons.http_routing.models.ir_http import slug
 
-VALUES = {
+
+
+
+
+
+class ProductService(models.Model):
+    _name = "product.service"
+    _description = "Service Components"
+    _order = "sequence, name"
+
+    VALUES = {
     'suscribe':_('Subscribe'),
     'apply':_('Apply'),
     'reserve':_('Reserve'),
@@ -16,13 +26,6 @@ VALUES = {
     'more_info':_('More Information')
     }
 
-
-
-
-class ProductService(models.Model):
-    _name = "product.service"
-    _description = "Service Components"
-    _order = "sequence, name"
     
     
     def _default_website(self):
@@ -46,6 +49,17 @@ class ProductService(models.Model):
 
 class ProductTemplate(models.Model):
     _inherit = ["product.template"]
+
+    CALL_TO_ACTION = {
+    'suscribe':_('Subscribe'),
+    'apply':_('Apply'),
+    'reserve':_('Reserve'),
+    'download':_('Download'),
+    'get_offer':_('Get Offer'),
+    'quote':_('Quote'),
+    'sign_up':_('Sign Up'),
+    'more_info':_('More Information')
+    }
     
     landig_page_published = fields.Boolean('On Landing Page', default=False)
     show_price = fields.Boolean('Show Price', default=True)
@@ -64,7 +78,7 @@ class ProductTemplate(models.Model):
     show_button = fields.Boolean()
 
     def get_web_value(self,key):
-        return VALUES[key]
+        return self.CALL_TO_ACTION[key]
 
     
 

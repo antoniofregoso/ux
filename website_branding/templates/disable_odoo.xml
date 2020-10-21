@@ -5,7 +5,7 @@
     <xpath expr="//t[@t-call='web.brand_promotion_message']" position="replace">
         <t t-call="web.brand_promotion_message">
             <t t-set="_message">
-                Made by <a target="_blank" href="https://www.antoniofregoso.com/contactus?utm_source=db&amp;utm_medium=website">Antonio Fregoso</a>
+                Website by <a target="_blank" href="https://www.antoniofregoso.com/contactus?utm_source=db&amp;utm_medium=website">Antonio Fregoso</a>
             </t>
             <t t-set="_utm_medium" t-valuef="website"/>
         </t>

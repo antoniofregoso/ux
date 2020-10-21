@@ -6,19 +6,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 22:56+0000\n"
-"PO-Revision-Date: 2020-10-21 18:00-0500\n"
+"POT-Creation-Date: 2020-10-21 23:35+0000\n"
+"PO-Revision-Date: 2020-10-21 23:35+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
-"Language: es_MX\n"
-"X-Generator: Poedit 2.3\n"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
+#: code:addons/ux/website_services/models/product.py:0
+#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__apply
 #, python-format
@@ -60,6 +60,8 @@ msgstr "Mostrar Nombre"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
+#: code:addons/ux/website_services/models/product.py:0
+#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__download
 #, python-format
@@ -68,6 +70,8 @@ msgstr "Descargar"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
+#: code:addons/ux/website_services/models/product.py:0
+#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__get_offer
 #, python-format
@@ -88,7 +92,7 @@ msgstr "En Landing Page"
 #. module: website_services
 #: model_terms:ir.ui.view,arch_db:website_services.product_template_form_view
 msgid "Landing Page"
-msgstr "Landing Page"
+msgstr ""
 
 #. module: website_services
 #: model:ir.model.fields,field_description:website_services.field_product_service____last_update
@@ -108,6 +112,8 @@ msgstr "Última modificación  en"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
+#: code:addons/ux/website_services/models/product.py:0
+#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__more_info
 #, python-format
@@ -132,6 +138,8 @@ msgstr "Plantilla de producto"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
+#: code:addons/ux/website_services/models/product.py:0
+#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__quote
 #, python-format
@@ -140,6 +148,8 @@ msgstr "Cotizar"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
+#: code:addons/ux/website_services/models/product.py:0
+#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__reserve
 #, python-format
@@ -181,6 +191,8 @@ msgstr "Mostrar Precio"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
+#: code:addons/ux/website_services/models/product.py:0
+#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__sign_up
 #, python-format
@@ -189,6 +201,8 @@ msgstr "Registrarte"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
+#: code:addons/ux/website_services/models/product.py:0
+#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__suscribe
 #, python-format
