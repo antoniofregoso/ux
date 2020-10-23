@@ -1,7 +1,7 @@
 <odoo>
 
 	<template id="s_caramba_services" name="Services">
-	 	<section class="crmb-services-swiper" id="crmb-services-swiper"  data-pagination="Puto" data-navigation="Menso" >
+	 	<section class="crmb-services-swiper" id="crmb-services-swiper" >
 	 		<div class="container  pb16">
 	 			<div class="row">
 	 			<div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
@@ -41,7 +41,8 @@
 	    	 		 </ul>
 	    	 	</div>
 				<div t-if="s.show_button" class="card-footer text-center">
-					<a  class="btn btn-primary " t-att-href="s.button_url"><span t-esc="s.get_web_value(s.call_to_action)"/></a>
+					<t t-set="callToAction" t-value="call_to_action"/>
+					<a  class="btn btn-primary " t-att-href="s.button_url"><span t-esc="callToAction[s.call_to_action]"/></a>
 				</div>
 	    	 </div>
 	    </t> 

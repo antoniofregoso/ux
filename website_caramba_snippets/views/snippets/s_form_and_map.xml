@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="s_form_and_map" name="Form and Map">
+         <section class="s_features pt32 pb32" data-vcss="001" data-snippet="s_website_form">
+             <div class="container">
+	 	    	<h2 style="text-align: center;" class="o_default_snippet_text">Our Location</h2>
+	 	    </div>
+             <div class="s_google_map pt256 pb256" data-map-type="ROADMAP" data-map-color="" data-map-zoom="12" data-map-gps="(50.854975,4.3753899)" data-pin-style="flat">
+                <div class="map_container"/>
+            </div>
+             <div class="container  s_allow_columns crmb-map-form">
+                <div class="row shadow-lg s_website_form">
+                    <div class="col-lg-8 pt32 pb32 text-left bg-white">
+                        <h3 class="o_default_snippet_text text-left"><b>Write to us</b></h3>
+                         <div  class="o_colored_level">
+                            <form action="/website_form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*">
+                            <div class="s_website_form_rows row s_col_no_bgcolor">
+                            <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
+                            <div style="width: 200px;" class="s_website_form_label"/>
+                            <a href="#" role="button" class="btn btn-primary rounded-circle s_website_form_send"><i class="fa fa-2x fa-telegram"/></a>
+                            <span id="s_website_form_result"/>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 pt32 pb32 bg-900">
+                        <h3 class="o_default_snippet_text text-left mb-5"><b>Contact</b></h3>
+                        <address itemscope="itemscope" itemtype="http://schema.org/Organization">
+                              <!-- TODO widget contact must add itemprop attributes -->
+                              <div class="text-left my-5" t-field="res_company.partner_id" t-options='{
+				                "widget": "contact",
+				                "fields": ["address", "phone", "mobile", "email"]}'/>
+                        </address>
+                         <div class="js_get_social  mt-5"
+				    	data-template="website_caramba_snippets.s_social_template"/>
+                    </div>
+                </div>
+             </div>
+         </section>
+    </template>
+
+    <template id="assets_snippet_s_form_and_map_css_000" inherit_id="website.assets_frontend">
+    <xpath expr="//link[last()]" position="after">
+        <link rel="stylesheet" type="text/scss" href="/website_caramba_snippets/static/src/snippets/s_form_and_map/000.scss"/>
+    </xpath>
+</template>
+
+
+</odoo>

@@ -50,16 +50,7 @@ class ProductService(models.Model):
 class ProductTemplate(models.Model):
     _inherit = ["product.template"]
 
-    CALL_TO_ACTION = {
-    'suscribe':_('Subscribe'),
-    'apply':_('Apply'),
-    'reserve':_('Reserve'),
-    'download':_('Download'),
-    'get_offer':_('Get Offer'),
-    'quote':_('Quote'),
-    'sign_up':_('Sign Up'),
-    'more_info':_('More Information')
-    }
+
     
     landig_page_published = fields.Boolean('On Landing Page', default=False)
     show_price = fields.Boolean('Show Price', default=True)
@@ -77,8 +68,7 @@ class ProductTemplate(models.Model):
     button_url = fields.Char('Button URL')
     show_button = fields.Boolean()
 
-    def get_web_value(self,key):
-        return self.CALL_TO_ACTION[key]
+
 
     
 

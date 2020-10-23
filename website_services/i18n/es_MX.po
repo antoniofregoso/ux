@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 23:35+0000\n"
-"PO-Revision-Date: 2020-10-21 23:35+0000\n"
+"POT-Creation-Date: 2020-10-23 16:24+0000\n"
+"PO-Revision-Date: 2020-10-23 16:24+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,8 +17,6 @@ msgstr ""
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
-#: code:addons/ux/website_services/models/product.py:0
-#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__apply
 #, python-format
@@ -60,8 +58,6 @@ msgstr "Mostrar Nombre"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
-#: code:addons/ux/website_services/models/product.py:0
-#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__download
 #, python-format
@@ -70,8 +66,6 @@ msgstr "Descargar"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
-#: code:addons/ux/website_services/models/product.py:0
-#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__get_offer
 #, python-format
@@ -112,8 +106,6 @@ msgstr "Última modificación  en"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
-#: code:addons/ux/website_services/models/product.py:0
-#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__more_info
 #, python-format
@@ -138,8 +130,6 @@ msgstr "Plantilla de producto"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
-#: code:addons/ux/website_services/models/product.py:0
-#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__quote
 #, python-format
@@ -148,8 +138,6 @@ msgstr "Cotizar"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
-#: code:addons/ux/website_services/models/product.py:0
-#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__reserve
 #, python-format
@@ -191,8 +179,6 @@ msgstr "Mostrar Precio"
 
 #. module: website_services
 #: code:addons/ux/website_services/models/product.py:0
-#: code:addons/ux/website_services/models/product.py:0
-#: code:addons/website_services/models/product.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__sign_up
 #, python-format
@@ -200,9 +186,9 @@ msgid "Sign Up"
 msgstr "Registrarte"
 
 #. module: website_services
+#: code:addons/ux/website_services/controllers/main.py:0
 #: code:addons/ux/website_services/models/product.py:0
-#: code:addons/ux/website_services/models/product.py:0
-#: code:addons/website_services/models/product.py:0
+#: code:addons/website_services/controllers/main.py:0
 #: code:addons/website_services/models/product.py:0
 #: model:ir.model.fields.selection,name:website_services.selection__product_template__call_to_action__suscribe
 #, python-format

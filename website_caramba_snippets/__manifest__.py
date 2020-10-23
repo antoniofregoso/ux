@@ -22,6 +22,7 @@
         'views/snippets/s_logo_cover.xml',
         'views/snippets/s_portfolio.xml',
         'views/snippets/s_social.xml',
+        'views/snippets/s_form_and_map.xml'
     ],
 
 

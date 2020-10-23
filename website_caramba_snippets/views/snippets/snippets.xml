@@ -24,6 +24,11 @@
             <keywords>communication, caramba</keywords>
         </t>
     </xpath>
+    <xpath expr="//div[@id='snippet_effect']//t[@t-snippet][last()]" position="before">  
+        <t t-snippet="website_caramba_snippets.s_form_and_map" t-thumbnail="/website_caramba_snippets/static/src/img/snippets_thumbs/s_form_and_map.svg">
+            <keywords>caramba</keywords>
+        </t>
+    </xpath>
 </template>
 
 </odoo>
