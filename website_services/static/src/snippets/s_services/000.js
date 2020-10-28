@@ -12,7 +12,7 @@ odoo.define('website_services.s_services', function (require) {
         /**
          * @override
          */
-        willStart: function () {
+        start: function () {
             var self = this;
             const data = self.$target[0].dataset;
             const template = data.template || 'website_services.s_services_template';

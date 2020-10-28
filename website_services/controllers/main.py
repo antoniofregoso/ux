@@ -3,7 +3,6 @@
 from odoo import http, _
 from odoo.http import request
 
-
 class WebsiteServices(http.Controller):
 
     
