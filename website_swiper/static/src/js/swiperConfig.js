@@ -1,9 +1,9 @@
-odoo.define('website_swiper.swiper', function (require) {
+odoo.define('website_swiper.swiperConfig', function (require) {
     'use strict';
 
 var publicWidget = require('web.public.widget');
 
-publicWidget.registry.swiperControl = publicWidget.Widget.extend({
+publicWidget.registry.swiperConfig = publicWidget.Widget.extend({
     selector: '#swiper-coverflow',
 
     start: function () {
