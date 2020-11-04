@@ -9,7 +9,7 @@
                 </div>
 	 			
 	 			</div>
-	 			<div class="swiper-container crmb-services-container">
+	 			<div class="swiper-container crmb-services-container" id="crmb-services-container">
 	 			
 	 			</div>
 	 		</div>
@@ -49,7 +49,7 @@
 	    </div>
 	     <div class="swiper-pagination"></div>
 
-	     <script>
+	 <script>
      		var swiper = new Swiper('.crmb-services-container', {
             effect: 'coverflow',
             grabCursor: true,
