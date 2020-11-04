@@ -3,7 +3,7 @@ odoo.define('website_swiper.swiper', function (require) {
 
 var publicWidget = require('web.public.widget');
 
-publicWidget.registry.swiper = publicWidget.Widget.extend({
+publicWidget.registry.swiperControl = publicWidget.Widget.extend({
     selector: '#swiper-coverflow',
 
     start: function () {
