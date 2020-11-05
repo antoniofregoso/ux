@@ -48,8 +48,7 @@
 	    </t> 
 	    </div>
 	     <div class="swiper-pagination"></div>
-
-	<!-- <script>
+	 <script>
      		var swiper = new Swiper('.crmb-services-container', {
             effect: 'coverflow',
             grabCursor: true,
@@ -71,7 +70,7 @@
 	        },
             },
           });
-  </script>-->
+  </script>
 	 </template>
 	 
 
