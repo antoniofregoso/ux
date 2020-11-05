@@ -8,10 +8,9 @@ odoo.define('website_services.s_services', function (require) {
     
     publicWidget.registry.js_get_services = publicWidget.Widget.extend({
         selector: '.crmb-services-container',
+        disabledInEditableMode: false,
         
-        /**
-         * @override
-         */
+       
         start: function () {
             var self = this;
             const data = self.$target[0].dataset;
