@@ -6,6 +6,8 @@
           <link rel="stylesheet" type="text/scss" href="/website_swiper/static/package/swiper-bundle.min.css"/>
           <link rel="stylesheet" type="text/scss" href="/website_swiper/static/src/scss/swiper.scss"/>
           <script type="text/javascript" src="/website_swiper/static/package/swiper-bundle.min.js"/>
+          <!-- Swiper Config -->
+          <script type="text/javascript" src="/website_swiper/static/src/js/swiper_snippets.js"/>
 	 </xpath>
 </template>
 

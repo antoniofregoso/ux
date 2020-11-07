@@ -1,9 +1,11 @@
-odoo.define('website_swiper.swiperConfig', function (require) {
+odoo.define('website_swiper.swiper_snippet', function (require) {
     'use strict';
 
 var publicWidget = require('web.public.widget');
 
-publicWidget.registry.swiperConfig = publicWidget.Widget.extend({
+//Cover Flow
+
+publicWidget.registry.swiperCoverFlow = publicWidget.Widget.extend({
     selector: '#swiper-coverflow',
 
     start: function () {
