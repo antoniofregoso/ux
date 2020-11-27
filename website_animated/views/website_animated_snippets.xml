@@ -1,0 +1,39 @@
+<odoo>
+
+<!-- Snippets' Options -->
+<template id="s_animated_options" inherit_id="website.snippet_options"  name="Animated snippet options">
+     <xpath expr="." position="inside">
+        <div data-js="js_animated" data-selector=".text-align, .s_card, .figure, .col-lg-2, .col-lg-4, .col-lg-6, .col-lg-8, .col-lg-10, .col-lg-12"  data-no-preview="true">
+            <we-select string="Animations"  name="animated">
+                <we-button data-animated="none">None</we-button>
+                <we-button data-animated="zoomIn">Zoom In</we-button>
+                <we-button data-animated="zoomInDown">Zoom In Down</we-button>
+                <we-button data-animated="zoomInUp">Zoom In Up</we-button>
+                <we-button data-animated="fadeInDown">Fade In Down</we-button>
+                <we-button data-animated="fadeInLeft">Fade In Left</we-button>
+                <we-button data-animated="fadeInRight">Fade In Right</we-button>
+                <we-button data-animated="fadeInUp">Fade In Up</we-button>
+                <we-button data-animated="flipInX">Flip In X</we-button>
+                <we-button data-animated="flipInY">Flip In Y</we-button>
+                <we-button data-animated="lightSpeedInRight">Light Speed In Right</we-button>
+                <we-button data-animated="lightSpeedInLeft">Light Speed In Left</we-button>
+                <we-button data-animated="rotateIn">Rotate In</we-button>
+                <we-button data-animated="rotateInDownLeft">Rotate In Down Left</we-button>
+                <we-button data-animated="rotateInDownRight">Rotate In Down Right</we-button>
+                <we-button data-animated="slideInDown">Slide In Down</we-button>
+                <we-button data-animated="slideInLeft">Slide In Left</we-button>
+                <we-button data-animated="slideInRight">Slide In Right</we-button>
+                <we-button data-animated="slideInUp">Slide In Up</we-button>
+                <we-button data-animated="flash">Flash</we-button>
+                <we-button data-animated="heartBeat">Heart Beat</we-button>
+                <we-button data-animated="rollIn">Roll In</we-button>
+                <we-button data-animated="jackInTheBox">Jack In The Box</we-button>
+                <we-button data-animated="swing">Swing</we-button>
+                <we-button data-animated="jello">Jello</we-button>
+                <we-button data-animated="swing">Swing</we-button>
+            </we-select>
+    	</div>
+    </xpath>
+</template>
+
+</odoo>
