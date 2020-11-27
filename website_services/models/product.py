@@ -38,7 +38,7 @@ class ProductService(models.Model):
         domain = [('company_id', '=', company_id)]
         return self.env['website'].search(domain, limit=1)
     
-    name = fields.Char('Name', index=True, required=True)
+    name = fields.Char('Name', index=True, required=True, translate=True)
     website_id = fields.Many2one('website', string="Website", ondelete='restrict', default=_default_website)
     sequence = fields.Integer('Sequence', help="Determine the display order", index=True)
     
