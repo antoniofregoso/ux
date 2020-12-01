@@ -7,10 +7,4 @@
     </template>
 
 
-    <template id="assets_editor" inherit_id="website.assets_editor" name="Blog Editor">
-        <xpath expr="." position="inside">
-            <script type="text/javascript" src="/website_animated/static/src/js/animated.editor.js"/>
-        </xpath>
-    </template>
-
 </odoo>

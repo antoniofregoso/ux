@@ -7,28 +7,28 @@
             <h2 style="text-align: center;">Title</h2>
             <p style="text-align: center;">Subtitle</p>
             <div class="row">
-                <div class="col">
+                <div class="col-lg-3">
                 <div class="col crmb-info crmb-border-1 mt-4">
                 <i class="fa fa-3x fa-dashboard"/>
                 </div>
                 <h4 class="text-center mt-4 o_default_snippet_text">Sub Title 1</h4>
                 <p class="o_default_snippet_text">Description</p>
                 </div>
-                <div class="col">
+                <div class="col-lg-3">
                 <div class="col crmb-info crmb-border-2 mt-4">
                 <i class="fa fa-3x fa-group"/>
                 </div>
                 <h4 class="text-center mt-4 o_default_snippet_text">Sub Title 2</h4>
                 <p class="o_default_snippet_text">Description</p>
                 </div>
-                <div class="col">
+                <div class="col-lg-3">
                 <div class="col crmb-info crmb-border-3 mt-4">
                 <i class="fa fa-3x fa-gears"/>
                 </div>
                 <h4 class="text-center mt-4 o_default_snippet_text">Sub Title 3</h4>
                 <p class="o_default_snippet_text">Description</p>
                 </div>
-                <div class="col">
+                <div class="col-lg-3">
                 <div class="col crmb-info crmb-border-4 mt-4">
                 <i class="fa fa-3x fa-puzzle-piece"/>
                 </div>

@@ -3,34 +3,67 @@
 <!-- Snippets' Options -->
 <template id="s_animated_options" inherit_id="website.snippet_options"  name="Animated snippet options">
      <xpath expr="." position="inside">
-        <div data-js="AnimatedCSS" data-selector=".figure .col-lg-2, .col-lg-4, .col-lg-6, .col-lg-8, .col-lg-10, .col-lg-12"  data-no-preview="true">
+        <div data-js="AnimatedCSS" data-selector=".card-header, .card-title, .card-footer, .card-img-top, .list-group, .figure, .s_timeline_card, .s_timeline_content, .o_we_custom_image,
+             .s_website_form_rows, .form-group, .s_alert, .s_text_highlight, .s_progress_bar, .s_blockquote, .s_speaker_bio, .s_allow_columns, .s_countdown_canvas_wrapper,
+            .col-lg-2, .col-lg-3, .col-lg-4, col-lg-5, .col-lg-6, col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12"  data-no-preview="true">
             <we-select string="Animations"  name="animated"  data-attribute-name="animated">
-                <we-button data-select-data-attribute="none">None</we-button>
-                <we-button data-select-data-attribute="zoomIn">Zoom In</we-button>
-                <we-button data-select-data-attribute="zoomInDown">Zoom In Down</we-button>
-                <we-button data-select-data-attribute="zoomInUp">Zoom In Up</we-button>
-                <we-button data-select-data-attribute="fadeInDown">Fade In Down</we-button>
-                <we-button data-select-data-attribute="fadeInLeft">Fade In Left</we-button>
-                <we-button data-select-data-attribute="fadeInRight">Fade In Right</we-button>
-                <we-button data-select-data-attribute="fadeInUp">Fade In Up</we-button>
-                <we-button data-select-data-attribute="flipInX">Flip In X</we-button>
-                <we-button data-select-data-attribute="flipInY">Flip In Y</we-button>
-                <we-button data-select-data-attribute="lightSpeedInRight">Light Speed In Right</we-button>
-                <we-button data-select-data-attribute="lightSpeedInLeft">Light Speed In Left</we-button>
-                <we-button data-select-data-attribute="rotateIn">Rotate In</we-button>
-                <we-button data-select-data-attribute="rotateInDownLeft">Rotate In Down Left</we-button>
-                <we-button data-select-data-attribute="rotateInDownRight">Rotate In Down Right</we-button>
-                <we-button data-select-data-attribute="slideInDown">Slide In Down</we-button>
-                <we-button data-select-data-attribute="slideInLeft">Slide In Left</we-button>
-                <we-button data-select-data-attribute="slideInRight">Slide In Right</we-button>
-                <we-button data-select-data-attribute="slideInUp">Slide In Up</we-button>
+                <we-button data-select-data-attribute="">None</we-button>
+                <we-button data-select-data-attribute="bounceIn">Bounce</we-button>
+                <we-button data-select-data-attribute="bounceInLeft">Bounce Left</we-button>
+                <we-button data-select-data-attribute="bounceInRight">Bounce Right</we-button>
+                <we-button data-select-data-attribute="bounceInDown">Bounce Down</we-button>
+                <we-button data-select-data-attribute="bounceInUp">Bounce Up</we-button>
+                <we-button data-select-data-attribute="backInDown">Back Down</we-button>
+                <we-button data-select-data-attribute="backInLeft">Back Left</we-button>
+                <we-button data-select-data-attribute="backInRight">Back Right</we-button>
+                <we-button data-select-data-attribute="backInUp">Back Up</we-button>
+                <we-button data-select-data-attribute="fadeInDown">Fade Down</we-button>
+                <we-button data-select-data-attribute="fadeInLeft">Fade Left</we-button>
+                <we-button data-select-data-attribute="fadeInRight">Fade Right</we-button>
+                <we-button data-select-data-attribute="fadeInUp">Fade Up</we-button>
+                <we-button data-select-data-attribute="fadeInTopLeft">Fade Top Left</we-button>
+                <we-button data-select-data-attribute="fadeInTopRight">Fade Top Roght</we-button>
+                <we-button data-select-data-attribute="fadeInBottomLeft">Fade Bottom Left</we-button>
+                <we-button data-select-data-attribute="fadeInBottomRight">Fade Bottom Right</we-button>
+                <we-button data-select-data-attribute="flip">Flip</we-button>
+                <we-button data-select-data-attribute="flipInX">Flip X</we-button>
+                <we-button data-select-data-attribute="flipInY">Flip Y</we-button>
+                <we-button data-select-data-attribute="lightSpeedInRight">Light Speed Right</we-button>
+                <we-button data-select-data-attribute="lightSpeedInLeft">Light Speed Left</we-button>
+                <we-button data-select-data-attribute="rotateIn">Rotate</we-button>
+                <we-button data-select-data-attribute="rotateInDownLeft">Rotate Down Left</we-button>
+                <we-button data-select-data-attribute="rotateInDownRight">Rotate Down Right</we-button>
+                <we-button data-select-data-attribute="slideInDown">Slide Down</we-button>
+                <we-button data-select-data-attribute="slideInLeft">Slide Left</we-button>
+                <we-button data-select-data-attribute="slideInRight">Slide Right</we-button>
+                <we-button data-select-data-attribute="slideInUp">Slide Up</we-button>
+                <we-button data-select-data-attribute="zoomIn">Zoom</we-button>
+                <we-button data-select-data-attribute="zoomInDown">Zoom Down</we-button>
+                <we-button data-select-data-attribute="zoomInUp">Zoom Up</we-button>
                 <we-button data-select-data-attribute="flash">Flash</we-button>
                 <we-button data-select-data-attribute="heartBeat">Heart Beat</we-button>
-                <we-button data-select-data-attribute="rollIn">Roll In</we-button>
+                <we-button data-select-data-attribute="rollIn">Roll</we-button>
                 <we-button data-select-data-attribute="jackInTheBox">Jack In The Box</we-button>
-                <we-button data-select-data-attribute="swing">Swing</we-button>
                 <we-button data-select-data-attribute="jello">Jello</we-button>
                 <we-button data-select-data-attribute="swing">Swing</we-button>
+                <we-button data-select-data-attribute="tada">Tada</we-button>
+                <we-button data-select-data-attribute="rubberBand">Rubber Band</we-button>
+                <we-button data-select-data-attribute="pulse">Pulse</we-button>
+                <we-button data-select-data-attribute="wobble">Wobble</we-button>
+                <we-button data-select-data-attribute="shakeX">Shake X</we-button>
+                <we-button data-select-data-attribute="shakeY">Shake Y</we-button>
+            </we-select>
+            <we-select string="Anim. Repeat"  name="repeat"  data-attribute-name="repeat">
+                <we-button data-select-data-attribute="">1 Time</we-button>
+                <we-button data-select-data-attribute="repeat-2">2 Times</we-button>
+                <we-button data-select-data-attribute="repeat-3">3 Times</we-button>
+            </we-select>
+            <we-select string="Anim. Speed"  name="speed"  data-attribute-name="speed">
+                <we-button data-select-data-attribute="slower">Slower</we-button>
+                <we-button data-select-data-attribute="slow">Slow</we-button>
+                <we-button data-select-data-attribute="">Nornal</we-button>
+                <we-button data-select-data-attribute="fast">Fast</we-button>
+                <we-button data-select-data-attribute="faster">Faster</we-button>
             </we-select>
     	</div>
     </xpath>
