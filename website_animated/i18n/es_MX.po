@@ -6,37 +6,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 19:26+0000\n"
-"PO-Revision-Date: 2020-12-01 13:54-0600\n"
+"POT-Creation-Date: 2020-12-15 20:02+0000\n"
+"PO-Revision-Date: 2020-12-15 16:30-0600\n"
 "Last-Translator: \n"
-"Language-Team: Antonio Fregoso\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: \n"
 "Language: es_MX\n"
 "X-Generator: Poedit 2.3\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "1 Time"
-msgstr "1 Vez"
+msgstr "1 vez"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "2 Times"
-msgstr "2 Veces"
+msgstr "2 veces"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "3 Times"
-msgstr "· Veces"
+msgstr "3 veces"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Anim. Repeat"
-msgstr "Repeticiones"
+msgstr "Repetir"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
@@ -46,27 +45,27 @@ msgstr "Velocidad"
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Animations"
-msgstr "Animaciones"
+msgstr "Animations"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Back Down"
-msgstr "Atrás Hacia Abajo"
+msgstr "Atras hacia abajo"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Back Left"
-msgstr "Atrás Desde la Izquierda"
+msgstr "Atrás desde la izquierda"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Back Right"
-msgstr "Atrás Desde la Derecha"
+msgstr "Atrás desde la derecha"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Back Up"
-msgstr "Atrás Hacia Arriba"
+msgstr "Atras hacia arriba"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
@@ -76,42 +75,62 @@ msgstr "Rebotar"
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Bounce Down"
-msgstr "Rebotar Hacia Abajo"
+msgstr "Rebotar hacia abajo"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Bounce Left"
-msgstr "Rebotar Desde la Izquierda"
+msgstr "Rebotar desde la izquierda"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Bounce Right"
-msgstr "Rebotar Desde Abajo"
+msgstr "Rebotar desde la derecha"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Bounce Up"
-msgstr "Rebotar Hacia Arriba"
+msgstr "Rebotar hacia arriba"
+
+#. module: website_animated
+#: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
+msgid "Fade Bottom Left"
+msgstr "Desvanecerse desde abajo izquierda"
+
+#. module: website_animated
+#: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
+msgid "Fade Bottom Right"
+msgstr "Desvanecerse desde abajo derecha"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Fade Down"
-msgstr "Desvanecer Hacia Abajo"
+msgstr "Desvanecerse hacia abajo "
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Fade Left"
-msgstr "Desvanecer Desde la Izquierda"
+msgstr "Desvanecerse desde la izquierda"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Fade Right"
-msgstr "Desvanecer Desde la Derecha"
+msgstr "Desvanecerse desde la derecha"
+
+#. module: website_animated
+#: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
+msgid "Fade Top Left"
+msgstr "Desvanecerse hacia arriba desde izquierda"
+
+#. module: website_animated
+#: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
+msgid "Fade Top Right"
+msgstr "Desvanecerse hacia arriba desde derecha"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Fade Up"
-msgstr "Desvanecer Hacia Arriba"
+msgstr "Desvanecerse hacia arriba"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
@@ -121,37 +140,37 @@ msgstr "Rápido"
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Faster"
-msgstr "Más Rápido"
+msgstr "Mas rápido"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Flash"
-msgstr "Destello"
+msgstr "Destellar"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Flip"
-msgstr "Dar Vuelta"
+msgstr "Dar vuelta"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Flip X"
-msgstr "Dar Vuelta X"
+msgstr "Dar vuelta X"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Flip Y"
-msgstr "Dar Vuelta Y"
+msgstr "Dar vuelta Y"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Heart Beat"
-msgstr "Latido de Corazón"
+msgstr "Latido de corazón"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Jack In The Box"
-msgstr "Jack In The Box"
+msgstr "Jack in the box"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
@@ -161,12 +180,12 @@ msgstr "Gelatina"
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Light Speed Left"
-msgstr "Velocidad de la Luz desde la Izquierda"
+msgstr "Velocidad luz desde la izquierda"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Light Speed Right"
-msgstr "Velocidad de la Luz Desde la Derecha"
+msgstr "Velocidad luz desde derecha"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
@@ -181,7 +200,7 @@ msgstr "Normal"
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Pulse"
-msgstr "Pulsar"
+msgstr "Pulso"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
@@ -196,47 +215,47 @@ msgstr "Girar"
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Rotate Down Left"
-msgstr "Girar Hacia Abajo Desde la Izquierda"
+msgstr "Girar abajo desde la izquierda"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Rotate Down Right"
-msgstr "Girar Hacia  Abajo Desde la Derecha"
+msgstr "Girar abajo desde la derecha"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Rubber Band"
-msgstr "Banda Elástica"
+msgstr "Banda de hule"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Shake X"
-msgstr "Agitar X"
+msgstr "Sacudir X"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Shake Y"
-msgstr "Agitar Y"
+msgstr "Sacudur Y"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Slide Down"
-msgstr "Deslizar Hacia Abajo"
+msgstr "Deslizar y abajo"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Slide Left"
-msgstr "Deslizar Desde  Izquierda"
+msgstr "Deslizar desde la izquierda"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Slide Right"
-msgstr "Deslizar Desde la Derecha"
+msgstr "Deslizar desde la derecha"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Slide Up"
-msgstr "Deslizar Hacia Arriba"
+msgstr "Deslizar y arriba"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
@@ -246,7 +265,7 @@ msgstr "Lento"
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Slower"
-msgstr "Más Lento"
+msgstr "Mas lento"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
@@ -261,19 +280,19 @@ msgstr "Tada"
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Wobble"
-msgstr "Tambalear"
+msgstr "Tambalearse"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Zoom"
-msgstr "Acercar"
+msgstr "Zoom"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Zoom Down"
-msgstr "Acercar Hacia Abajo"
+msgstr "Zoon y abajo"
 
 #. module: website_animated
 #: model_terms:ir.ui.view,arch_db:website_animated.s_animated_options
 msgid "Zoom Up"
-msgstr "Acercar Hacia Arriba"
+msgstr "Zoom y arriba"

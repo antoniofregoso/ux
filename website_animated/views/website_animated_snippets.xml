@@ -7,7 +7,7 @@
              .s_website_form_rows, .form-group, .s_alert, .s_text_highlight, .s_progress_bar, .s_blockquote, .s_speaker_bio, .s_allow_columns, .s_countdown_canvas_wrapper,
             .col-lg-2, .col-lg-3, .col-lg-4, col-lg-5, .col-lg-6, col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12"  data-no-preview="true">
             <we-select string="Animations"  name="animated"  data-attribute-name="animated">
-                <we-button data-select-data-attribute="">None</we-button>
+                <we-button data-select-data-attribute="noAnimated">None</we-button>
                 <we-button data-select-data-attribute="bounceIn">Bounce</we-button>
                 <we-button data-select-data-attribute="bounceInLeft">Bounce Left</we-button>
                 <we-button data-select-data-attribute="bounceInRight">Bounce Right</we-button>
@@ -22,7 +22,7 @@
                 <we-button data-select-data-attribute="fadeInRight">Fade Right</we-button>
                 <we-button data-select-data-attribute="fadeInUp">Fade Up</we-button>
                 <we-button data-select-data-attribute="fadeInTopLeft">Fade Top Left</we-button>
-                <we-button data-select-data-attribute="fadeInTopRight">Fade Top Roght</we-button>
+                <we-button data-select-data-attribute="fadeInTopRight">Fade Top Right</we-button>
                 <we-button data-select-data-attribute="fadeInBottomLeft">Fade Bottom Left</we-button>
                 <we-button data-select-data-attribute="fadeInBottomRight">Fade Bottom Right</we-button>
                 <we-button data-select-data-attribute="flip">Flip</we-button>
