@@ -2,7 +2,7 @@
 <odoo>
     <template id="assets_frontend" inherit_id="website.assets_frontend" name="Services Front-end assets">
         <xpath expr="." position="inside">
-            <link rel="stylesheet" type="text/scss" href="website_services/static/src/snippets/s_services/000.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/website_services/static/src/snippets/s_services/000.scss"/>
             <script type="text/javascript" src="/website_services/static/src/snippets/s_services/000.js"/>
         </xpath>
     </template>
