@@ -54,14 +54,14 @@
                 <we-button data-select-data-attribute="shakeY">Shake Y</we-button>
             </we-select>
             <we-select string="Anim. Repeat"  name="repeat"  data-attribute-name="repeat">
-                <we-button data-select-data-attribute="">1 Time</we-button>
+                <we-button data-select-data-attribute="repeat-1">1 Time</we-button>
                 <we-button data-select-data-attribute="repeat-2">2 Times</we-button>
                 <we-button data-select-data-attribute="repeat-3">3 Times</we-button>
             </we-select>
             <we-select string="Anim. Speed"  name="speed"  data-attribute-name="speed">
                 <we-button data-select-data-attribute="slower">Slower</we-button>
                 <we-button data-select-data-attribute="slow">Slow</we-button>
-                <we-button data-select-data-attribute="">Nornal</we-button>
+                <we-button data-select-data-attribute="normal">Nornal</we-button>
                 <we-button data-select-data-attribute="fast">Fast</we-button>
                 <we-button data-select-data-attribute="faster">Faster</we-button>
             </we-select>

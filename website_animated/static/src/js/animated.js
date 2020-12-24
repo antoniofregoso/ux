@@ -1,5 +1,5 @@
                         
-                        odoo.define('website_animated.animated', function (require) {
+odoo.define('website_animated.animated', function (require) {
     'use strict';
 
     var publicWidget = require('web.public.widget');
@@ -9,6 +9,13 @@
 
         start: function () {
             const _objs = document.querySelectorAll('[data-animated]');
+            _objs.forEach(animation => {
+                animation.classList.forEach(_class => {
+                    if (_class.startsWith('animate__')){
+                    animation.classList.remove(_class);
+                    }
+                });
+            });
             let options = { threshold: 0.5}
             var observer = new IntersectionObserver(function(entries) {
                 entries.forEach(entry => {
@@ -23,7 +30,11 @@
                     entry.target.classList.add('animate__animated',  animation);
                     } else {
                         entry.target.addEventListener('animationend', () => {
-                            entry.target.classList.remove('animate__animated',  animation);
+                            entry.target.classList.forEach(_class => {
+                                if (_class.startsWith('animate__')){
+                                    entry.target.classList.remove(_class);
+                                }
+                                });
                             });
                         }
                     }, options);
