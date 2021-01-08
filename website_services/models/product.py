@@ -64,7 +64,7 @@ class ProductTemplate(models.Model):
         ('quote','Quote'),
         ('sign_up','Sign Up'),
         ('more_info','More Information')
-        ], string='Call to Action', default='more_info',)
+        ], string='Call to Action', default='more_info')
     button_url = fields.Char('Button URL')
     show_button = fields.Boolean()
 
