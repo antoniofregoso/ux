@@ -9,13 +9,6 @@ odoo.define('website_animated.animated', function (require) {
 
         start: function () {
             const _objs = document.querySelectorAll('[data-animated]');
-            _objs.forEach(animation => {
-                animation.classList.forEach(_class => {
-                    if (_class.startsWith('animate__')){
-                    animation.classList.remove(_class);
-                    }
-                });
-            });
             let options = { threshold: 0.5}
             var observer = new IntersectionObserver(function(entries) {
                 entries.forEach(entry => {
